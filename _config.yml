@@ -1,2 +1,4 @@
 remote_theme: lewismiddleton/cayman-dark
 title: PouletEnSlip
+github:
+  is_project_page: true
