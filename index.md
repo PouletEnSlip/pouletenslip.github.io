@@ -2,6 +2,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
+## My projects
+
 #### [My Minecraft resource pack](pages/cotcotpack.md)
 
 #### [My Windows Optimization Guide (in French)](pages/opti.md)
