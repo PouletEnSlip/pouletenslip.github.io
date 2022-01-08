@@ -7,5 +7,3 @@
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
-
-Made by **PouletEnSlip** © 2022 - All Rights Reserved
