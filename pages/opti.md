@@ -10,7 +10,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
 * Vérifier que Windows est à jour et qu’il n’y a pas de malware avec [Malwarebytes](https://fr.malwarebytes.com/)
-* Mettre le BIOS et les drivers à jour via le site de la carte mère, utiliser [`DDU`](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support)
+* Mettre le BIOS et les drivers à jour via le site de la carte mère, utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support)
 
 ## Optimisations avancées
 
