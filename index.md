@@ -1,3 +1,7 @@
+<head>
+  <link rel="shortcut icon" type="image/png" href="pages/img/favicon.png">
+</head>
+
 #### [My Minecraft resource pack](pages/cotcotpack.md)
 
 #### [My Windows Optimization Guide (in French)](pages/opti.md)
