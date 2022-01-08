@@ -1,5 +1,5 @@
 <head>
-  <link rel="shortcut icon" type="image/png" href="pages/img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
 </head>
 
 # CotCotPack
