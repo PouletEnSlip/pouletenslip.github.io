@@ -54,7 +54,7 @@ Les deux derniers points sont utiles pour le Gaming uniquement :
 * [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via clé USB) avant d’appliquer ces optimisations pour partir sur une base saine
 * Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle dans les paramètres Windows
 * Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
-* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [`uBlock Origin`](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs
+* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/index.fr.html) (compatible avec plus de fichiers)
 * Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tout votre matériel RGB compatible via un seul logiciel
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus
