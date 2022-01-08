@@ -1,6 +1,4 @@
-# PouletEnSlip
-
-#### [My Minecraft resource pack](pages/cotcot.md)
+#### [My Minecraft resource pack](pages/cotcotpack.md)
 
 #### [My Windows Optimization Guide (in French)](pages/opti.md)
 
