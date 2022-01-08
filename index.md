@@ -1,5 +1,5 @@
 <head>
-  <link rel="shortcut icon" type="image/ico" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
 
 #### [My Minecraft resource pack](pages/cotcotpack.md)
