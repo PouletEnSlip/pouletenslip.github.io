@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <head>
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
