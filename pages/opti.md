@@ -1,5 +1,4 @@
 <head>
-  <title>Optimiser Windows 10/11</title>
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
 
