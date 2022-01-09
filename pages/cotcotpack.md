@@ -1,11 +1,18 @@
----
-layout: default
----
-
 <head>
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
-
+<header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: "CotCotPack" | default: "CotCotPack" }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+</header>
+    
 <div class="header">
   <div class="progress-container">
     <div class="progress-bar" id="myBar"></div>
