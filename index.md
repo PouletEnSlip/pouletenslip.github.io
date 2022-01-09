@@ -1,7 +1,13 @@
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 </head>
-  
+
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
 ## My projects
 
 #### [My Minecraft resource pack](pages/cotcotpack.md)
