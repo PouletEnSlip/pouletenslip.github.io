@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="/assets/css/style2.css?v=">
+  <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
 
 # CotCotPack
@@ -41,4 +41,4 @@ resource pack are under the copyright of PouletEnSlip.
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
 
-<script src="script/script.js"></script>
+<script src="../script/script.js"></script>
