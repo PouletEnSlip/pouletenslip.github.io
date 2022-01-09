@@ -1,5 +1,5 @@
 <head>
-  <link rel="stylesheet" href="/assets/css/style2.css?v=">
+  <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
 
 # Optimiser Windows 10/11
@@ -69,4 +69,4 @@ Félicitation ! Votre PC devrait être plus rapide et performant, je recommande 
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
 
-<script src="script/script.js"></script>
+<script src="../script/script.js"></script>
