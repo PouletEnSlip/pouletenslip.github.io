@@ -1,9 +1,5 @@
 <head>
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
-  <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: "CotCotPack" | default: "CotCotPack" }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-</header>
 </head>
     
 <div class="header">
