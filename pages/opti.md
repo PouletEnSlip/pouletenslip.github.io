@@ -1,3 +1,7 @@
+<head>
+  <link rel="stylesheet" href="/assets/css/style2.css?v=">
+</head>
+
 # Optimiser Windows 10/11
 
 Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus rapide, fluide et performant pour la bureautique ou les jeux. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
@@ -64,3 +68,5 @@ Les deux derniers points sont utiles pour le Gaming uniquement :
 Félicitation ! Votre PC devrait être plus rapide et performant, je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourrait endommager le système (désactivation d'anti-virus, HPET, Windows Custom, scripts...).
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
+
+<script src="script/script.js"></script>
