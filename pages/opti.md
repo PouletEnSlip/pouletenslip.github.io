@@ -2,6 +2,12 @@
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
 
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
 # Optimiser Windows 10/11
 
 Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus rapide, fluide et performant pour la bureautique ou les jeux. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
