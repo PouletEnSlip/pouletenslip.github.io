@@ -2,6 +2,12 @@
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
 
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>  
+</div>
+
 # CotCotPack
 
 **CotCot** is a PVP / Build / Survival resource pack for Minecraft Java and Bedrock. The resource pack is updated to the latest version of Minecraft, but also 1.8.x for PVP players. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.
