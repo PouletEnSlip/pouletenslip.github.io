@@ -1,5 +1,6 @@
 <head>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style2.css?v=">
 </head>
 
 <div class="header">
@@ -19,3 +20,5 @@
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
+
+<script src="script/script.js"></script>
