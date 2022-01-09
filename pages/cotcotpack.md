@@ -1,5 +1,4 @@
 <head>
-  <title>CotCotPack</title>
   <link rel="stylesheet" href="../assets/css/style2.css?v=">
 </head>
 
