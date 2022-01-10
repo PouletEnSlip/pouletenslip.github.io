@@ -9,4 +9,3 @@ layout: default
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 #### [My Snake game](https://github.com/PouletEnSlip/Snake)
-bite
