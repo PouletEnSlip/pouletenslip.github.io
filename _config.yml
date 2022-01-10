@@ -3,3 +3,5 @@ description: Personal Website
 github:
   is_project_page: true
   repository_url: https://github.com/PouletEnSlip
+
+theme: jekyll-theme-cayman
