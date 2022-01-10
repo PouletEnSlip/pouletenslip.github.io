@@ -1,4 +1,6 @@
-
+---
+layout: default
+---
     
 <div class="header">
   <div class="progress-container">
