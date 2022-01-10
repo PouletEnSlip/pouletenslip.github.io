@@ -4,4 +4,4 @@ github:
   is_project_page: true
   repository_url: https://github.com/PouletEnSlip
 
-remote_theme: lewismiddleton/cayman-dark
+theme: cayman-dark
