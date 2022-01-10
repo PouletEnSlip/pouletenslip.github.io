@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # PouletEnSlip
 
 #### [My Minecraft Resource Pack](pages/cotcotpack.md)
