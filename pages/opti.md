@@ -68,5 +68,3 @@ Les deux derniers points sont utiles pour le Gaming uniquement :
 Félicitation ! Votre PC devrait être plus rapide et performant, je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourrait endommager le système (désactivation d'anti-virus, HPET, Windows Custom, scripts...).
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
-
-<script src="../script/script.js"></script>
