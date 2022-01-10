@@ -1,12 +1,6 @@
-<head>
-  <link rel="stylesheet" href="../assets/css/style2.css?v=">
-</head>
-
-<div class="header">
-  <div class="progress-container">
-    <div class="progress-bar" id="myBar"></div>
-  </div>  
-</div>
+---
+layout: default
+---
 
 # Optimiser Windows 10/11
 
