@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 #### [My Minecraft Resource Pack](pages/cotcotpack.md)
 #### [My Windows Optimization Guide](pages/opti.md)
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
