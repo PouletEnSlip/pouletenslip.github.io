@@ -1,13 +1,8 @@
----
-layout: default
----
+# PouletEnSlip
 
-## PouletEnSlip
-
-#### [My Minecraft resource pack](pages/cotcotpack.md)
-#### [My Windows optimization guide](pages/opti.md)
+#### [My Minecraft Resource Pack](pages/cotcotpack.md)
+#### [My Windows Optimization Guide](pages/opti.md)
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
-#### [My Snake game](https://github.com/PouletEnSlip/Snake)
-
-github pages c'est de la merde frr
+#### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
+#### [My Snake Game](https://github.com/PouletEnSlip/Snake)
