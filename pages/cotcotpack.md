@@ -4,7 +4,7 @@ layout: default
 
 # CotCotPack
 
-**CotCot** is a PVP / Build / Survival resource pack for Minecraft Java and Bedrock. The resource pack is updated to the latest version of Minecraft, but also 1.8.x for PVP players. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.
+<p>**CotCot** is a PVP / Build / Survival resource pack for Minecraft Java and Bedrock. The resource pack is updated to the latest version of Minecraft, but also 1.8.x for PVP players. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.</p>
 
 ![0](img/0.png)
 
@@ -36,6 +36,6 @@ layout: default
 
 [![Download](https://www.pngall.com/wp-content/uploads/2/Downloadable-PDF-Button-PNG-Image.png)](https://github.com/PouletEnSlip/CotCotPack/releases)
 
-It is not to be distributed and all assets within said
-resource pack are under the copyright of PouletEnSlip.
+It is not to be distributed and all assets within said resource pack are under the copyright of PouletEnSlip.
+
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
