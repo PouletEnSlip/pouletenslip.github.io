@@ -2,23 +2,23 @@
 layout: default
 ---
 
-# Optimiser Windows 10/11
+# Optimiser Windows
 
-Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus rapide, fluide et performant pour la bureautique ou les jeux. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
+<p>Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus rapide, fluide et performant pour la bureautique ou les jeux. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.</p>
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 
-* Supprimer tous les fichiers temporaires (Clic droit sur un disque - Propriétés - Nettoyage)
+<p>* Supprimer tous les fichiers temporaires (Clic droit sur un disque - Propriétés - Nettoyage)
 * Optimiser tous les lecteurs (Clic droit sur un disque - Propriétés - Outils - Optimiser)
 * Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le Terminal Windows)
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
 * Vérifier que Windows est à jour et qu’il n’y a pas de malware avec [`Malwarebytes`](https://fr.malwarebytes.com/)
-* Mettre le BIOS et les drivers à jour via le site de la carte mère, utiliser [`DDU`](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [`drivers Nvidia`](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[`AMD`](https://www.amd.com/en/support)
+* Mettre le BIOS et les drivers à jour via le site de la carte mère, utiliser [`DDU`](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [`drivers Nvidia`](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[`AMD`](https://www.amd.com/en/support)</p>
 
 ## Optimisations avancées
 
-* Vérifier que votre compte est administrateur, qu’il n’y a pas de caractère spécial dans le nom d’utilisateur (é, à... certains logiciels peuvent mal fonctionner)
+<p>* Vérifier que votre compte est administrateur, qu’il n’y a pas de caractère spécial dans le nom d’utilisateur (é, à... certains logiciels peuvent mal fonctionner)
 
 * Supprimer les applications Windows que vous n’utilisez pas via [`GeekUninstaller`](https://geekuninstaller.com/download)
 
@@ -51,11 +51,11 @@ Les deux derniers points sont utiles pour le Gaming uniquement :
 
 * Activer le mode [`MSI`](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique et le mettre en *High* pour réduire la latence (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
 
-* Modifications du panneau Nvidia (options AMD similaires) : Utiliser les paramètres d’images 3D avancés, activer le mode faible latence, privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images, choisir la plage dynamique complète dans les Paramètres des couleurs vidéo avancés
+* Modifications du panneau Nvidia (options AMD similaires) : Utiliser les paramètres d’images 3D avancés, activer le mode faible latence, privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images, choisir la plage dynamique complète dans les Paramètres des couleurs vidéo avancés</p>
 
 ## Optionnel
 
-* [`Réinstaller Windows`](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine
+<p>* [`Réinstaller Windows`](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine
 * Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle dans les paramètres Windows
 * Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
 * Préférer [`Firefox`](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [`uBlock Origin`](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs
@@ -65,6 +65,6 @@ Les deux derniers points sont utiles pour le Gaming uniquement :
 
 ## Conclusion
 
-Félicitation ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourrait endommager le système (désactivation d'anti-virus, HPET, Windows Custom, scripts...).
+Félicitation ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourrait endommager le système (désactivation d'anti-virus, HPET, Windows Custom, scripts...).</p>
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
