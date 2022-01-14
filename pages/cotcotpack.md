@@ -36,7 +36,7 @@ layout: default
 
 [![Download](https://www.pngall.com/wp-content/uploads/2/Downloadable-PDF-Button-PNG-Image.png)](https://github.com/PouletEnSlip/CotCotPack/releases)
 
-It is not to be distributed and all assets within said
+It is not to be distributed and all assets within said<br>
 resource pack are under the copyright of PouletEnSlip.
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
