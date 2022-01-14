@@ -16,3 +16,7 @@
   background: #00c77e;
   width: 0%;
 }
+
+body {
+  text-justify: auto;
+}
