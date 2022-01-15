@@ -45,7 +45,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
 
 * Modifier les Options d’alimentation dans le Panneau de configuration : Choisir performances optimales (`powercfg -duplicatescheme
-e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher), dans les Paramètres avancés : Arrêter le disque dur après **0min** (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
+e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher), dans les Paramètres avancés : Arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
 
 Les deux derniers points sont utiles pour le Gaming uniquement :
 
