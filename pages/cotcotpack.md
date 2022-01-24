@@ -20,8 +20,8 @@ layout: default
 * [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
 * [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
 * [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
-* [Indium](https://www.curseforge.com/minecraft/mc-mods/indium/files)
-* [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity/files)
+* [Indium](https://www.curseforge.com/minecraft/mc-mods/indium)
+* [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
 * [Iris](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
 
 **AND**
