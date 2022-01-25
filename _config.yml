@@ -1,6 +1,6 @@
 title: PouletEnSlip
 description: Personal Website
-show_downloads: true
+show_downloads: false
 google_analytics:
 remote_theme: lewismiddleton/cayman-dark
 github:
