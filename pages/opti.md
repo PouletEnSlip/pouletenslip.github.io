@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-Mise à jour : 26/01/22
 
 # Optimiser Windows
 
