@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+Mise à jour : 26/01/22
 
 # Optimiser Windows
 
@@ -43,6 +44,8 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Interdire aux applications Windows de tourner en arrière-plan : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f`
 
 * Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
+
+* Remettre l'ancien style du menu clic droit (Windows 11 uniquement) : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
 
 * Modifier les Options d’alimentation dans le Panneau de configuration : Choisir performances optimales (`powercfg -duplicatescheme
 e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher) ; dans les paramètres avancés : Arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
