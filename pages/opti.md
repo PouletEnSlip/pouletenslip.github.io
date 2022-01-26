@@ -49,8 +49,6 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Modifier les Options d’alimentation dans le Panneau de configuration : Choisir performances optimales (`powercfg -duplicatescheme
 e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher) ; dans les paramètres avancés : Arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
 
-Les deux derniers points sont utiles pour le Gaming uniquement :
-
 * Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique et le mettre en *High* pour réduire la latence (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
 
 * Modifications du panneau Nvidia (options AMD similaires) : Utiliser les paramètres d’images 3D avancés, activer le mode faible latence, privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images, choisir la plage dynamique complète dans les Paramètres des couleurs vidéo avancés
