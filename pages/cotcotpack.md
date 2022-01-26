@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-Last update : 01/19/22
 
 # CotCotPack
 
@@ -34,6 +33,7 @@ Last update : 01/19/22
 * [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg)
 * [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
+Last update : 01/19/2022
 [![Download](https://www.pngall.com/wp-content/uploads/2/Downloadable-PDF-Button-PNG-Image.png)](https://github.com/PouletEnSlip/CotCotPack/releases)
 
 It is not to be distributed and all assets within said resource pack are under the copyright of PouletEnSlip.
