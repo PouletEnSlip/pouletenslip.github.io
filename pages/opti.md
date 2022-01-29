@@ -18,40 +18,40 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 ## Optimisations avancées
 
-* Vérifier que votre compte est administrateur, qu’il n’y a pas de caractère spécial dans le nom d’utilisateur (é, à... certains logiciels peuvent mal fonctionner)
+- [ ] Vérifier que votre compte est administrateur, qu’il n’y a pas de caractère spécial dans le nom d’utilisateur (é, à... certains logiciels peuvent mal fonctionner)
 
-* Supprimer les applications Windows que vous n’utilisez pas via [GeekUninstaller](https://geekuninstaller.com/download)
+- [ ] Supprimer les applications Windows que vous n’utilisez pas via [GeekUninstaller](https://geekuninstaller.com/download)
 
-* Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage)
+- [ ] Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage)
 
-* Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)
+- [ ] Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)
 
-* Désactiver la mise en veille prolongée pour libérer de la place sur le lecteur (~3Go) : `powercfg -h off`
+- [ ] Désactiver la mise en veille prolongée pour libérer de la place sur le lecteur (~3Go) : `powercfg -h off`
 
-* Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur, ainsi elles s’abîment moins vite et toutes à la même vitesse : `fsutil behavior set DisableDeleteNotify 0`
+- [ ] Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur, ainsi elles s’abîment moins vite et toutes à la même vitesse : `fsutil behavior set DisableDeleteNotify 0`
 
-* Réduire les ressources du processeur réservées pour certains processus Windows de 10% : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+- [ ] Réduire les ressources du processeur réservées pour certains processus Windows de 10% : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
-* Activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows (paramètres activés par défaut sur Windows 11)
+- [ ] Activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows (paramètres activés par défaut sur Windows 11)
 
-* Décocher toutes les cases de l’onglet Confidentialité dans les paramètres Windows pour empêcher Microsoft de collecter vos données personnelles (localisation, contacts...)
+- [ ] Décocher toutes les cases de l’onglet Confidentialité dans les paramètres Windows pour empêcher Microsoft de collecter vos données personnelles (localisation, contacts...)
 
-* Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes
+- [ ] Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes
 
-* Désactiver la Xbox Game Bar et activer le mode jeu dans les paramètres Windows pour allouer plus de ressources matérielles à vos jeux
+- [ ] Désactiver la Xbox Game Bar et activer le mode jeu dans les paramètres Windows pour allouer plus de ressources matérielles à vos jeux
 
-* Interdire aux applications Windows de tourner en arrière-plan : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f`
+- [ ] Interdire aux applications Windows de tourner en arrière-plan : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f`
 
-* Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
+- [ ] Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
 
-* Remettre l'ancien style du menu clic droit (Windows 11 uniquement) : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+- [ ] Remettre l'ancien style du menu clic droit (Windows 11 uniquement) : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
 
-* Modifier les Options d’alimentation dans le Panneau de configuration : Choisir performances optimales (`powercfg -duplicatescheme
+- [ ] Modifier les Options d’alimentation dans le Panneau de configuration : Choisir performances optimales (`powercfg -duplicatescheme
 e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher) ; dans les paramètres avancés : Arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
 
-* Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique et le mettre en *High* pour réduire la latence (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
+- [ ] Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique et le mettre en *High* pour réduire la latence (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
 
-* Modifications du panneau Nvidia (options AMD similaires) : Utiliser les paramètres d’images 3D avancés, activer le mode faible latence, privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (144Hz → 142FPS), choisir la plage dynamique complète dans les paramètres des couleurs vidéo avancés
+- [ ] Modifications du panneau Nvidia (options AMD similaires) : Utiliser les paramètres d’images 3D avancés, activer le mode faible latence, privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (144Hz → 142FPS), choisir la plage dynamique complète dans les paramètres des couleurs vidéo avancés
 
 ## Optionnel
 
