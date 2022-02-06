@@ -29,10 +29,8 @@ layout: cotcot
 
 ## Some textures made by :
 
-[Faithful by FaithfulTeam](https://faithful.team)
-
-[SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg)
-
+[Faithful by FaithfulTeam](https://faithful.team) | 
+[SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="img/dl.png" width="600"></a>
