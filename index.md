@@ -8,5 +8,3 @@ layout: default
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 #### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
-
-PouletEnSlip © 2022 - All Rights Reserved
