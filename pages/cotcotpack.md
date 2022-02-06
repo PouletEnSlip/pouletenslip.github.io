@@ -35,7 +35,7 @@ layout: cotcot
 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
-<a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="https://www.pngall.com/wp-content/uploads/2/Downloadable-PDF-Button-PNG-Image.png" width="600"></a>
+<a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="img/dl.png" width="600"></a>
 
 Last update : 01/19/2022
 
