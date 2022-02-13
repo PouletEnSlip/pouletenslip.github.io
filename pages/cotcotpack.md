@@ -35,7 +35,7 @@ layout: cotcot
 
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="img/dl.png" width="600"></a>
 
-Last update : 09 February 2022
+Last update : 13 February 2022
 
 It is not to be distributed and all assets within said resource pack are under the copyright of PouletEnSlip.
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
