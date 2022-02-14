@@ -33,9 +33,8 @@ layout: cotcot
 [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
-<a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="img/dl.png" width="600"></a>
+<a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="img/dl.png" width="500"></a>
 
-Last update : 13 February 2022
+*Last update : 13 February 2022*
 
-It is not to be distributed and all assets within said resource pack are under the copyright of PouletEnSlip.
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
