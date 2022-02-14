@@ -4,7 +4,7 @@ layout: default
 
 # Optimiser Windows
 
-Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus rapide, fluide et performant pour la bureautique ou les jeux. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
+Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique ou les jeux. Ces manipulations sont sans risque et peuvent dans certains cas résoudre les lenteurs ou crashs de votre PC. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 
@@ -13,8 +13,10 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le Terminal Windows)
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
-* Vérifier que Windows est à jour et qu’il n’y a pas de malware avec [Malwarebytes](https://fr.malwarebytes.com/)
-* Mettre le BIOS et les drivers à jour via le site de la carte mère, utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support)
+* Mettre Windows à jour
+* Vérifier qu’il n’y a pas de malware avec [Malwarebytes](https://fr.malwarebytes.com/)
+* Mettre le BIOS et les drivers à jour via le site de votre carte mère
+* Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est très important car il permet de corriger de nombreux bugs/crashs sur vos jeux.
 
 ## Optimisations avancées
 
@@ -30,7 +32,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 * Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur, ainsi elles s’abîment moins vite et toutes à la même vitesse : `fsutil behavior set DisableDeleteNotify 0`
 
-* Réduire les ressources du processeur réservées pour certains processus Windows de 10% : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+* Réduire les ressources du processeur réservées pour certains processus Windows : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
 * Activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows (paramètres activés par défaut sur Windows 11)
 
@@ -49,9 +51,9 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Modifier les options d’alimentation dans le panneau de configuration : Choisir "Performances optimales" (`powercfg -duplicatescheme
 e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres avancés : arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
 
-* Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique et le mettre en *High* pour réduire la latence (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
+* Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
 
-* Modifications du panneau Nvidia (options AMD similaires) : utiliser les paramètres d’images 3D avancés, activer le mode faible latence, privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (144Hz → 142FPS), choisir la plage dynamique complète dans les paramètres des couleurs vidéo avancés
+* Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans la panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/).
 
 ## Optionnel
 
@@ -65,6 +67,6 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 ## Conclusion
 
-Félicitation ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourrait endommager le système (désactivation d'anti-virus, HPET, Windows Custom, scripts...).
+Félicitation ! Votre PC devrait être plus performant. Je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourrait endommager le système (désactivation d'anti-virus, HPET, Windows Custom, scripts...).
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
