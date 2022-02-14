@@ -13,7 +13,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le Terminal Windows)
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
-* Mettre Windows à jour
+* Mettre Windows à jour via Windows Update dans les paramètres
 * Vérifier qu’il n’y a pas de malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère
 * Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est très important car il permet de corriger de nombreux bugs/crashs sur vos jeux.
@@ -21,8 +21,6 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 ## Optimisations avancées
 
 * Vérifier que votre compte est administrateur, qu’il n’y a pas de caractère spécial dans le nom d’utilisateur (é, à... certains logiciels peuvent mal fonctionner)
-
-* Supprimer les applications Windows que vous n’utilisez pas via [GeekUninstaller](https://geekuninstaller.com/download)
 
 * Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage)
 
