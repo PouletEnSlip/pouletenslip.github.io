@@ -15,7 +15,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
 * Mettre Windows à jour via Windows Update dans les paramètres
 * Vérifier qu’il n’y a pas de malware avec [Malwarebytes](https://fr.malwarebytes.com/)
-* Mettre le BIOS et les drivers à jour via le site de votre carte mère
+* Mettre le BIOS et les drivers à jour via le site de votre carte mère (éviter Driverscloud, TousLesDrivers...)
 * Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est très important car il permet de corriger de nombreux bugs/crashs sur vos jeux.
 
 ## Optimisations avancées
@@ -49,7 +49,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Modifier les options d’alimentation dans le panneau de configuration : Choisir "Performances optimales" (`powercfg -duplicatescheme
 e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres avancés : arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%
 
-* Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique)
+* Activer le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique). Plus d'infos [ici](https://forum.malekal.com/viewtopic.php?t=62058).
 
 * Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans la panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/).
 
