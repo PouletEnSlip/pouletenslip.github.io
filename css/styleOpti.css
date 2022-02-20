@@ -1,0 +1,12 @@
+.progressionbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #00c77e;
+  width: 0%;
+}
