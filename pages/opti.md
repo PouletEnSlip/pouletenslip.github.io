@@ -4,25 +4,25 @@ layout: opti
 
 # Optimiser Windows
 
-Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique ou les jeux. Ces manipulations sont sans risque et peuvent dans certains cas résoudre les lenteurs ou crashs de votre PC. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
+Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, montage vidéo ou les jeux. Ces manipulations sont sans risque et peuvent dans certains cas résoudre les lenteurs ou crashs de votre PC. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 
-* Supprimer tous les fichiers temporaires (Clic droit sur un disque - Propriétés - Nettoyage)
-* Optimiser tous les lecteurs (Clic droit sur un disque - Propriétés - Outils - Optimiser)
-* Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le Terminal Windows)
+* Supprimer tous les fichiers temporaires (Clic droit sur un disque - Propriétés - Nettoyage).
+* Optimiser tous les lecteurs (Clic droit sur un disque - Propriétés - Outils - Optimiser).
+* Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le Terminal Windows).
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
-* Mettre Windows à jour via Windows Update dans les paramètres
+* Mettre Windows à jour via Windows Update dans les paramètres.
 * Vérifier qu’il n’y a pas de malware avec [Malwarebytes](https://fr.malwarebytes.com/)
-* Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, TousLesDrivers...)
-* Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est très important car il permet de corriger de nombreux bugs/crashs sur vos jeux.
+* Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, Driver Booster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants).
+* Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est très important car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-même.
 
 ## Optimisations avancées
 
-* Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage)
+* Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage).
 
-* Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)
+* Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur).
 
 * Désactiver la mise en veille prolongée pour libérer de la place sur le lecteur (~3Go) : `powercfg -h off`
 
@@ -30,13 +30,13 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 * Réduire les ressources du processeur réservées pour certains processus Windows : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
 
-* Activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows (paramètres activés par défaut sur Windows 11)
+* Activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows (paramètres activés par défaut sur Windows 11).
 
-* Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour empêcher Microsoft de collecter vos données personnelles (localisation, contacts...)
+* Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour empêcher Microsoft de collecter vos données personnelles (localisation, contacts...).
 
-* Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes
+* Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes.
 
-* Désactiver la Xbox Game Bar et activer le mode jeu dans les paramètres Windows pour allouer plus de ressources à vos jeux
+* Désactiver la Xbox Game Bar et activer le mode jeu dans les paramètres Windows pour allouer plus de ressources à vos jeux.
 
 * Interdire aux applications Windows de tourner en arrière-plan : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f`
 
@@ -45,7 +45,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Remettre l'ancien menu du clic droit de Windows 10 sur Windows 11 : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
 
 * Modifier les options d’alimentation dans le panneau de configuration : Choisir "Performances optimales" (`powercfg -duplicatescheme
-e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres avancés : arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%. Ces paramètres peuvent réduire l'autonomie des PC portables.
+e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres avancés : arrêter le disque dur après 0min (jamais), désactiver la suspension sélective USB, état minimal du processeur à 100%.
 
 * Cocher le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique). Plus d'infos [ici](https://forum.malekal.com/viewtopic.php?t=62058).
 
@@ -55,13 +55,13 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 ## Optionnel
 
-* [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine
-* Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle dans les paramètres Windows
-* Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
-* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs. Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/).
-* Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/index.fr.html) pour de meilleures performances
-* Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tous vos composants RGB via un seul logiciel très léger
-* Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus
+* [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine.
+* Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle dans les paramètres Windows.
+* Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence.
+* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et pas les pisteurs). Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/).
+* Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/index.fr.html) pour de meilleures performances.
+* Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tous vos composants RGB via un seul logiciel très léger.
+* Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. EqualizerAPO semble ne pas être compatible avec les cartes DTS mais fonctionne très bien avec les cartes Realtek. Il faut choisir SFX/EFX (experimental) lors de l'installation. Si vous augmentez certaines fréquences, il faudra prendre le soin d'égaliser à 0 pour éviter l'écrêtage. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a aucun impact sur les performances.
 
 ## Conclusion
 
