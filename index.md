@@ -3,7 +3,7 @@ layout: default
 ---
 
 #### [My Minecraft Resource Pack](pages/cotcotpack.md)
-#### [My Windows Optimization Guide (french)](pages/opti.md)
+#### [My Windows Optimization Guide (French)](pages/opti.md)
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
