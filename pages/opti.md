@@ -36,7 +36,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 * Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes.
 
-* Désactiver la Xbox Game Bar et activer le mode jeu dans les paramètres Windows pour allouer plus de ressources à vos jeux.
+* Désactiver la Xbox Game Bar (ne pas la désinstaller, cela cause des problèmes) et activer le mode jeu dans les paramètres Windows pour allouer plus de ressources à vos jeux.
 
 * Interdire aux applications Windows de tourner en arrière-plan : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f`
 
