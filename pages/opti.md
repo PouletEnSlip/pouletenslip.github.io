@@ -20,7 +20,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 ## Optimisations avancées
 
-Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage).
+<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage).
 <input type="checkbox">
 <span class="checkmark"></span>
 
