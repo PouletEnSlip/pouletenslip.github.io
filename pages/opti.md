@@ -101,6 +101,6 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 ## Conclusion
 
-Félicitation ! Votre PC devrait être plus performant. Je recommande une réinstallation de Windows tous les 6 mois en prennant le soin de faire des backups. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation d'anti-virus/HPET, ISO Windows Custom, scripts...).
+Félicitation ! Votre PC devrait être plus performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation d'anti-virus/HPET, ISO Windows Custom, scripts...).
 
 *Mise à jour : 19/03/2022*
