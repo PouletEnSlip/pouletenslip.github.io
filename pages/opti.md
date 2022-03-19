@@ -20,7 +20,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 ## Optimisations avancées
 
-- [ ] Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage).
+<input type="checkbox"> Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage).
 
 * [] Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur).
 
