@@ -21,15 +21,15 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 ## Optimisations avancées
 
 <label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage).
-<input type="checkbox">
+<input type="checkbox" class="box" name="1">
 <span class="checkmark"></span>
 
 <label class="container">Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur).
-<input type="checkbox">
+<input type="checkbox" class="box" name="2">
 <span class="checkmark"></span>
 
 <label class="container">Désactiver la mise en veille prolongée pour libérer de la place sur le lecteur (~3Go) : `powercfg -h off`
-<input type="checkbox">
+<input type="checkbox" class="box" name="3">
 <span class="checkmark"></span>
 
 <label class="container">Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur, ainsi elles s’abîment moins vite et toutes à la même vitesse : `fsutil behavior set DisableDeleteNotify 0`
