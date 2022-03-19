@@ -1,16 +1,3 @@
-.progressionbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-.progress-bar {
-  height: 8px;
-  background: #00c77e;
-  width: 0%;
-}
-
 .container {
   display: block;
   position: relative;
@@ -21,7 +8,10 @@
 
 .container input {
   position: absolute;
-
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
 .checkmark {
@@ -55,4 +45,17 @@
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+}
+
+.progressionbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #00c77e;
+  width: 0%;
 }
