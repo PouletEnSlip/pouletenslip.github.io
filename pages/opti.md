@@ -10,7 +10,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 
 * Supprimer tous les fichiers temporaires (Clic droit sur un disque - Propriétés - Nettoyage)
 * Optimiser tous les lecteurs (Clic droit sur un disque - Propriétés - Outils - Optimiser)
-* Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le Terminal Windows)
+* Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le terminal)
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
 * Mettre Windows à jour via Windows Update dans les paramètres (n'installez pas de mise à jour via un site douteux)
