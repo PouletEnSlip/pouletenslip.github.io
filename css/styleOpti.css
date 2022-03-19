@@ -11,6 +11,6 @@
   width: 0%;
 }
 
-.checkbox {
-  background-color: grey;
+input[type=checkbox] {
+  background-color: #333;
 }
