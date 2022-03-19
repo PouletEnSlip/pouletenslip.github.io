@@ -41,7 +41,7 @@
 }
 
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background: linear-gradient(90deg, rgba(26,199,78,1) 0%, rgba(9,79,121,1) 100%, rgba(0,212,255,1) 100%);
 }
 
 .checkmark:after {
