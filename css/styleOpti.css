@@ -36,10 +36,6 @@
   background-color: #eee;
 }
 
-.container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
 .container input:checked ~ .checkmark {
   background: linear-gradient(0deg, rgba(26,149,199,1) 0%, rgba(0,237,255,1) 100%);
 }
