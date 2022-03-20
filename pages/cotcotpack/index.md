@@ -10,7 +10,7 @@ layout: cotcot
 
 ![1](../img/1.png)
 
-## I highly recommend :
+## I highly recommend
 
 [OptiFine](https://www.optifine.net/home)
 
@@ -25,11 +25,13 @@ layout: cotcot
 **AND**
 [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders)
 
-## Some textures made by :
+## Some textures made by
 
 [Faithful by FaithfulTeam](https://faithful.team) | 
 [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
+
+
 
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="../img/download.png" width="400"></a>
 
