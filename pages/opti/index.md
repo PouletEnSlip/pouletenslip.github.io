@@ -16,7 +16,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 * Mettre Windows à jour via Windows Update dans les paramètres (n'installez pas de mise à jour via un site douteux)
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
-* Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est très important car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes
+* Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) et [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est **indispensable** car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes. NVCleanstall permet une installation minimale des drivers avec la possibilité d'activer le Message Signaled Interrupts, dans les tweaks experts, qui offre une communication du GPU plus efficace
 
 ## Optimisations avancées
 
@@ -74,10 +74,6 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <span class="checkmark"></span>
 
 <label class="container">Désactiver les services Expériences des utilisateurs connectés et télémétrie, Sysmain et Windows Search (`Win + R + services.msc`). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres (c'est buggé) qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
-<input type="checkbox">
-<span class="checkmark"></span>
-
-<label class="container">Cocher le mode [MSI](https://www.mediafire.com/file/ewpy1p0rr132thk/MSI_util_v3.zip/file) **uniquement** pour la carte graphique (il faudra le réactiver après chaque mise à jour des drivers de la carte graphique). Plus d'infos [ici](https://forum.malekal.com/viewtopic.php?t=62058)
 <input type="checkbox">
 <span class="checkmark"></span>
 
