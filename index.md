@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### [My Minecraft Resource Pack](pages/cotcotpack.md)
+#### [My Minecraft Resource Pack](pages/cotcotpack/)
 #### [My Windows Optimization Guide (French)](pages/opti.md)
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
