@@ -73,7 +73,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver les services Expériences des utilisateurs connectés et télémétrie, Sysmain et Windows Search (`Win + R + services.msc`). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres (c'est buggé) qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
+<label class="container">Désactiver les services Expériences des utilisateurs connectés et télémétrie, Sysmain et Windows Search (`Win + R + services.msc`). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
 <input type="checkbox">
 <span class="checkmark"></span>
 
