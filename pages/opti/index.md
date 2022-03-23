@@ -44,7 +44,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour empêcher Microsoft de collecter vos données personnelles (localisation, contacts...). Je déconseille les logiciels comme O&OShutUp ou W10Privacy qui sont assez inutiles et peuvent créer des problèmes
+<label class="container">Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour empêcher Microsoft de collecter vos données personnelles (localisation, contacts...). Vous pouvez utiliser [O&OShutUp](https://www.oo-software.com/fr/shutup10) pour affiner plus de paramètres, même s'il est impossible de désactiver totalement la collecte de données
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -73,7 +73,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver les services Expériences des utilisateurs connectés et télémétrie, Sysmain et Windows Search (`Win + R + services.msc`). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
+<label class="container">Désactiver les services Assistant Compatibilité des programmes, Expériences des utilisateurs connectés et télémétrie, Serveur, Sysmain, Thèmes et Windows Search si vous ne les utilisez pas (`Win + R + services.msc`). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -99,4 +99,4 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 Votre PC devrait être plus performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation de l'anti-virus/HPET, ISO Windows Custom, scripts...).
 
-*Mise à jour : 20/03/2022*
+*Mise à jour : 23/03/2022*
