@@ -77,7 +77,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/)
+<label class="container">Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/). Choisir la plage dynamique complète et 10bpc ou 12bpc si disponibles.
 <input type="checkbox">
 <span class="checkmark"></span>
 
