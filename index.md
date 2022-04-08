@@ -8,4 +8,5 @@ layout: default
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 #### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
+#### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
 #### [My MQTT Broker](https://github.com/PouletEnSlip/MQTT)
