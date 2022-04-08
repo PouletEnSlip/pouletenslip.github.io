@@ -44,7 +44,7 @@ Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces man
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...). Il est impossible de désactiver totalement la collecte de données, je déconseile l'utilisation de logiciel comme O&OShutUp ou W10Privacy, qui peuvent casser le système pour aucun réel changement
+<label class="container">Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...). Il est impossible de désactiver totalement la collecte de données, je déconseille l'utilisation de logiciel comme O&OShutUp ou W10Privacy, qui peuvent casser le système pour aucun réel changement
 <input type="checkbox">
 <span class="checkmark"></span>
 
