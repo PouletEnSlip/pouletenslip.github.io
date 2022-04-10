@@ -1,0 +1,61 @@
+body {
+    background-image:url(./cross.jpg);
+}
+
+div {
+	background-color:white;
+	border: 8px solid #300070;
+	border-radius: 20px;
+	width: 30%;
+}
+
+a {
+	color: #300070;
+}
+  
+a:hover {
+	text-decoration: none;
+}
+
+.bouton {
+	background-color: #64c271;
+	border: 1px solid #64c271;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.2s;
+}
+
+.bouton:hover {
+	background-color: white;
+	color: #64c271;
+}
+
+.label {
+	border-radius: 10px;
+	border: 2px solid #007000;
+	padding : 6px;
+	font-family: 'Comic Sans MS';
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1700px) {
+    div {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+    div {
+		width: 95%;
+	}
+}
+
+@media only screen and (min-width: 1921px) {
+    body {
+		background-size: cover;
+	}
+}
