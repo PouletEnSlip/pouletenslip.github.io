@@ -4,7 +4,7 @@ layout: default
 
 #### [My Minecraft Resource Pack](pages/cotcotpack/)
 #### [My Windows Optimization Guide (in French)](pages/opti/)
-#### [My Race Formulary Example](pages/formulary/)
+#### [My Race Formulary Example](pages/formulary/index.php)
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
 #### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
