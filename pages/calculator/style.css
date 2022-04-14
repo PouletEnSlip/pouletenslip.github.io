@@ -1,0 +1,104 @@
+input {
+    width: 100px;
+    height: 75px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+    box-shadow: 2px 2px 4px black;
+}
+
+input:hover {
+    background-color:#222;
+}
+
+#clear {
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+    border-style: none;
+    box-shadow: 2px 2px 4px black;
+}
+
+#clear:hover {
+    background-color: rgb(53, 28, 28);
+}
+
+.lol {
+    color: #000;
+    background-color: #efe22e;
+}
+
+.lol2 {
+    color: #000;
+    background-color: #ccc;
+}
+
+.lol:hover {
+    background-color: #fff897;
+}
+
+.lol2:hover {
+    background-color: #fff;
+}
+
+.lol3 {
+    color: #000;
+    background-color: #ccc;
+}
+
+.lol3:hover {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: Arial ;
+    text-shadow: 2px 2px 8px black;
+}
+
+body {
+    background-color: #333;
+}
+
+div {
+    background-color: #252525;
+    width: 950px;
+    border-radius: 50px;
+}
+
+#display {
+    width: 800px;
+    height: 75px;
+    text-align: center;
+    background-color:rgb(28, 28, 28);
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #display {
+        width: 90%;
+        height: 60px;
+    }
+    input {
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
+    }
+    div {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .lol3 {
+        display: none;
+    }
+}
