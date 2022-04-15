@@ -1,0 +1,89 @@
+h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Ink Free";
+    text-shadow: 2px 2px 8px black;
+}
+
+body {
+    background-color: #333;
+    color: white;
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 373px;
+}
+
+.cell {
+    font-family: "Ink Free";
+    width: 120px;
+    height: 120px;
+    border: 3px solid white;
+    cursor: pointer;
+    line-height: 120px;
+    font-size: 60px;
+}
+
+.cell:hover {
+    background-color: #444;
+}
+
+.message {
+    font-family: "Ink Free";
+    color: cyan;
+}
+
+#un {
+    border-radius: 10% 0% 0% 0%;
+}
+
+#deux {
+    border-radius: 0% 10% 0% 0%;
+}
+
+#trois {
+    border-radius: 0% 0% 0% 10%;
+}
+
+#quatre {
+    border-radius: 0% 0% 10% 0%;
+}
+
+#new {
+	background-color: #4189d7;
+	border: 1px solid #4189d7;
+    border-radius: 5px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+    font-family: "Arial";
+	font-size: 16px;
+	transition-duration: 0.1s;
+}
+
+#new:hover {
+	background-color: white;
+    border: 1px solid white;
+	color: #4189d7;
+    font-size: 18px;
+    box-shadow: 0 0 4px white,
+                0 0 4px white,
+                0 0 4px white,
+                0 0 4px white;
+}
+
+@media only screen and (max-width: 600px) {
+    .contenu {
+        width: 250px;
+    }
+    .cell {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 40px;
+    }
+}
