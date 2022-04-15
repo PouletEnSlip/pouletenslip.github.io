@@ -11,6 +11,7 @@ layout: default
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
 #### [My Calculator Website](pages/calculator/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
+#### [My Click Test Website](pages/clictest/)
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 #### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
 #### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
