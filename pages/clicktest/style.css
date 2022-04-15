@@ -1,0 +1,73 @@
+* {
+    font-family: Arial;
+    text-shadow: 2px 2px 4px black;
+    color: white;
+}
+
+#title {
+    font-size: 50px;
+}
+
+#info {
+    font-size: 20px;
+}
+
+#clicker {
+    height: 250px;
+    width: 750px;
+    font-size: 50px;
+    border-radius: 25px;
+    border: 5px solid #750000;
+    background-color: #aaa;
+    transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+#clicker:hover {
+    border: 3px solid #750000;
+    background-color: #AA5050;
+}
+
+#cps {
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+body {
+    background-image:url(./bg.jpg);
+}
+
+.bouton {
+    background-color: #9b0000;
+    border: 2px solid #610000;
+	border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1px 5px 0 rgba(0,0,0,0.19);
+	transition-duration: 0.1s;
+    cursor: pointer;
+}
+
+.bouton:hover {
+	background-color: #b63636;
+    border: 2px solid #610000;
+	color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    #clicker {
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1921px) {
+	body {
+		background-size: cover;
+	}
+}
