@@ -8,6 +8,7 @@ h1 {
 body {
     background-color: #333;
     color: white;
+    user-select: none;
 }
 
 .contenu {
