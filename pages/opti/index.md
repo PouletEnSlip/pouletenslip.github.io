@@ -13,14 +13,14 @@ layout: opti
 * Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le terminal)
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
-* Mettre Windows à jour via Windows Update dans les paramètres (n'installez pas de mise à jour via un site douteux)
+* Mettre Windows à jour via Windows Update dans les paramètres (n'installez pas de mise à jour via un site internet douteux)
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
 * Utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) et [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour réinstaller proprement les [drivers Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr)/[AMD](https://www.amd.com/en/support). DDU est **indispensable** car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes. NVCleanstall permet une installation minimale des drivers avec la possibilité d'activer le Message Signaled Interrupts, dans les tweaks experts, qui offre une communication du GPU plus efficace (paramètre activé par défaut sur les GPU AMD)
 
 ## Optimisations avancées
 
-<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - onglet Démarrage)
+<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - Démarrage)
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -44,7 +44,7 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...). Il est impossible de désactiver totalement la collecte de données, je déconseille l'utilisation de logiciel comme O&OShutUp ou W10Privacy, qui peuvent casser le système pour aucun réel changement
+<label class="container">Décocher toutes les cases de l’onglet "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...). Il est impossible de désactiver totalement la collecte de données. Je déconseille l'utilisation de logiciels comme O&OShutUp ou W10Privacy, ils sont inutiles et peuvent casser le système
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -77,7 +77,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/). Choisir la plage dynamique complète et choisir 10bpc (ou plus) si possible
+<label class="container">Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Choisir la plage dynamique complète et choisir 10bpc (ou plus) si possible. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/)
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -87,16 +87,17 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 ## Optionnel
 
-* [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine. Lors de l'installation de Windows, choisir "Non" pour toutes les options, si possible choisir un compte local (vous pourrez quand même vous connecter à votre compte Microsoft pour Office ou autres)
-* Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle dans les paramètres Windows
+* [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine. Lors de l'installation de Windows, choisir "Non" pour toutes les options, si possible choisir un compte local (vous pourrez quand même vous connecter à votre compte Microsoft pour le Store, Office ou Xbox)
+* Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle
 * Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
-* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : Toujours demander où enregistrer les fichiers, Protection stricte, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers. Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/)
+* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : toujours demander où enregistrer les fichiers, protection stricte, ne pas pister, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers. Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/)
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/index.fr.html) pour de meilleures performances
 * Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tous vos composants RGB via un seul logiciel
+* Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications système et logiciels en nettoyant les clés de registre
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
 
 ## Conclusion
 
-Votre PC devrait être plus performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation de l'anti-virus/HPET, ISO Windows Custom, scripts...).
+<p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
-*Mise à jour : 08/04/2022*
+*Mise à jour : 18/04/2022*
