@@ -24,7 +24,7 @@ body {
     border: 3px solid white;
     cursor: pointer;
     line-height: 120px;
-    font-size: 60px;
+    font-size: 80px;
 }
 
 .cell:hover {
