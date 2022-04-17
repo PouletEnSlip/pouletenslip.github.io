@@ -86,7 +86,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <span class="checkmark"></span>
 
 ## Optionnel
-
+<p style="text-align:justify;">
 * [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine. Lors de l'installation de Windows, choisir "Non" pour toutes les options, si possible choisir un compte local (vous pourrez quand même vous connecter à votre compte Microsoft pour le Store, Office ou Xbox)
 * Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle
 * Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
@@ -95,7 +95,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 * Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tous vos composants RGB via un seul logiciel
 * Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications système et logiciels en nettoyant les clés de registre
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
-
+</p>
 ## Conclusion
 
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
