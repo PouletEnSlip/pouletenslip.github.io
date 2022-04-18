@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-
+<pre>
 ## C++
 ### HMI
-&nbsp;&nbsp;#### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
-&nbsp;&nbsp;#### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
-&nbsp;&nbsp;#### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
-&nbsp;&nbsp;#### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
+        #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
+#### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
+#### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
+#### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
 ### Console
-&nbsp;&nbsp;#### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
-&nbsp;&nbsp;#### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
-&nbsp;&nbsp;#### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
+#### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
+#### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
+#### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
 
 ## WEB
 #### [My Calculator Website](pages/calculator/)
@@ -27,3 +27,4 @@ layout: default
 ## Others
 #### [My Minecraft Resource Pack](pages/cotcotpack/)
 #### [My Windows Optimization Guide (in French)](pages/opti/)
+</pre>
