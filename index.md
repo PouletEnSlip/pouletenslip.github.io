@@ -16,10 +16,11 @@ layout: default
 ## WEB
 #### [My Calculator Website](pages/calculator/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
-#### [My Click Test Website](pages/clicktest/)
+#### [My ClickTest Website](pages/clicktest/)
 #### [My Chronometer Website](pages/chronometer/)
 
 ## Python
+### HMI
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My MQTT Broker App](https://github.com/PouletEnSlip/MQTT)
 
