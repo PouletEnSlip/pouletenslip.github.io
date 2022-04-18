@@ -4,7 +4,6 @@ layout: default
 # PouletEnSlip
 
 ### WEB
-<hr width="500px">
 #### [My Calculator Website](pages/calculator/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My ClickTest Website](pages/clicktest/)
