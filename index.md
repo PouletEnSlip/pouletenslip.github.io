@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## C++
+
 #### [My Minecraft Resource Pack](pages/cotcotpack/)
 #### [My Windows Optimization Guide (in French)](pages/opti/)
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
