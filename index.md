@@ -4,14 +4,14 @@ layout: default
 
 ## C++
 ### HMI
-#### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
-#### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
-#### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
-#### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
+  #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
+  #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
+  #### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
+  #### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
 ### Console
-#### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
-#### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
-#### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
+  #### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
+  #### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
+  #### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
 
 ## WEB
 #### [My Calculator Website](pages/calculator/)
