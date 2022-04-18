@@ -2,13 +2,14 @@
 layout: default
 ---
 
-#PouletEnSlip
+##PouletEnSlip
 
 ### WEB
 #### [My Calculator Website](pages/calculator/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My ClickTest Website](pages/clicktest/)
 #### [My Chronometer Website](pages/chronometer/)
+
 
 ### C++
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
@@ -19,10 +20,11 @@ layout: default
 #### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
 #### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
 
+
 ### Python
-### HMI
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My MQTT Broker App](https://github.com/PouletEnSlip/MQTT)
+
 
 ### Others
 #### [My Minecraft Resource Pack](pages/cotcotpack/)
