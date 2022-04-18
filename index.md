@@ -9,7 +9,7 @@ layout: default
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My ClickTest Website](pages/clicktest/)
 #### [My Chronometer Website](pages/chronometer/)
-
+<br>
 
 ### C++
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
@@ -19,12 +19,12 @@ layout: default
 #### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
 #### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
 #### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
-
+<br>
 
 ### Python
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My MQTT Broker App](https://github.com/PouletEnSlip/MQTT)
-
+<br>
 
 ### Others
 #### [My Minecraft Resource Pack](pages/cotcotpack/)
