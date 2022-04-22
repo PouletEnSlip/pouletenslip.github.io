@@ -6,9 +6,9 @@ var stoptime = true;
 
 function startTimer() {
   if (stoptime == true) {
-      stoptime = false;
-      chronometre();
-    }
+    stoptime = false;
+    chronometre();
+  }
 }
 
 function stopTimer() {
@@ -54,7 +54,6 @@ function chronometre() {
 
 function resetTimer() {
   timer.innerHTML = "00:00:00";
-  stoptime = true;
   hr = 0;
   sec = 0;
   min = 0;
