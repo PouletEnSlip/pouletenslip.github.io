@@ -1,7 +1,6 @@
 h1 {
   font-size: 40px;
   color: #fff;
-  text-shadow: 2px 2px 8px black;
 }
 
 body {
@@ -9,6 +8,13 @@ body {
   color: white;
   font-family: "Arial";
   text-align: center;
+  text-shadow: 2px 2px 8px black;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0; left: 0; right: 0;
 }
 
 a {
@@ -31,13 +37,13 @@ a:hover {
   font-size: 25px;
   transition-duration: 0.2s;
   box-shadow: 0 0 14px rgb(255, 72, 72),
-                0 0 14px rgb(255, 72, 72),
-                0 0 14px rgb(255, 72, 72),
-                0 0 14px rgb(255, 72, 72);
+              0 0 14px rgb(255, 72, 72),
+              0 0 14px rgb(255, 72, 72),
+              0 0 14px rgb(255, 72, 72);
 }
 
 .bouton:hover {
-  background: rgba(255, 37, 37, 0.168);
+  background: rgba(255, 37, 37, 0.2);
   color: white;
   box-shadow: 0 0 14px rgb(255, 110, 110),
               0 0 14px rgb(255, 110, 110),
@@ -47,5 +53,4 @@ a:hover {
 
 #chrono {
   font-size: 80px;
-  text-shadow: 2px 2px 8px black;
 }
