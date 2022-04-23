@@ -25,12 +25,26 @@ layout: cotcot
 **AND**
 [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders)
 
+## Features
+* Animated items
+* 3D models
+* Alternative textures
+* Connected textures
+* Emissive textures
+* Custom colormap
+* Custom lightmap
+* Custom sounds
+* Custom fonts
+* Custom GUI
+* Custom sky (only OptiFine version)
+* Support CTM, CEM and CIT textures
+* Support realms textures
+
 ## Some textures made by
 
 [Faithful by FaithfulTeam](https://faithful.team) | 
 [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
-
 <br>
 
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="../img/download.png" width="400"></a>
@@ -38,4 +52,3 @@ layout: cotcot
 *Last update : 16 February 2022*
 
 Made by **PouletEnSlip** © 2022 - All Rights Reserved
-
