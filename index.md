@@ -15,14 +15,14 @@ layout: default
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 #### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
 #### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
-#### [My Hangman game (in French)](https://github.com/PouletEnSlip/HangmanGame)
-#### [My Mastermind game (in French)](https://github.com/PouletEnSlip/Mastermind)
-#### [My "The Price Is Right" game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
+#### [My Hangman Game (in French)](https://github.com/PouletEnSlip/HangmanGame)
+#### [My Mastermind Game (in French)](https://github.com/PouletEnSlip/Mastermind)
+#### [My "The Price Is Right" Game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
 <br>
 
 ### Python
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
-#### [My MQTT Broker App](https://github.com/PouletEnSlip/MQTT)
+#### [My MQTT Client App](https://github.com/PouletEnSlip/MQTT)
 <br>
 
 ### Others
