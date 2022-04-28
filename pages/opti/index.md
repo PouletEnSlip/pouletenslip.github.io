@@ -40,7 +40,7 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Sur un PC avec GPU Nvidia ou AMD : activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows
+<label class="container">Sur un PC avec un GPU Nvidia ou AMD : activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable (Paramètres - Système - Affichage - Graphiques - Paramètres graphiques par défaut)
 <input type="checkbox">
 <span class="checkmark"></span>
 
