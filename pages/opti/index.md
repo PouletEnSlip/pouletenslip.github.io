@@ -20,6 +20,10 @@ layout: opti
 
 ## Optimisations avancées
 
+<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas
+<input type="checkbox">
+<span class="checkmark"></span>
+
 <label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - Démarrage)
 <input type="checkbox">
 <span class="checkmark"></span>
@@ -93,7 +97,6 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 * Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : toujours demander où enregistrer les fichiers, protection stricte, ne pas pister, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers. Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/)
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/index.fr.html) pour de meilleures performances
 * Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tous vos composants RGB via un seul logiciel
-* Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications système et logiciels en nettoyant les clés de registre
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
 
 ## Conclusion
