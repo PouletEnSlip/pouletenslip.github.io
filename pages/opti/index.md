@@ -40,7 +40,7 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows
+<label class="container">Sur PC fixe : activer la planification de processeur graphique à accélération matérielle et la fréquence de rafraichissement variable dans les paramètres d’affichage Windows
 <input type="checkbox">
 <span class="checkmark"></span>
 
