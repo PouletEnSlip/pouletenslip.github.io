@@ -2,8 +2,6 @@
 layout: opti
 ---
 
-# Optimiser Windows
-
 <p style="text-align:justify;">Voici des optimisations simples et saines pour un PC sous Windows 10/11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, le montage ou les jeux vidéo. Ces manipulations sont sans risque et peuvent dans certains cas résoudre les lenteurs ou crashs de votre PC. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants.</p>
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
