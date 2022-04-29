@@ -70,7 +70,7 @@
   font-size: 50px;
   font-family: Arial;
   color: white;
-  background-color: rgb(13, 109, 182);
+  background-color: rgba(13, 109, 182, 0.6);
   border: none;
   border-radius: 10px;
   transition: background-color 0.2s ease 0s;
