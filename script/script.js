@@ -7,7 +7,7 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-jQuery(function(){
+jQuery(function() {
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 200 ) { 
