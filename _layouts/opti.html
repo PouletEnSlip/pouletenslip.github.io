@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% unless page.light_mode %}
     <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.31/darkreader.min.js"></script>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
     <script>
         DarkReader.enable();
     </script>
@@ -34,9 +33,7 @@
     </div>
     <main id="content" class="main-content" role="main">
       {{ content }}
-<div id="scrollUp">
-<a href="#top"><img style="width:50px" src="../img/top.png"/></a>
-</div>
+      <a href="#"><button class="top">^</button></a>
       <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
