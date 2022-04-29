@@ -70,13 +70,13 @@
   font-size: 50px;
   font-family: Arial;
   color: white;
-  background-color: rgba(13, 109, 182, 0.6);
+  background-color: rgba(13, 109, 182, 0.7);
   border: none;
   border-radius: 10px;
   transition: background-color 0.2s ease 0s;
 }
 
 .top:hover {
-  background-color: rgb(70, 150, 210);
+  background-color: rgba(70, 150, 210, 0.7);
   transition: background-color 0.2s ease 0s;
 }
