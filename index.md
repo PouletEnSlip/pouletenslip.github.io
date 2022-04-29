@@ -3,7 +3,7 @@ layout: default
 ---
 # PouletEnSlip
 
-### WEB
+### ----------- WEB -----------
 #### [My Calculator Website](pages/calculator/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My ClickTest Website](pages/clicktest/)
@@ -11,7 +11,7 @@ layout: default
 #### [My Form Website](https://github.com/PouletEnSlip/Cookies)
 <br>
 
-### C++
+### ----------- C++ -----------
 #### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
 #### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
 #### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
@@ -22,13 +22,13 @@ layout: default
 #### [My Console Password Manager](https://github.com/PouletEnSlip/Password)
 <br>
 
-### Python
+### ----------- Python -----------
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
 #### [My "Click on the Square" Game](https://github.com/PouletEnSlip/Square)
 #### [My MQTT Client App](https://github.com/PouletEnSlip/MQTT)
 #### [My Calculator App](https://github.com/PouletEnSlip/CalculatorPython)
 <br>
 
-### Others
+### ----------- Others -----------
 #### [My Minecraft Resource Pack](pages/cotcotpack/)
 #### [My Windows Optimization Guide (in French)](pages/opti/)
