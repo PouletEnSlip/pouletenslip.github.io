@@ -60,3 +60,10 @@
   background: #00c77e;
   width: 0%;
 }
+
+#scrollUp {
+  position: fixed;
+  bottom : 10px;
+  right: -100px;
+  opacity: 0.5;
+}
