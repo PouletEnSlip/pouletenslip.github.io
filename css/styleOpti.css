@@ -68,13 +68,15 @@
   width: 65px;
   height: 65px;
   font-size: 40px;
+  font-family: Arial;
   color: white;
-  background-color: rgb(0, 89, 255);
+  background-color: rgb(13, 109, 182);
   border: none;
   border-radius: 10px;
-  transition: background-color 0.3s ease 0s;
+  transition: background-color 0.2s ease 0s;
 }
+
 .top:hover {
-  background-color: rgb(71, 135, 255);
-  transition: background-color 0.3s ease 0s;
+  background-color: rgb(70, 150, 210);
+  transition: background-color 0.2s ease 0s;
 }
