@@ -8,6 +8,7 @@ layout: opti
 
 * Nettoyer tous les lecteurs (Clic droit sur un disque - Propriétés - Nettoyage)
 * Supprimer tous les fichiers temporaires (`Win + R` - taper %temp% - tout supprimer)
+* Supprimer les fichiers de Windows Update **après chaque mise à jour** (C:/Windows/SoftwareDistribution/Download - Supprimer tous les dossiers pour éviter des erreurs lors des prochaines mises à jour)
 * Optimiser tous les lecteurs (Clic droit sur un disque - Propriétés - Outils - Optimiser)
 * Réparer les fichiers système : `sfc /scannow` (commande à rentrer dans le terminal)
 * Vider le cache DNS : `ipconfig /flushdns`
@@ -19,7 +20,7 @@ layout: opti
 
 ## Optimisations avancées
 
-<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez pas Microsoft Edge, le store ou autres applications Windows qui ne sont pas désinstallables de base !
+<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **pas** Microsoft Edge, le store ou autres applications Windows qui ne sont pas désinstallables de base !
 <input type="checkbox">
 <span class="checkmark"></span>
 
