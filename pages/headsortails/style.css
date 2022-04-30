@@ -3,7 +3,7 @@
         transform: rotateX(0);
     }
     to {
-        transform: rotateX(1800deg);
+        transform: rotateX(720deg);
     }
 }
 
@@ -12,7 +12,7 @@
         transform: rotateX(0);
     }
     to {
-        transform: rotateX(1980deg);
+        transform: rotateX(900deg);
     }
 }
 
