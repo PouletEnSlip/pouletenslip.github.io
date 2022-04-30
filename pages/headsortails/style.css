@@ -19,6 +19,7 @@
 h1 {
     font-size: 40px;
     color: #fff;
+    text-shadow: 2px 2px 8px black;
 }
   
 body {
@@ -27,6 +28,22 @@ body {
     font-family: "Arial";
     text-align: center;
     user-select: none;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0; left: 0; right: 0;
+  }
+  
+a {
+    color: rgb(225, 197, 60);
+    text-decoration:none;
+    font-size: 50px;
+}
+
+a:hover {
+    color: rgb(204, 204, 204);
 }
 
 #coin {
@@ -40,13 +57,15 @@ body {
 #flip {
 	background-color: #cfae1d;
 	border: 1px solid #cfae1d;
+    border-radius: 5px;
 	color: white;
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 20px;
 	cursor: pointer;
+    box-shadow: 2px 2px 4px black;
 	transition-duration: 0.2s;
 }
 
@@ -86,4 +105,10 @@ body {
 
 .flipTail {
     animation: resultTail 2s ease-out forwards;
+}
+
+@media only screen and (max-width: 800px) {
+    footer {
+        position: relative;
+    }
 }
