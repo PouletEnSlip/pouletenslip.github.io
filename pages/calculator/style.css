@@ -8,6 +8,7 @@ input {
     color: #fff;
     border-style: none;
     box-shadow: 2px 2px 4px black;
+    cursor: pointer;
 }
 
 input:hover {
@@ -24,6 +25,7 @@ input:hover {
     color: #fff;
     border-style: none;
     box-shadow: 2px 2px 4px black;
+    cursor: pointer;
 }
 
 #clear:hover {
@@ -33,11 +35,13 @@ input:hover {
 .lol {
     color: #000;
     background-color: #efe22e;
+    cursor: pointer;
 }
 
 .lol2 {
     color: #000;
     background-color: #ccc;
+    cursor: pointer;
 }
 
 .lol:hover {
@@ -51,6 +55,7 @@ input:hover {
 .lol3 {
     color: #000;
     background-color: #ccc;
+    cursor: pointer;
 }
 
 .lol3:hover {
@@ -80,6 +85,7 @@ div {
     text-align: center;
     background-color:rgb(28, 28, 28);
     font-size: 25px;
+    cursor: default;
 }
 
 @media only screen and (max-width: 1000px) {
