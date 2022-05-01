@@ -7,7 +7,7 @@ layout: default
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My ClickTest Website](pages/clicktest/)
 #### [My Chronometer Website](pages/chronometer/)
-#### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
+#### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies/)
 #### [My Heads or Tails Website](pages/headsortails/)
 <br>
 
