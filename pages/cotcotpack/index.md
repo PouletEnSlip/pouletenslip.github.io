@@ -2,7 +2,7 @@
 layout: cotcot
 ---
 
-<p style="text-align:justify;">CotCot is a PVP / Build / Survival resource pack for Minecraft Java and Bedrock. The resource pack is compatible from 1.7.2 to 1.8.9 and from 1.13 to 1.18.x. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.</p>
+<p style="text-align:justify;">CotCot is a PVP / Build / Survival resource pack for Minecraft Java and Bedrock. The resource pack is compatible from 1.7.2 to 1.8.9 and from 1.13 to 1.18.x. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap and more. Fully compatible with OptiFine and Sodium. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.</p>
 
 ![0](../img/0.jpg)
 
@@ -32,7 +32,6 @@ layout: cotcot
 * Custom colormap
 * Custom lightmap
 * Custom sounds
-* Custom fonts
 * Custom GUI
 * Custom sky (only OptiFine version)
 * Support CTM, CEM and CIT textures
@@ -46,4 +45,4 @@ layout: cotcot
 
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="../img/download.png" width="400"></a>
 
-*Last update : 16 February 2022*
+*Last update : 01 May 2022*
