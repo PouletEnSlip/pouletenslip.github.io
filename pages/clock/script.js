@@ -9,6 +9,7 @@ setInterval(function() {
     var s = date.getSeconds();
     var milli = date.getMilliseconds();
     var ampm = "AM";
+    var trucJour = "th";
     
     if (h == 0) {
         h = 12;
@@ -36,6 +37,18 @@ setInterval(function() {
 
     const mois = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     let moisActuel = mois[date.getMonth()];
+    
+    if (day == 1) {
+        trucJour = "st";
+    }
+    
+    if (day == 2) {
+        trucJour = "nd";
+    }
+    
+    if (day == 3) {
+        trucJour = "rd";
+    }
 
-    dateActuelle.innerHTML = jourActuel + " " + day + " " + moisActuel + " " + year;
+    dateActuelle.innerHTML = jourActuel + " " + day + trucJour + " " + moisActuel + " " + year;
 })
