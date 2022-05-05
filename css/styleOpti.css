@@ -65,6 +65,9 @@
   position: fixed;
   bottom: 15px;
   right: -100px;
+}
+
+#btnTop {
   width: 55px;
   height: 55px;
   font-size: 42px;
@@ -75,7 +78,7 @@
   transition: background-color 0.2s ease 0s;
 }
 
-#top:hover {
+#btnTop:hover {
   background-color: rgba(70, 150, 210, 0.7);
   transition: background-color 0.2s ease 0s;
 }
