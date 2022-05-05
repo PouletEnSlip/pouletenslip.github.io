@@ -1,0 +1,38 @@
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+
+body {
+    font-family: Arial;
+    background-color: #333;
+    text-align: center;
+    user-select: none;
+}
+
+#clock {
+    background-color: black;
+    border-radius: 20px;
+    font-size: 80px;
+    color: white;
+    height: 150px;
+    width: 60%;
+    line-height: 150px;
+    margin: 0 auto;
+}
+
+#date {
+    font-size: 30px;
+    color: white;
+    color: rgb(200, 200, 200);
+}
+
+@media only screen and (max-width: 800px) {
+    #clock {
+        font-size: 35px;
+        height: 75px;
+        line-height: 75px;
+        width: 95%;
+    }
+}
