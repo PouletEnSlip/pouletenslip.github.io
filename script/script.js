@@ -11,9 +11,9 @@ jQuery(function() {
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 40 ) { 
-                $('.top').css('right','200px');
+                $('#top').css('right','200px');
             } else { 
-                $('.top').removeAttr('style');
+                $('#top').removeAttr('style');
             }
         });
     });
