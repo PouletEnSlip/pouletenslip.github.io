@@ -6,3 +6,15 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+jQuery(function() {
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 40 ) { 
+                $('.top').css('right','10px');
+            } else { 
+                $('.top').removeAttr( 'style' );
+            }
+        });
+    });
+});
