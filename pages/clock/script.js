@@ -23,15 +23,10 @@ setInterval(function() {
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
 
-    if (milli < 10) {
-        milli = "00" + milli;
-    }
+    var tempMilli = String(milli).charAt(0);
+    var finalMilli = Number(tempMilli);
 
-    if (milli < 100) {
-        milli = "0" + milli;
-    }
-
-    clock.innerHTML = h + ":" + m + ":" + s + " " + milli + " " + ampm;
+    clock.innerHTML = h + ":" + m + ":" + s + " " + finalMilli + " " + ampm;
 
     var day = date.getUTCDate();
     var year = date.getUTCFullYear();
