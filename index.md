@@ -9,6 +9,7 @@ layout: default
 #### [My Chronometer Website](pages/chronometer/)
 #### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
 #### [My Heads or Tails Website](pages/headsortails/)
+#### [My Digital Clock Website](pages/clock/)
 <br>
 
 ### ------------------ C++ ------------------
