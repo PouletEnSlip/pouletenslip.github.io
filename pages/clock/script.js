@@ -16,7 +16,7 @@ setInterval(function() {
     
     if (h > 12) {
         h = h - 12;
-        session = "PM";
+        ampm = "PM";
     }
 
     h = (h < 10) ? "0" + h : h;
