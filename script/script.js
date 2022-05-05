@@ -11,7 +11,7 @@ jQuery(function() {
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 60 ) { 
-                $('#btnTop').css('right','10px');
+                $('#btnTop').css('right','15px');
             } else { 
                 $('#btnTop').removeAttr('style');
             }
