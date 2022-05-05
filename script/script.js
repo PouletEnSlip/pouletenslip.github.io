@@ -10,10 +10,10 @@ function myFunction() {
 jQuery(function() {
     $(function () {
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 40 ) { 
-                $('#top').css('right','10px');
+            if ($(this).scrollTop() > 60 ) { 
+                $('#btnTop').css('right','10px');
             } else { 
-                $('#top').removeAttr('style');
+                $('#btnTop').removeAttr('style');
             }
         });
     });
