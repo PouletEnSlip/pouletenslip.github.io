@@ -50,5 +50,5 @@ setInterval(function() {
         trucJour = "rd";
     }
 
-    dateActuelle.innerHTML = jourActuel + " " + day + trucJour + " " + moisActuel + " " + year;
+    dateActuelle.innerHTML = jourActuel + ", " + day + trucJour + " " + moisActuel + " " + year;
 })
