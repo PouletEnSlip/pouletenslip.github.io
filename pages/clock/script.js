@@ -38,15 +38,15 @@ setInterval(function() {
     const mois = ["January","February","March","April","May","June","July","August","September","October","November","December"];
     let moisActuel = mois[date.getMonth()];
     
-    if (day == 1) || (day == 21) || (day == 31){
+    if (day == 1 || day == 21 || day == 31) {
         trucJour = "st";
     }
     
-    if (day == 2) || (day == 22){
+    if (day == 2 || day == 22) {
         trucJour = "nd";
     }
     
-    if (day == 3) || (day == 23){
+    if (day == 3 || day == 23) {
         trucJour = "rd";
     }
 
