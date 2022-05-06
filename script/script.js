@@ -18,12 +18,3 @@ jQuery(function() {
         });
     });
 });
-
-$(window).scroll(function(){
-    if($(document).height() > $(window).height())
-    {
-        if($(window).scrollTop() == $(document).height() - $(window).height()){
-          $('#btnTop').css('right','15px');
-        }
-    }
-});
