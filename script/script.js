@@ -19,12 +19,11 @@ jQuery(function() {
     });
 });
 
-$(document.body).on('touchmove', onScroll); // for mobile
-$(window).on('scroll', onScroll); 
-
-// callback
-function onScroll(){ 
-    if( $(window).scrollTop() + window.innerHeight >= document.body.scrollHeight ) { 
-        $('#btnTop').css('right','15px');
+$(window).scroll(function(){
+    if($(document).height() > $(window).height())
+    {
+        if($(window).scrollTop() == $(document).height() - $(window).height()){
+          $('#btnTop').css('right','15px');
+        }
     }
-}
+});
