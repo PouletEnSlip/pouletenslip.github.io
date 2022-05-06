@@ -18,3 +18,9 @@ jQuery(function() {
         });
     });
 });
+
+$('body').on({
+    'touchmove': function(e) { 
+        $('#btnTop').css('right','15px');
+    }
+});
