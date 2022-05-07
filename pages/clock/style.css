@@ -28,7 +28,7 @@ body {
     color: rgb(200, 200, 200);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     #clock {
         font-size: 35px;
         height: 75px;
