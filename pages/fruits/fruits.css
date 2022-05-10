@@ -1,0 +1,47 @@
+body {
+  font-family: 'Comic Sans MS';
+  background-color: #202020;
+  color:#bbb;
+}
+
+#bouton1, #bouton2 {
+	background-color: #717171;
+	border: 1px solid #717171;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#bouton1:hover, #bouton2:hover {
+	background-color: white;
+	color: #717171;
+}
+
+#bouton3 {
+	background-color: #914c4c;
+	border: 1px solid #914c4c;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#bouton3:hover {
+	background-color: white;
+	color: #914c4c;
+}
+
+#bouton1:disabled, #bouton2:disabled {
+	color: #959595;
+}
+
+#bouton3:disabled {
+	color: #c26565;
+}

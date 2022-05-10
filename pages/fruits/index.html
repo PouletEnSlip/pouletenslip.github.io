@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="stylesheet" href="fruits.css">
+  <title>Fruit list:</title>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1><u>Fruit list:</u></h1>
+  <form>
+    <label>Check/uncheck all</label><input type="checkbox" id="cocher" name="check" onclick="cocherDecocher(this.checked);"><br><br>
+    <input type="checkbox" id="apple" name="case" class="fruits" onclick="changerTexte1()">Apple<br>
+    <input type="checkbox" id="pear" name="case" class="fruits" onclick="changerTexte1()">Pear<br>
+    <input type="checkbox" id="banana" name="case" class="fruits" onclick="changerTexte1()">Banana<br><br>
+    <input type="button" id="bouton1" name="bouton" value="Check all" onclick="boutonCocher()">
+    <input type="button" id="bouton2" name="bouton" value="Uncheck all" onclick="boutonDecocher()" disabled="true">
+    <p id="texte1" style="color:red">You didn't choose a fruit...</p>
+    <input type="button" id="bouton3" name="bouton" value="Submit" onclick="valider()" disabled="true">
+    <p id="texte2"></p>
+  </form>
+</body>
+</html>
