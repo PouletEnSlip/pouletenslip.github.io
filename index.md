@@ -3,16 +3,16 @@ layout: default
 ---
 
 ### ------------------ WEB ------------------
+#### [My Fruit Choice Website](pages/fruits/)
+#### [My ClickTest Website](pages/clicktest/)
 #### [My Calculator Website](pages/calculator/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
-#### [My ClickTest Website](pages/clicktest/)
 #### [My Chronometer Website](pages/chronometer/)
+#### [My Heads or Tails Website](pages/headsortails/)
+#### [My Digital Clock Website](pages/clock/)
 #### [My Formulary Website](https://github.com/PouletEnSlip/FormularyCSV)
 #### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
 #### [My Files Uploader Website](https://github.com/PouletEnSlip/FilesUpload)
-#### [My Fruit Choice Website](https://github.com/PouletEnSlip/Fruits)
-#### [My Heads or Tails Website](pages/headsortails/)
-#### [My Digital Clock Website](pages/clock/)
 <br>
 
 ### ------------------ C++ ------------------
