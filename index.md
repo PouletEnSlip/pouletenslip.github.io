@@ -10,6 +10,7 @@ layout: default
 #### [My Formulary Website](https://github.com/PouletEnSlip/FormularyCSV)
 #### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
 #### [My Files Uploader Website](https://github.com/PouletEnSlip/FilesUpload)
+#### [My Fruit Choice Website](https://github.com/PouletEnSlip/Fruits)
 #### [My Heads or Tails Website](pages/headsortails/)
 #### [My Digital Clock Website](pages/clock/)
 <br>
