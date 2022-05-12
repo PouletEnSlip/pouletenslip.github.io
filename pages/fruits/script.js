@@ -93,5 +93,5 @@ function valider() {
     }
 
     var total = apple + pear + banana
-    texte2.innerHTML = `You have chosen one ${total}.<br> Enjoy your meal !`;
+    texte2.innerHTML = `You have chosen one ${total}.<br> Enjoy your meal!`;
 }
