@@ -97,7 +97,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 * Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : toujours demander où enregistrer les fichiers, protection stricte, ne pas pister, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers. Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/)
 * Activer Bitlocker pour chiffrer les données du lecteur et sécuriser vos fichiers
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/) pour de meilleures performances
-* Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et chiffrer les archives. Je déconseille Winrar qui n'est pas open source, compresse moins et est moins sécurisé
+* Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et chiffrer les archives. Je déconseille WinRAR qui n'est pas open source, compresse moins bien et est moins sécurisé
 * Utiliser [OpenRGB](https://openrgb.org/releases.html) pour contrôler tous vos composants RGB via un seul logiciel
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
 
@@ -105,4 +105,4 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
-*Mise à jour : 05/05/2022*
+*Mise à jour : 13/05/2022*
