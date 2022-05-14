@@ -6,10 +6,10 @@ layout: opti
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 
-* Nettoyer tous les lecteurs (Clic droit sur un disque - Propriétés - Nettoyage - Tout cocher)
-* Supprimer tous les fichiers temporaires (`Win + R` - taper %temp% - Tout supprimer)
+* Nettoyer tous les lecteurs (Clic droit sur un lecteur - Propriétés - Nettoyage - Tout cocher)
+* Supprimer tous les fichiers temporaires (`Win + R` - Taper %temp% - Tout supprimer)
 * Supprimer les fichiers de Windows Update **après chaque mise à jour** (C:/Windows/SoftwareDistribution/Download/ - Supprimer tous les dossiers pour éviter des erreurs lors des prochaines mises à jour et gagner un peu d'espace)
-* Optimiser tous les lecteurs (Clic droit sur un disque - Propriétés - Outils - Optimiser)
+* Optimiser tous les lecteurs (Clic droit sur un lecteur - Propriétés - Outils - Optimiser)
 * Réparer les fichiers système : `sfc /scannow`
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
