@@ -20,7 +20,7 @@ layout: opti
 
 ## Optimisations avancées
 
-<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **pas** Microsoft Edge, le store ou autres applications Windows qui ne sont pas désinstallables de base !
+<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **surtout pas** Microsoft Edge, le Store, Xbox Game Bar ou autres applications Windows qui ne peuvent pas être désinstallées de base, cela peut créer de gros problèmes !
 <input type="checkbox">
 <span class="checkmark"></span>
 
