@@ -34,5 +34,5 @@ layout: default
 <br>
 
 ### ------------------ Others ------------------
-#### [My Minecraft Resource Pack](pages/cotcotpack/#)
-#### [My Windows Optimization Guide (in French)](pages/opti/#)
+#### [My Minecraft Resource Pack](pages/cotcotpack)
+#### [My Windows Optimization Guide (in French)](pages/opti)
