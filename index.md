@@ -12,7 +12,6 @@ layout: default
 #### [My Digital Clock Website](pages/clock/)
 #### [My Formulary Website](https://github.com/PouletEnSlip/FormularyCSV)
 #### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
-#### [My Files Uploader Website](https://github.com/PouletEnSlip/FilesUpload)
 <br>
 
 ### ------------------ C++ ------------------
