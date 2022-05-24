@@ -13,6 +13,7 @@ layout: opti
 * Réparer les fichiers système : `sfc /scannow`
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
+* Réparer les icones blanches de Windows avec mon [script](https://github.com/PouletEnSlip/ResetIconCache)
 * Mettre Windows à jour via Windows Update dans les paramètres (n'installez pas de mise à jour via un site Internet douteux)
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
