@@ -12,16 +12,18 @@ Dans l'ordre :
 * Mettre Windows à jour via Windows Update dans les paramètres (n'installez jamais de mise à jour via un site douteux)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
 * Mettre à jour les drivers de votre carte graphique [Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr) ou [AMD](https://www.amd.com/en/support), utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) et [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour mettre à jour les drivers proprement. DDU est **indispensable** car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes. NVCleanstall permet une installation minimale des drivers Nvidia avec la possibilité d'activer le Message Signaled Interrupts, dans les tweaks experts, qui offre une communication du GPU plus efficace (paramètre activé par défaut sur les GPU AMD)
-* Nettoyer tous les lecteurs (Clic droit sur un lecteur - Propriétés - Nettoyage - Tout cocher)
-* Supprimer tous les fichiers temporaires (Touches Windows + R - Taper %temp% - Tout supprimer)
 * Supprimer les fichiers de Windows Update **après chaque mise à jour** (C:/Windows/SoftwareDistribution/Download/ - Supprimer tous les dossiers pour éviter des erreurs lors des prochaines mises à jour et gagner un peu d'espace)
+* Supprimer tous les fichiers temporaires (Touches Windows + R - Taper %temp% - Tout supprimer)
 * Optimiser tous les lecteurs (Clic droit sur un lecteur - Propriétés - Outils - Optimiser)
+* Nettoyer tous les lecteurs (Clic droit sur un lecteur - Propriétés - Nettoyage - Nettoyer les fichiers système - Tout cocher)
 * Réparer les fichiers système : `sfc /scannow`
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
 * Réinitialiser le cache des icônes avec mon [script](https://github.com/PouletEnSlip/ResetIconCache)
 
-## Optimisations avancées
+Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour prévenir des bugs du système. Nettoyer aussi régulièrement votre PC de la poussière pour éviter aux composants de trop chauffer et donc de perdre des performances.
+
+## Optimisations avancées (permanentes)
 
 <label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **surtout pas** Microsoft Edge, le Store, Sécurité Windows, Photos, Xbox Game Bar ou autres applications Windows qui ne peuvent pas être désinstallées de base, cela peut créer de gros problèmes
 <input type="checkbox">
