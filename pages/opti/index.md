@@ -58,9 +58,9 @@ layout: opti
 <span class="checkmark"></span>
 
 <label class="container">Désactiver la Xbox Game Bar avec ces trois commandes : 
-* `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage`
-* `reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f`
-* `reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f`
+`Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage`<br>
+`reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f`<br>
+`reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
   
