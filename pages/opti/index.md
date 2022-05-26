@@ -57,7 +57,10 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver la Xbox Game Bar avec ces trois commandes : `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage` + `reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f` + `reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f`
+<label class="container">Désactiver la Xbox Game Bar avec ces trois commandes : 
+* `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage`
+* `reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f`
+* `reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
   
@@ -116,6 +119,6 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
 ### Sources
-[Discord informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [Blurbusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
+[Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
 
 *Mise à jour : 26/05/2022*
