@@ -21,7 +21,7 @@ layout: opti
 
 ## Optimisations avancées
 
-<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **surtout pas** Microsoft Edge, le Store, Xbox Game Bar ou autres applications Windows qui ne peuvent pas être désinstallées de base, cela peut créer de gros problèmes
+<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **surtout pas** Microsoft Edge, le Store, Sécurité Windows, Photos, Xbox Game Bar ou autres applications Windows qui ne peuvent pas être désinstallées de base, cela peut créer de gros problèmes
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -57,7 +57,7 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver la Xbox Game Bar et activer le mode jeu dans les paramètres Windows (Paramètres - Jeux)
+<label class="container">Désactiver la Xbox Game Bar avec ces trois commandes : `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage` + `reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f` + `reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
   
@@ -90,7 +90,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Choisir la plage dynamique complète et choisir 10bpc (ou plus) si possible. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact minime sur la latence. Plus d'infos [ici](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/)
+<label class="container">Modifications du panneau Nvidia (options AMD similaires) : sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Choisir la plage dynamique complète et choisir 10bpc (ou plus) si possible. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact négligeable sur la latence
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -103,7 +103,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 * [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine. Lors de l'installation de Windows, choisir "Non" pour toutes les options, créer un compte local pour limiter la collecte de données (vous pourrez quand même vous connecter à votre compte Microsoft pour le Store, Office, Xbox ou autres services Microsoft)
 * Activer le mode sombre et l’éclairage nocturne le soir pour prévenir la fatigue visuelle
 * Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
-* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : toujours demander où enregistrer les fichiers, protection stricte, ne pas pister, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers. Plus d'infos sur la protection de la vie privée [ici](https://privacyguides.org/)
+* Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : toujours demander où enregistrer les fichiers, protection stricte, ne pas pister, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers
 * Activer Bitlocker sur la version Pro de Windows pour chiffrer les données du lecteur et sécuriser vos fichiers (Clic droit sur un lecteur - Activer Bitlocker). Il est possible d'activer Bitlocker sur la version Famille de Windows, à certaines conditions, tuto disponible [ici](https://lecrabeinfo.net/activer-le-chiffrement-de-lappareil-bitlocker-sur-windows-10-famille.html)
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/) pour de meilleures performances
 * Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et pouvoir chiffrer les archives. Je déconseille WinRAR qui n'est pas open source, compresse moins bien et chiffre moins efficacement les archives
@@ -114,5 +114,8 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 ## Conclusion
 
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
+
+### Sources
+[Discord informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [Blurbusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
 
 *Mise à jour : 26/05/2022*
