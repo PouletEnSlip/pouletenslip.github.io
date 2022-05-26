@@ -13,7 +13,7 @@ layout: opti
 * Réparer les fichiers système : `sfc /scannow`
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
-* Réparer les icones blanches de Windows avec mon [script](https://github.com/PouletEnSlip/ResetIconCache)
+* Réinitialiser le cache des icônes avec mon [script](https://github.com/PouletEnSlip/ResetIconCache)
 * Mettre Windows à jour via Windows Update dans les paramètres (n'installez pas de mise à jour via un site Internet douteux)
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
@@ -115,4 +115,4 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
-*Mise à jour : 24/05/2022*
+*Mise à jour : 26/05/2022*
