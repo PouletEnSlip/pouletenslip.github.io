@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
 @mixin large {
-  @media screen and (min-width: 64em) {
+  @media screen and (min-width: 70em) {
     @content;
   }
 }
 
 @mixin medium {
-  @media screen and (min-width: 42em) and (max-width: 64em) {
+  @media screen and (min-width: 42em) and (max-width: 70em) {
     @content;
   }
 }
@@ -165,7 +165,7 @@ a {
   }
 
   @include large {
-    max-width: 80rem;
+    max-width: 70rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
