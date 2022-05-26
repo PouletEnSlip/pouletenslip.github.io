@@ -106,8 +106,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  //background-color: #159957;
-  background-image: linear-gradient(120deg, #1e4abe, #14bb68);
+  background-image: linear-gradient(90deg, #155799, #159957);
 
   @include large {
     padding: 5rem 6rem;
