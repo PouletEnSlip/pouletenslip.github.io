@@ -7,7 +7,7 @@ layout: opti
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 
 * Nettoyer tous les lecteurs (Clic droit sur un lecteur - Propriétés - Nettoyage - Tout cocher)
-* Supprimer tous les fichiers temporaires (`Win + R` - Taper %temp% - Tout supprimer)
+* Supprimer tous les fichiers temporaires (Touches Windows + R - Taper %temp% - Tout supprimer)
 * Supprimer les fichiers de Windows Update **après chaque mise à jour** (C:/Windows/SoftwareDistribution/Download/ - Supprimer tous les dossiers pour éviter des erreurs lors des prochaines mises à jour et gagner un peu d'espace)
 * Optimiser tous les lecteurs (Clic droit sur un lecteur - Propriétés - Outils - Optimiser)
 * Réparer les fichiers système : `sfc /scannow`
@@ -25,7 +25,7 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (`Ctrl + Maj + Esc` - Démarrage)
+<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -37,7 +37,7 @@ layout: opti
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur, ainsi elles s’abîment moins vite et toutes à la même vitesse : `fsutil behavior set DisableDeleteNotify 0`
+<label class="container">Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur : `fsutil behavior set DisableDeleteNotify 0`
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -86,7 +86,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver les services Assistant Compatibilité des programmes, Expériences des utilisateurs connectés et télémétrie, Serveur, Sysmain, Thèmes et Windows Search si vous ne les utilisez pas (`Win + R + services.msc`). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
+<label class="container">Désactiver les services Assistant Compatibilité des programmes, Expériences des utilisateurs connectés et télémétrie, Serveur, Sysmain, Thèmes et Windows Search si vous ne les utilisez pas (Touches Windows + R - Taper services.msc). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
 <input type="checkbox">
 <span class="checkmark"></span>
 
