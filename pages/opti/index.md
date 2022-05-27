@@ -124,4 +124,4 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 26/05/2022*
+*Mise à jour : 27/05/2022*
