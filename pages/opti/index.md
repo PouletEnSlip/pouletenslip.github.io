@@ -11,7 +11,7 @@ Dans l'ordre :
 * Supprimer l'historique, le cache et les cookies du navigateur (il faudra se reconnecter aux sites)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
 * Mettre à jour les drivers de votre carte graphique [Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr) ou [AMD](https://www.amd.com/en/support), utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) et [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour mettre à jour les drivers proprement. DDU est **indispensable** car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes. NVCleanstall permet une installation minimale des drivers Nvidia, vous pouvez aussi cocher la case Message Signaled Interrupts **uniquement**, dans les tweaks experts, qui offre une communication du GPU plus efficace (paramètre activé par défaut sur les GPU AMD). Je déconseille d'installer Nvidia GeForce Experience qui utilise des ressources en arrière-plan
-* Mettre Windows à jour via Windows Update dans les paramètres (n'installez jamais de mise à jour via un site douteux)
+* Mettre Windows à jour via Windows Update dans les paramètres (n'installez jamais de mise à jour via un site douteux). N'utilisez pas d'ISO customs, comme Ghost Spectre, qui n'améliorent pas les performances et sont dangereux
 
 Une fois que tout est bien à jour et que le PC a été redémarré :
 * Supprimer les fichiers de Windows Update **après chaque mise à jour** (C:/Windows/SoftwareDistribution/Download/ - Supprimer tous les dossiers pour éviter des erreurs lors des prochaines mises à jour)
@@ -27,7 +27,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
 
-<label class="container">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)
+<label class="container">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller). Je déconseille d'utiliser des "debloater" qui peuvent casser le système
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -124,7 +124,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 
 ## Conclusion
 
-<p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (désactivation WindowsUpdate/Antivirus/HPET/SMT, ISO Windows Custom, TimerResolution, scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
+<p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
