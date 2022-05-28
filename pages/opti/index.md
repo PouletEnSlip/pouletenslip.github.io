@@ -10,7 +10,7 @@ Dans l'ordre :
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Supprimer l'historique, le cache et les cookies du navigateur (il faudra se reconnecter aux sites)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
-* Mettre à jour les drivers de votre carte graphique [Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr) ou [AMD](https://www.amd.com/en/support), utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) et [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour mettre à jour les drivers proprement. DDU est **indispensable** car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes. NVCleanstall permet une installation minimale des drivers Nvidia avec la possibilité d'activer le Message Signaled Interrupts, dans les tweaks experts, qui offre une communication du GPU plus efficace (paramètre activé par défaut sur les GPU AMD). Je déconseille d'installer Nvidia GeForce Experience qui prend des ressources en arrière-plan
+* Mettre à jour les drivers de votre carte graphique [Nvidia](https://www.nvidia.fr/Download/index.aspx?lang=fr) ou [AMD](https://www.amd.com/en/support), utiliser [DDU](https://www.guru3d.com/files-details/display-driver-uninstaller-download.html) et [NVCleanstall](https://www.techpowerup.com/download/techpowerup-nvcleanstall/) pour mettre à jour les drivers proprement. DDU est **indispensable** car il permet de corriger de nombreux bugs/crashs sur vos jeux, utilitaire recommandé par Nvidia eux-mêmes. NVCleanstall permet une installation minimale des drivers Nvidia, vous pouvez aussi cocher la case Message Signaled Interrupts **uniquement**, dans les tweaks experts, qui offre une communication du GPU plus efficace (paramètre activé par défaut sur les GPU AMD). Je déconseille d'installer Nvidia GeForce Experience qui utilise des ressources en arrière-plan
 * Mettre Windows à jour via Windows Update dans les paramètres (n'installez jamais de mise à jour via un site douteux)
 
 Une fois que tout est bien à jour et que le PC a été redémarré :
@@ -27,7 +27,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
 
-<label class="container">Utiliser [GeekUninstaller](https://geekuninstaller.com/download) pour désinstaller les applications et logiciels que vous n'utilisez pas. Ne désinstallez **surtout pas** Microsoft Edge, le Store, Sécurité Windows, Photos, Xbox Game Bar ou autres applications Windows qui ne peuvent pas être désinstallées de base, cela peut créer de gros problèmes
+<label class="container">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -35,11 +35,19 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <input type="checkbox">
 <span class="checkmark"></span>
 
+<label class="container">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`
+<input type="checkbox">
+<span class="checkmark"></span>
+
+<label class="container">Désactiver les Widgets (Windows 11) : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f`
+<input type="checkbox">
+<span class="checkmark"></span>
+
 <label class="container">Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver la mise en veille prolongée pour libérer de la place sur le lecteur (~3Go) : `powercfg -h off`
+<label class="container">Désactiver la mise en veille prolongée (hibernation) pour libérer de la place sur le lecteur (~3Go) et faire en sorte que le PC s'éteigne complètement quand vous l'éteignez, avec ces deux commandes : `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f` + `powercfg -h off` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f` + `powercfg -h on`
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -47,7 +55,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Réduire les ressources du processeur réservées pour certains processus Windows : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f`
+<label class="container">Réduire les ressources du processeur réservées pour certains processus Windows : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000020 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -63,7 +71,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver la Xbox Game Bar avec ces trois commandes : `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage` + `reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f` + `reg add "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f`
+<label class="container">Désactiver la Xbox Game Bar, avec ces trois commandes : `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage` + `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f` + `REG ADD "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}` + `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f` + `REG ADD "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
   
@@ -75,15 +83,11 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Interdire aux applications Windows de tourner en arrière-plan : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\AppPrivacy" /v LetAppsRunInBackground /t REG_DWORD /d 00000002 /f`
+<label class="container">Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f`
-<input type="checkbox">
-<span class="checkmark"></span>
-
-<label class="container">Remettre l'ancien menu du clic droit de Windows 10 sur Windows 11 : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+<label class="container">Remettre l'ancien menu du clic droit de Windows 10 sur Windows 11 : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` - Redémarrer le PC | Pour annuler : `REG DELETE "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f`
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -92,7 +96,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver les services Assistant Compatibilité des programmes, Expériences des utilisateurs connectés et télémétrie, Serveur, Sysmain, Thèmes et Windows Search si vous ne les utilisez pas (Touches Windows + R - Taper services.msc). **Ne touchez pas aux autres services !** Certains services vont en désactiver d'autres qui vont casser votre système (ex: désactiver le clavier tactile va casser le terminal, etc...)
+<label class="container">Désactiver les services Expériences des utilisateurs connectés et télémétrie (limiter l'envoi de données de diagnostic à Microsoft) et Sysmain (éviter des erreurs de disque) **uniquement** : `sc stop "DiagTrack" & sc config "DiagTrack" start=disabled` + `sc stop "SysMain" & sc config "SysMain" start=disabled` - Redémarrer le PC | Pour annuler : `sc config "DiagTrack" start=auto` + `sc config "SysMain" start=auto`
 <input type="checkbox">
 <span class="checkmark"></span>
 
@@ -114,6 +118,7 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/) pour de meilleures performances
 * Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et pouvoir chiffrer les archives. Je déconseille WinRAR qui n'est pas open source, compresse moins bien et chiffre moins efficacement les archives
 * Utiliser [Hat.sh](https://hat.sh/) pour chiffrer vos documents sensibles avec mot de passe côté client
+* Si vous souhaitez un VPN gratuit, [ProtonVPN](https://protonvpn.com/fr/) est le meilleur choix. Evitez tous les autres VPN gratuits qui vont voler vos données personnelles
 * Utiliser [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) pour contrôler tous vos composants RGB via un seul logiciel. Ainsi, on évite les logiciels comme Razer Synapse ou Dragon Center qui consomment énormément de ressources en arrière-plan
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
 
@@ -124,4 +129,4 @@ e9a42b02-d5df-448d-aa00-03f14749eb61` pour l’afficher). Dans les paramètres a
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 27/05/2022*
+*Mise à jour : 28/05/2022*
