@@ -51,10 +51,6 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <input type="checkbox">
 <span class="checkmark"></span>
 
-<label class="container">Activer le TRIM pour augmenter la durée de vie du SSD en répartissant les données sur toutes les puces du lecteur : `fsutil behavior set DisableDeleteNotify 0`
-<input type="checkbox">
-<span class="checkmark"></span>
-
 <label class="container">Réduire les ressources du processeur réservées pour certains processus Windows : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000020 /f`
 <input type="checkbox">
 <span class="checkmark"></span>
