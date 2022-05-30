@@ -1,0 +1,42 @@
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+
+h2 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+
+body {
+    background-color: #333;
+    color: white;
+    font-family: "Arial";
+    text-align: center;
+    user-select: none;
+}
+
+#btn {
+	background-color: #fff;
+    border-radius: 5px;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 40px;
+	cursor: pointer;
+	transition: 0.2s;
+    width: 150px;
+    height: 60px;
+    vertical-align: middle;
+    box-shadow: 0 0 2px #333,
+                0 0 2px #333,
+                0 0 2px #333,
+                0 0 2px #333;
+}
+
+#btn:hover {
+	background-color: rgb(200, 200, 200);
+}
