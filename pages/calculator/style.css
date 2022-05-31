@@ -1,3 +1,24 @@
+h1 {
+    font-size: 50px;
+    color: #fff;
+    font-family: Arial ;
+    text-shadow: 2px 2px 8px black;
+}
+
+body {
+    background-color: #333;
+    text-align: center;
+    user-select: none;
+}
+
+div {
+    background-color: #252525;
+    width: 950px;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+}
+
 input {
     width: 100px;
     height: 75px;
@@ -9,10 +30,44 @@ input {
     border-style: none;
     box-shadow: 2px 2px 4px black;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 input:hover {
     background-color:#222;
+}
+
+.lol {
+    color: #000;
+    background-color: #efe22e;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.lol2 {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.lol3 {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.lol:hover {
+    background-color: #fff897;
+}
+
+.lol2:hover {
+    background-color: #fff;
+}
+
+.lol3:hover {
+    background-color: #fff;
 }
 
 #clear {
@@ -26,73 +81,24 @@ input:hover {
     border-style: none;
     box-shadow: 2px 2px 4px black;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 #clear:hover {
     background-color: rgb(53, 28, 28);
 }
 
-.lol {
-    color: #000;
-    background-color: #efe22e;
-    cursor: pointer;
-}
-
-.lol2 {
-    color: #000;
-    background-color: #ccc;
-    cursor: pointer;
-}
-
-.lol:hover {
-    background-color: #fff897;
-}
-
-.lol2:hover {
-    background-color: #fff;
-}
-
-.lol3 {
-    color: #000;
-    background-color: #ccc;
-    cursor: pointer;
-}
-
-.lol3:hover {
-    background-color: #fff;
-}
-
-h1 {
-    font-size: 50px;
-    color: #fff;
-    font-family: Arial ;
-    text-shadow: 2px 2px 8px black;
-}
-
-body {
-    background-color: #333;
-}
-
-div {
-    background-color: #252525;
-    width: 950px;
-    border-radius: 50px;
-}
-
 #display {
     width: 800px;
     height: 75px;
-    text-align: center;
     background-color:rgb(28, 28, 28);
     font-size: 25px;
     cursor: default;
+    text-align: center;
+    user-select: contain;
 }
 
 @media only screen and (max-width: 1000px) {
-    #display {
-        width: 90%;
-        height: 60px;
-    }
     input {
         width: 60px;
         height: 60px;
@@ -100,6 +106,10 @@ div {
     }
     div {
         width: 95%;
+    }
+    #display {
+        width: 90%;
+        height: 60px;
     }
 }
 
