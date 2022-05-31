@@ -11,22 +11,6 @@ body {
   text-shadow: 2px 2px 8px black;
 }
 
-footer {
-  position: absolute;
-  width: 100%;
-  bottom: 0; left: 0; right: 0;
-}
-
-a {
-  color: rgb(225, 60, 60);
-  text-decoration:none;
-  font-size: 50px;
-}
-
-a:hover {
-  color: rgb(255, 130, 130);
-}
-
 .bouton {
   width: 200px;
   height: 80px;
@@ -35,20 +19,20 @@ a:hover {
   color: rgb(225, 60, 60);
   cursor: pointer;
   font-size: 25px;
-  transition-duration: 0.2s;
-  box-shadow: 0 0 14px rgb(255, 72, 72),
-              0 0 14px rgb(255, 72, 72),
-              0 0 14px rgb(255, 72, 72),
-              0 0 14px rgb(255, 72, 72);
+  transition: 0.2s;
+  box-shadow: 0 0 10px rgb(255, 72, 72),
+                0 0 10px rgb(255, 72, 72),
+                0 0 10px rgb(255, 72, 72),
+                0 0 10px rgb(255, 72, 72);
 }
 
 .bouton:hover {
   background: rgba(255, 37, 37, 0.2);
   color: white;
-  box-shadow: 0 0 14px rgb(255, 110, 110),
-              0 0 14px rgb(255, 110, 110),
-              0 0 14px rgb(255, 110, 110),
-              0 0 14px rgb(255, 110, 110);
+  box-shadow: 0 0 12px rgb(255, 110, 110),
+              0 0 12px rgb(255, 110, 110),
+              0 0 12px rgb(255, 110, 110),
+              0 0 12px rgb(255, 110, 110);
 }
 
 #chrono {
