@@ -19,7 +19,6 @@ input[type=checkbox]:before {
          left: 0;
          border: 2px solid #555555;
          background-color: #333;
-	 -moz-appearance: initial;
 }
 
 input[type=checkbox]:checked:after {
@@ -33,7 +32,6 @@ input[type=checkbox]:checked:after {
 	transform: rotate(45deg);
 	top: 2px;
 	left: 6px;
-	-moz-appearance: initial;
 }
 
 .label-for-check {
