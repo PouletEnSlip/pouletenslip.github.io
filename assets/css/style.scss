@@ -42,7 +42,11 @@
   display: block;
 }
 
-.container input:checked ~ .label {
+.container input:checked ~ #label1 {
+  text-decoration: line-through;
+}
+
+.container input:checked ~ #label1:after {
   text-decoration: line-through;
 }
 
