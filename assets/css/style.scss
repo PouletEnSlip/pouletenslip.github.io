@@ -27,7 +27,7 @@ input[type=checkbox]:checked:after {
 	width: 5px;
 	height: 10px;
 	border: solid black;
-	//border-width: 0 2px 2px 0;
+	border-width: 0 2px 2px 0;
 	transform: rotate(45deg);
 	position: absolute;
 	top: 2px;
@@ -36,6 +36,7 @@ input[type=checkbox]:checked:after {
 
 .label-for-check:hover {
 	cursor: pointer;
+	padding-left: 10px;
 }
 
 .check-with-label:checked + .label-for-check {
