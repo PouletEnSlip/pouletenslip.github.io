@@ -27,15 +27,15 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
   
-<input type="checkbox" class="check-with-label" id="idinput"><label class="label-for-check" for="idinput">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label><br><br>
+<input type="checkbox" class="check-with-label" id="idinput"><label class="label-for-check" for="idinput">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label><br>
 
-<input type="checkbox" class="check-with-label" id="idinput2"><label class="label-for-check" for="idinput2">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label><br><br>
+<input type="checkbox" class="check-with-label" id="idinput2"><label class="label-for-check" for="idinput2">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
   
-<input type="checkbox" class="check-with-label" id="idinput3"><label class="label-for-check" for="idinput3">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`</label><br><br>
+<input type="checkbox" class="check-with-label" id="idinput3"><label class="label-for-check" for="idinput3">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`</label><br>
   
-<input type="checkbox" class="check-with-label" id="idinput18"><label class="label-for-check" for="idinput18">Désactiver les Widgets (Windows 11) : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f`</label><br><br>
+<input type="checkbox" class="check-with-label" id="idinput18"><label class="label-for-check" for="idinput18">Désactiver les Widgets (Windows 11) : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f`</label><br>
   
-<input type="checkbox" class="check-with-label" id="idinput4"><label class="label-for-check" for="idinput4">Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)</label><br><br>
+<input type="checkbox" class="check-with-label" id="idinput4"><label class="label-for-check" for="idinput4">Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)</label><br>
   
 <input type="checkbox" class="check-with-label" id="idinput5"><label class="label-for-check" for="idinput5">Désactiver la mise en veille prolongée (hibernation) pour libérer de la place sur le lecteur (~3Go) et faire en sorte que le PC s'éteigne complètement quand vous l'éteignez, avec ces deux commandes : `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000000 /f` + `powercfg -h off` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power" /v HiberbootEnabled /t REG_DWORD /d 00000001 /f` + `powercfg -h on`</label><br><br>
   
