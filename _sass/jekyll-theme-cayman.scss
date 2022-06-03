@@ -112,15 +112,15 @@ a {
   background-size: cover;
 
   @include large {
-    padding: 5rem 5rem;
+    padding: 4rem;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: 3rem;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: 2rem;
   }
 }
 
