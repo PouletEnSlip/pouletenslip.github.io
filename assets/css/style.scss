@@ -3,6 +3,14 @@
 
 @import 'jekyll-theme-cayman';
 
+.check-with-label:hover, .label-for-check:hover {
+  cursor: pointer;
+}
+
+.check-with-label:checked + .label-for-check {
+  text-decoration: line-through;
+}
+
 .container {
   display: block;
   position: relative;
