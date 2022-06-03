@@ -8,9 +8,10 @@
 }
 
 input[type="checkbox"] {
-  /* ...existing styles */
   display: grid;
   place-content: center;
+  color: #FF0000
+  background-color: #FF0000;
 }
 
 input[type="checkbox"]::before {
@@ -20,10 +21,14 @@ input[type="checkbox"]::before {
   transform: scale(0);
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em #FF0000;
+  color: #FF0000
+  background-color: #FF0000;
 }
 
 input[type="checkbox"]:checked::before {
   transform: scale(1);
+  color: #FF0000
+  background-color: #FF0000;
 }
 
 .label-for-check:hover {
