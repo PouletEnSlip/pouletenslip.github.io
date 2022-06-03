@@ -7,7 +7,6 @@
   display: block;
   position: relative;
   padding-left: 30px;
-  //margin-bottom: 12px;
   cursor: pointer;
 }
 
@@ -21,7 +20,7 @@
 
 .checkmark {
   position: absolute;
-  top: 0;
+  top: 5px;
   left: 0;
   height: 20px;
   width: 20px;
@@ -42,14 +41,6 @@
   display: block;
 }
 
-.container input:checked ~ #label1 {
-  text-decoration: line-through;
-}
-
-.container input:checked ~ #label1:after {
-  text-decoration: line-through;
-}
-
 .container .checkmark:after {
   left: 7px;
   top: 3px;
@@ -58,6 +49,7 @@
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
+  text-decoration: line-through;
 }
 
 .progressionbar {
