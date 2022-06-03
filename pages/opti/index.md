@@ -29,6 +29,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 <label class="container" id="label1">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)
 <input type="checkbox">
+<label class="lol">kkkkkkkkkkkkn
 <span class="checkmark"></span>
 
 <label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)
