@@ -4,10 +4,12 @@
 @import 'jekyll-theme-cayman';
 
 input[type=checkbox] {
-         position: relative;
-	       cursor: pointer;
-    }
-    input[type=checkbox]:before {
+	position: relative;
+	cursor: pointer;
+	padding:10px 10px 10px 10px;
+}
+
+input[type=checkbox]:before {
          content: "";
          display: block;
          position: absolute;
@@ -18,58 +20,59 @@ input[type=checkbox] {
          border: 2px solid #555555;
          border-radius: 5px;
          background-color: #333;
+	padding:10px 10px 10px 10px;
 }
-    input[type=checkbox]:checked:after {
-         content: "";
-         display: block;
-         width: 5px;
-         height: 10px;
-         border: solid black;
-         border-width: 0 2px 2px 0;
-         -webkit-transform: rotate(45deg);
-         -ms-transform: rotate(45deg);
-         transform: rotate(45deg);
-         position: absolute;
-         top: 2px;
-         left: 6px;
+
+input[type=checkbox]:checked:after {
+	content: "";
+	display: block;
+	width: 5px;
+	height: 10px;
+	border: solid black;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	position: absolute;
+	top: 2px;
+	left: 6px;
 }
+
 .label-for-check:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .check-with-label:checked + .label-for-check {
-  text-decoration: line-through;
+	text-decoration: line-through;
 }
 
 .progressionbar {
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  width: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .progress-bar {
-  height: 8px;
-  background: #00c77e;
-  width: 0%;
+	height: 8px;
+	background: #00c77e;
+	width: 0%;
 }
 
 #btnTop {
-  position: fixed;
-  bottom: 15px;
-  right: -100px;
-  width: 55px;
-  height: 55px;
-  font-size: 42px;
-  color: white;
-  background-color: rgba(13, 109, 182, 0.7);
-  border: none;
-  border-radius: 10px;
-  transition: background-color 0.2s ease 0s;
+	position: fixed;
+	bottom: 15px;
+	right: -100px;
+	width: 55px;
+	height: 55px;
+	font-size: 42px;
+	color: white;
+	background-color: rgba(13, 109, 182, 0.7);
+	border: none;
+	border-radius: 10px;
+	transition: background-color 0.2s ease 0s;
 }
 
 #btnTop:hover {
-  background-color: rgba(70, 150, 210, 0.7);
-  transition: background-color 0.2s ease 0s;
+	background-color: rgba(70, 150, 210, 0.7);
+	transition: background-color 0.2s ease 0s;
 }
