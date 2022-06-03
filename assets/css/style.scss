@@ -42,15 +42,15 @@
   display: block;
 }
 
-.container input:checked ~ .container:after {
+.container input:checked ~ .container {
   text-decoration: line-through;
 }
 
 .container .checkmark:after {
   left: 7px;
   top: 3px;
-  //width: 5px;
-  //height: 10px;
+  width: 5px;
+  height: 10px;
   //border: solid white;
   //border-width: 0 3px 3px 0;
   transform: rotate(45deg);
