@@ -27,7 +27,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
 
-<label class="container" id="label1">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller). Je déconseille d'utiliser des "debloater" qui peuvent casser le système
+<label class="container" id="label1" for="input1">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller). Je déconseille d'utiliser des "debloater" qui peuvent casser le système
 <input type="checkbox" id="input1">
 <span class="checkmark"></span>
 
