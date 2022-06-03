@@ -27,9 +27,9 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
   
-<input type="checkbox" class="check-with-label" id="idinput"><label class="label-for-check" for="idinput">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
 
-<input type="checkbox" class="check-with-label" id="idinput2"><label class="label-for-check" for="idinput2">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
   
 <input type="checkbox" class="check-with-label" id="idinput3"><label class="label-for-check" for="idinput3">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`</label>
   
