@@ -84,4 +84,4 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 02/06/2022*
+*Mise à jour : 03/06/2022*
