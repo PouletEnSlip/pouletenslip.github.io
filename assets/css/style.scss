@@ -3,6 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
+input[type='checkbox'] {
+  padding: 10px 10px 10px 10px;
+}
+
 .label-for-check:hover {
   cursor: pointer;
 }
