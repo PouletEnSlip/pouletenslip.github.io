@@ -3,6 +3,9 @@
 
 @import 'jekyll-theme-cayman';
 
+.check-with-label {
+  display: none;
+}
 .check-with-label:hover, .label-for-check:hover {
   cursor: pointer;
 }
