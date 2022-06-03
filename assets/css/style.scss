@@ -23,8 +23,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
   background-color: #eee;
 }
 
@@ -32,7 +32,7 @@
   background: linear-gradient(0deg, rgba(26,149,199,1) 0%, rgba(0,237,255,1) 100%);
 }
 
-.container input:checked ~ .label {
+.container input:checked ~ .container {
   text-decoration: line-through;
 }
 
