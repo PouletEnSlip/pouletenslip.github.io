@@ -4,7 +4,6 @@
 @import 'jekyll-theme-cayman';
 
 input[type=checkbox] {
-	position: relative;
 	cursor: pointer;
 }
 
@@ -27,19 +26,14 @@ input[type=checkbox]:checked:after {
 	width: 5px;
 	height: 10px;
 	border: solid black;
-	border-width: 0 2px 2px 0;
+	border-width: 2px 2px 2px 2px;
 	transform: rotate(45deg);
-	position: absolute;
 	top: 2px;
 	left: 6px;
 }
 
 .label-for-check {
-	padding-left: 20px;
-}
-
-.label-for-check:hover {
-	cursor: pointer;
+	padding-left: 15px;
 }
 
 .check-with-label:checked + .label-for-check {
