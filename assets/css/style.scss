@@ -14,7 +14,7 @@ input[type=checkbox]:before {
          position: absolute;
          width: 15px;
          height: 15px;
-         top: 2px;
+         top: 0;
          left: 0;
          border: 2px solid #555555;
          background-color: #333;
@@ -34,7 +34,7 @@ input[type=checkbox]:checked:after {
 }
 
 .label-for-check {
-	padding-left: 15px;
+	padding-left: 10px;
 }
 
 .check-with-label:checked + .label-for-check {
