@@ -26,24 +26,18 @@ Une fois que tout est bien à jour et que le PC a été redémarré :
 Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour prévenir des bugs du système. Nettoyer aussi régulièrement votre PC de la poussière pour éviter aux composants de trop chauffer et donc de perdre des performances.
 
 ## Optimisations avancées (permanentes)
-
-<label class="container">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)
-<input type="checkbox">
-<span class="checkmark"></span>
   
-<div>
+<ul>
+  <li>
   <input type="checkbox" class="check-with-label" id="idinput" />
   <label class="label-for-check" for="idinput">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
-</div>
+  </li>
 
-<div>
+<li>
     <input type="checkbox" class="check-with-label" id="idinput2" />
     <label class="label-for-check" for="idinput2">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
-  </div>
-
-<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)
-<input type="checkbox">
-<span class="checkmark"></span>
+  </li>
+ </ul>
 
 <label class="container">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`
 <input type="checkbox">
