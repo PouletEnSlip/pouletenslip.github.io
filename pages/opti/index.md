@@ -82,6 +82,6 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
 ### Sources
-[Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/gsync/gsync101-input-lag-tests-and-settings/14/) | [PrivacyGuides](https://privacyguides.org/)
+[Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/) | [PrivacyGuides](https://privacyguides.org/)
 
 *Mise à jour : 03/06/2022*
