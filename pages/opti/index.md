@@ -27,20 +27,20 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
 
-<label class="container">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller). Je déconseille d'utiliser des "debloater" qui peuvent casser le système
-<input type="checkbox">
+<label class="container" id="label1">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller). Je déconseille d'utiliser des "debloater" qui peuvent casser le système
+<input type="checkbox" id="input1">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)
-<input type="checkbox">
+<label class="container" id="label2">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)
+<input type="checkbox" id="input2">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`
-<input type="checkbox">
+<label class="container" id="label3">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`
+<input type="checkbox" id="input3">
 <span class="checkmark"></span>
 
-<label class="container">Désactiver les Widgets (Windows 11) : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f`
-<input type="checkbox">
+<label class="container" id="label4">Désactiver les Widgets (Windows 11) : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /f`
+<input type="checkbox" id="input4">
 <span class="checkmark"></span>
 
 <label class="container">Désactiver l’amélioration de la précision du pointeur de la souris pour être plus précis (Panneau de configuration - Matériels - Souris - Options du pointeur)
