@@ -12,11 +12,11 @@ input[type=checkbox] {
 input[type=checkbox]:before {
          content: "";
          display: block;
-         position: absolute;
+         //position: absolute;
          width: 15px;
          height: 15px;
-         top: 0;
-         left: 0;
+         //top: 0;
+         //left: 0;
          border: 2px solid #555555;
          background-color: #333;
 }
