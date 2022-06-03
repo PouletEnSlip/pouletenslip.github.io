@@ -27,7 +27,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 ## Optimisations avancées (permanentes)
   
-<input type="checkbox" class="check-with-label" id="idinput"><label class="label-for-check" for="idinput">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
+<label class="label-for-check" for="idinput"><input type="checkbox" class="check-with-label" id="idinput">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
 
 <input type="checkbox" class="check-with-label" id="idinput2"><label class="label-for-check" for="idinput2">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
   
