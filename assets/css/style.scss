@@ -32,10 +32,6 @@
   background: linear-gradient(0deg, rgba(26,149,199,1) 0%, rgba(0,237,255,1) 100%);
 }
 
-.container input:checked ~ .container {
-  text-decoration: line-through;
-}
-
 .checkmark:after {
   content: "";
   position: absolute;
@@ -44,6 +40,10 @@
 
 .container input:checked ~ .checkmark:after {
   display: block;
+}
+
+.container input:checked ~ .container:after {
+  text-decoration: line-through;
 }
 
 .container .checkmark:after {
