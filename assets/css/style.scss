@@ -41,6 +41,21 @@
   display: block;
 }
 
+.container input:checked ~ .container {
+  font-weight: 800;
+}
+
+.container:after {
+  content: "";
+  position: absolute;
+  display: none;
+  font-weight: 800;
+}
+
+.container input:checked ~ .container:after {
+  font-weight: 800;
+}
+
 .container .checkmark:after {
   left: 7px;
   top: 3px;
@@ -49,7 +64,6 @@
   border: solid white;
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
-  text-decoration: line-through;
 }
 
 .progressionbar {
