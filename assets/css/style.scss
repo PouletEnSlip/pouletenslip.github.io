@@ -27,12 +27,12 @@
   background-color: #eee;
 }
 
-.container input:checked ~ .checkmark {
-  background: linear-gradient(0deg, rgba(26,149,199,1) 0%, rgba(0,237,255,1) 100%);
+.container input:checked ~ .lol {
+  text-decoration: line-through;
 }
 
-.container input:checked ~ .lol {
-  text-decoration: underline;
+.container input:checked ~ .checkmark {
+  background: linear-gradient(0deg, rgba(26,149,199,1) 0%, rgba(0,237,255,1) 100%);
 }
 
 .checkmark:after {
