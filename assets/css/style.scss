@@ -6,57 +6,13 @@
 .check-with-label {
   display: none;
 }
-.check-with-label:hover, .label-for-check:hover {
+
+.label-for-check:hover {
   cursor: pointer;
 }
 
 .check-with-label:checked + .label-for-check {
   text-decoration: line-through;
-}
-
-.container {
-  display: block;
-  position: relative;
-  padding-left: 30px;
-  cursor: pointer;
-}
-
-.container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
-}
-
-.checkmark {
-  position: absolute;
-  top: 5px;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.container input:checked ~ .checkmark:after {
-  display: block;
-  color: #aaa;
-}
-
-.container .checkmark:after {
-  left: 7px;
-  top: 3px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
 }
 
 .progressionbar {
