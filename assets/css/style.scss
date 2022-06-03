@@ -32,6 +32,10 @@
   background: linear-gradient(0deg, rgba(26,149,199,1) 0%, rgba(0,237,255,1) 100%);
 }
 
+.container input:checked ~ .label {
+  text-decoration: line-through;
+}
+
 .checkmark:after {
   content: "";
   position: absolute;
@@ -83,8 +87,4 @@
 #btnTop:hover {
   background-color: rgba(70, 150, 210, 0.7);
   transition: background-color 0.2s ease 0s;
-}
-
-#label1:checked + #input1 {
-  text-decoration: line-through;
 }
