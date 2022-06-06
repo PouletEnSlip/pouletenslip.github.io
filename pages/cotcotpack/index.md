@@ -4,55 +4,46 @@ layout: cotcot
 
 <p style="text-align:justify;">CotCot is a PVP / Build / Survival resource pack for Minecraft Java and Bedrock. The resource pack is compatible from 1.7.2 to 1.8.9 and from 1.13 to 1.19.x. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap and more. Fully compatible with OptiFine and Sodium. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.</p>
 
+<div class="slideshow-container">
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">1 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/0.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">2 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/1.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">3 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/2.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">4 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/3.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">5 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/4.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">6 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/5.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">7 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/6.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">8 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/7.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">9 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/8.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
+  <div class="numbertext">10 / 10</div>
   <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/9.png" style="width:100%">
-  <div class="text">Caption Text</div>
 </div>
 <a class="prev" onclick="plusSlides(-1)">❮</a>
 <a class="next" onclick="plusSlides(1)">❯</a>
