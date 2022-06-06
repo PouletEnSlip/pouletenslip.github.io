@@ -129,8 +129,8 @@ img {
 
 .dot {
 	cursor: pointer;
-	height: 15px;
-	width: 15px;
+	height: 12px;
+	width: 12px;
 	margin: 0 2px;
 	background-color: #bbb;
 	border-radius: 50%;
@@ -139,7 +139,7 @@ img {
 }
 
 .active, .dot:hover {
-	background-color: #707070;
+	background-color: #808080;
 }
 
 .fade {
