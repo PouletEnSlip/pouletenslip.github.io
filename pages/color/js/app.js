@@ -8,7 +8,6 @@
 
     function changeHex() {
         let hex = '#'
-
         for (let i = 0; i < 6; i++) {
             const index = Math.floor(Math.random()*hexValues.length)
             hex += hexValues[index]
