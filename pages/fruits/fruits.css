@@ -4,16 +4,29 @@ body {
   color:#bbb;
 }
 
+h1 {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: #AA5500;
+	font-size: 50px;
+}
+
+a:hover {
+	color: white;
+}
+
 #bouton1, #bouton2 {
 	background-color: #717171;
 	border: 1px solid #717171;
 	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+	width: 130px;
+	height: 40px;
 	font-size: 16px;
 	cursor: pointer;
+	transition: 0.2s;
 }
 
 #bouton1:hover, #bouton2:hover {
@@ -25,12 +38,11 @@ body {
 	background-color: #914c4c;
 	border: 1px solid #914c4c;
 	color: white;
-	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
+	width: 130px;
+	height: 40px;
 	font-size: 16px;
 	cursor: pointer;
+	transition: 0.2s;
 }
 
 #bouton3:hover {
@@ -44,4 +56,38 @@ body {
 
 #bouton3:disabled {
 	color: #c26565;
+}
+
+input[type=checkbox] {
+	position: relative;
+	cursor: pointer;
+	-moz-appearance: initial;
+	vertical-align: middle;
+}
+
+input[type=checkbox]:before {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #555;
+	background-color: #333;
+}
+
+input[type=checkbox]:checked:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 5px;
+	height: 10px;
+	border: solid rgb(200, 200, 200);
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+	top: 2px;
+	left: 6px;
+}
+
+label {
+	padding-left: 10px;
+	vertical-align: middle;
 }
