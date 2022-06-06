@@ -4,13 +4,13 @@ layout: default
 
 ### ------------------ WEB ------------------
 #### [My Calculator Website](pages/calculator/)
-#### [My Fruit Choice Website](pages/fruits/)
+#### [My Fruit List Website](pages/fruits/)
 #### [My ClickTest Website](pages/clicktest/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My Chronometer Website](pages/chronometer/)
 #### [My Heads or Tails Website](pages/headsortails/)
 #### [My Digital Clock Website](pages/clock/)
-#### [My Background Randomizer Website](pages/color/#)
+#### [My Background Randomizer Website](pages/color/)
 #### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
 <br>
 
