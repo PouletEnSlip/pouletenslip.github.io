@@ -99,13 +99,14 @@ img {
 	width: auto;
 	padding: 16px;
 	margin-top: -22px;
-	color: #000;
+	color: #fff;
 	font-weight: bold;
 	font-size: 20px;
 	transition: 0.2s ease;
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	text-decoration: none;
+	background-color: #00000080
 }
 
 .next {
@@ -114,11 +115,12 @@ img {
 }
 
 .numbertext {
-	color: #000;
+	color: #fff;
 	font-size: 12px;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
+	background-color: #00000080
 }
 
 .dot {
