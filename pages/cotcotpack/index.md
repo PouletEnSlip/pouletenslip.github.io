@@ -48,7 +48,6 @@ layout: cotcot
 <a class="prev" onclick="plusSlides(-1)">❮</a>
 <a class="next" onclick="plusSlides(1)">❯</a>
 </div>
-<br>
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
@@ -59,6 +58,7 @@ layout: cotcot
   <span class="dot" onclick="currentSlide(7)"></span>
   <span class="dot" onclick="currentSlide(8)"></span>
   <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
 </div>
 
 ## I highly recommend
