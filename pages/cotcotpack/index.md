@@ -7,7 +7,7 @@ layout: cotcot
 <div class="slideshow-container">
 <div class="mySlides fade">
   <div class="numbertext">1 / 10</div>
-  <img src="https://github.com/PouletEnSlip/CotCotPack/blob/main/img/0.png" style="width:100%">
+  <img src="/img/0.png" style="width:100%">
 </div>
 <div class="mySlides fade">
   <div class="numbertext">2 / 10</div>
