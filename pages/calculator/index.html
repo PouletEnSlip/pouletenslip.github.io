@@ -1,12 +1,14 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="style.css">
     <title>Calculator | PouletEnSlip</title>
+    <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
-    <center><h1>Calculator</h1>
+    <h1>Calculator</h1>
     <form name="calc">
         <div><input id="display" type="text" id="myInput" value="" disabled></input><button id="clear" onclick="document.getElementById('myInput').value=''" title="Clear">C</button></div></br> 
         <input type="button" value="7" onClick="calc.display.value+='7'">
@@ -36,7 +38,8 @@
         <input class="lol" type="button" value="+" onClick="calc.display.value+='+'">
         <input class="lol3" type="button" value="%" onClick="calc.display.value+='/100'">
         <input class="lol3" type="button" value="Tan" onClick="calc.display.value+='Math.tan('">
-        <input class="lol3" type="button" value="exp" onClick="calc.display.value+='Math.exp('"></br>
-    </form></center>
+        <input class="lol3" type="button" value="exp" onClick="calc.display.value+='Math.exp('">
+    </form></br>
+    <a href="../">&#x2190;</a>
 </body>
 </html>

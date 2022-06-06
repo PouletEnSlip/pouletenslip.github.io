@@ -11,6 +11,16 @@ body {
     user-select: none;
 }
 
+a {
+    text-decoration: none;
+    color: #efe22e;
+    font-size: 50px;
+}
+
+a:hover {
+    color:white;
+}
+
 div {
     background-color: #252525;
     width: 950px;
@@ -27,7 +37,7 @@ input {
     margin: 10px;
     background-color: #000;
     color: #fff;
-    border-style: none;
+    border: none;
     box-shadow: 2px 2px 4px black;
     cursor: pointer;
     transition: 0.2s;
@@ -78,7 +88,7 @@ input:hover {
     margin: 10px;
     background-color: #000;
     color: #fff;
-    border-style: none;
+    border: none;
     box-shadow: 2px 2px 4px black;
     cursor: pointer;
     transition: 0.2s;
