@@ -98,14 +98,12 @@ img {
 	top: 50%;
 	width: auto;
 	padding: 16px;
-	margin-top: -22px;
+	margin-top: -24px;
 	color: #fff;
 	font-weight: bold;
 	font-size: 20px;
 	transition: 0.2s ease;
 	border-radius: 0 3px 3px 0;
-	user-select: none;
-	text-decoration: none;
 	background-color: #00000080;
 }
 
@@ -122,6 +120,7 @@ img {
 .numbertext {
 	color: #fff;
 	font-size: 12px;
+	font-weight: bold;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
@@ -140,7 +139,7 @@ img {
 }
 
 .active, .dot:hover {
-	background-color: #aaa;
+	background-color: #555;
 }
 
 .fade {
