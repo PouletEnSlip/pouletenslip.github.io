@@ -9,12 +9,24 @@ body {
     background-color: #333;
     color: white;
     user-select: none;
+    text-align: center;
+}
+
+a {
+    text-decoration:none;
+    font-size: 50px;
+    color: #AA5500;
+}
+
+a:hover {
+    color : white;
 }
 
 .contenu {
     display: grid;
     grid-template-columns: repeat(3, auto);
     width: 373px;
+    margin: auto;
 }
 
 .cell {
@@ -54,22 +66,19 @@ body {
 
 #new {
 	background-color: #4189d7;
-	border: 1px solid #4189d7;
-    	border-radius: 5px;
+	border: none;
+    border-radius: 5px;
 	color: white;
 	padding: 10px 20px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-    	font-family: "Arial";
+    font-family: "Arial";
 	font-size: 16px;
-	cursor: pointer;
-	transition-duration: 0.1s;
+    cursor: pointer;
+	transition: 0.2s;
 }
 
 #new:hover {
 	background-color: white;
-    border: 1px solid white;
+    border: none;
 	color: #4189d7;
     font-size: 18px;
     box-shadow: 0 0 4px white,
@@ -78,7 +87,7 @@ body {
                 0 0 4px white;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .contenu {
         width: 250px;
     }
