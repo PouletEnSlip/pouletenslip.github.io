@@ -49,8 +49,6 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
   
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver l'optimisation de la distribution dans les paramètres Windows (Paramètres - Windows Update - Options avancées - Optimisation de la distribution)</label>
   
-<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver le bureau à distance pour plus de sécurité (Paramètres - Système - Bureau à distance)</label>
-  
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver les résultats Bing dans la Recherche Windows : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000001 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer" /v DisableSearchBoxSuggestions /t REG_DWORD /d 00000000 /f`</label>
   
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Remettre l'ancien menu du clic droit de Windows 10 sur Windows 11 : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` - Redémarrer le PC | Pour annuler : `REG DELETE "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f`</label>
