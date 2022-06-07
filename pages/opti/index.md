@@ -53,7 +53,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
   
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Remettre l'ancien menu du clic droit de Windows 10 sur Windows 11 : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` - Redémarrer le PC | Pour annuler : `REG DELETE "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f`</label>
   
-<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver les services Expériences des utilisateurs connectés et télémétrie (limiter l'envoi de données de diagnostic à Microsoft) et Sysmain (éviter des erreurs de disque) **uniquement** : `sc stop "DiagTrack" & sc config "DiagTrack" start=disabled` + `sc stop "SysMain" & sc config "SysMain" start=disabled` - Redémarrer le PC | Pour annuler : `sc config "DiagTrack" start=auto` + `sc config "SysMain" start=auto`</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver les services "Expériences des utilisateurs connectés et télémétrie" (limiter l'envoi de données de diagnostic à Microsoft) et "Sysmain" (éviter des erreurs de disque) **uniquement** (Touche Win + R - Taper "services.msc")</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">**Modifier les options d’alimentation dans le panneau de configuration :** CPU Intel → choisir "Performances élevées" | CPU AMD Ryzen 1000, 2000, 3000 et 4000 → choisir "AMD Ryzen Balanced" | CPU AMD Ryzen 5000 → choisir "Utilisation normale". Dans les paramètres avancés : arrêter le disque dur après 0min (jamais) et désactiver la suspension sélective USB</label>
 
