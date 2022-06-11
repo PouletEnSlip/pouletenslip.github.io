@@ -52,3 +52,7 @@ a:hover {
 #btn:hover {
 	background-color: rgb(200, 200, 200);
 }
+
+#btn:active {
+	font-size: 50px;
+}
