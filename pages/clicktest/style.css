@@ -46,6 +46,10 @@ h1 {
     background-color: #AA5050;
 }
 
+#clicker:active {
+	font-size: 60px;
+}
+
 #cps {
     font-size: 25px;
     font-weight: bold;
