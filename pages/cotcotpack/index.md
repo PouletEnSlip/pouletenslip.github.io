@@ -6,47 +6,51 @@ layout: cotcot
 
 <div class="slideshow-container">
 <div class="mySlides fade">
-  <div class="numbertext">1 / 11</div>
+  <div class="numbertext">1 / 12</div>
   <img src="./img/0.png" style="width:100%">
 </div>
   <div class="mySlides fade">
-  <div class="numbertext">2 / 11</div>
+  <div class="numbertext">2 / 12</div>
   <img src="./img/1.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">3 / 11</div>
+  <div class="numbertext">3 / 12</div>
   <img src="./img/10.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">4 / 11</div>
+  <div class="numbertext">4 / 12</div>
   <img src="./img/2.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">5 / 11</div>
+  <div class="numbertext">5 / 12</div>
   <img src="./img/3.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">6 / 11</div>
+  <div class="numbertext">6 / 12</div>
   <img src="./img/4.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">7 / 11</div>
+  <div class="numbertext">7 / 12</div>
   <img src="./img/5.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">8 / 11</div>
+  <div class="numbertext">8 / 12</div>
   <img src="./img/6.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">9 / 11</div>
+  <div class="numbertext">9 / 12</div>
+  <img src="./img/11.png" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10 / 12</div>
   <img src="./img/7.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">10 / 11</div>
+  <div class="numbertext">11 / 12</div>
   <img src="./img/8.png" style="width:100%">
 </div>
 <div class="mySlides fade">
-  <div class="numbertext">11 / 11</div>
+  <div class="numbertext">12 / 12</div>
   <img src="./img/9.png" style="width:100%">
 </div>
 <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -64,6 +68,7 @@ layout: cotcot
   <span class="dot" onclick="currentSlide(9)"></span>
   <span class="dot" onclick="currentSlide(10)"></span>
   <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
 </div>
 
 ## I highly recommend
