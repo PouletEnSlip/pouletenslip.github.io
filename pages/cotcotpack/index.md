@@ -35,11 +35,11 @@ layout: cotcot
 </div>
 <div class="mySlides fade">
   <div class="numbertext">8 / 12</div>
-  <img src="./img/6.png" style="width:100%">
+  <img src="./img/11.png" style="width:100%">
 </div>
 <div class="mySlides fade">
   <div class="numbertext">9 / 12</div>
-  <img src="./img/11.png" style="width:100%">
+  <img src="./img/6.png" style="width:100%">
 </div>
 <div class="mySlides fade">
   <div class="numbertext">10 / 12</div>
