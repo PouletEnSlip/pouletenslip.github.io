@@ -71,6 +71,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/) pour de meilleures performances
 * Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et pouvoir chiffrer les archives. Je déconseille WinRAR qui n'est pas open source, compresse moins bien et chiffre moins efficacement les archives
 * Utiliser [Hat.sh](https://hat.sh/) pour chiffrer vos documents sensibles avec mot de passe côté client
+* Utiliser [ExifCleaner](https://exifcleaner.com/) pour supprimer les métadonnées de vos images et PDF
 * Si vous souhaitez un VPN gratuit, [ProtonVPN](https://protonvpn.com/download) est le meilleur choix. Evitez tous les autres VPN gratuits qui vont voler vos données personnelles
 * Utiliser [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) pour contrôler tous vos composants RGB via un seul logiciel. Ainsi, on évite les logiciels comme Razer Synapse ou Dragon Center qui consomment énormément de ressources en arrière-plan
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
@@ -82,4 +83,4 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 10/06/2022*
+*Mise à jour : 16/06/2022*
