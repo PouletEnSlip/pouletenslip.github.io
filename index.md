@@ -11,7 +11,6 @@ layout: default
 #### [My Heads or Tails Website](pages/headsortails/)
 #### [My Digital Clock Website](pages/clock/)
 #### [My Background Randomizer Website](pages/color/)
-#### [My Cookie Form Website](https://github.com/PouletEnSlip/Cookies)
 <br>
 
 ### ------------------ C++ ------------------
