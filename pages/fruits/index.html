@@ -1,25 +1,128 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <link rel="stylesheet" href="fruits.css">
-  <title>Fruit list | PouletEnSlip</title>
-  <script src="script.js"></script>
+	<title>Fruit list | PouletEnSlip</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" href="fruits.css">
+	<link rel="stylesheet" href="atom-one-dark.min.css">
 </head>
 <body>
-  <h1>Fruit list:</h1>
-  <form>
-    <input type="checkbox" id="cocher" name="check" onclick="cocherDecocher(this.checked);"><label>Check/uncheck all</label><br><br>
-    <input type="checkbox" id="apple" name="case" class="fruits" onclick="changerTexte1()"><label>Apple</label><br>
-    <input type="checkbox" id="pear" name="case" class="fruits" onclick="changerTexte1()"><label>Pear</label><br>
-    <input type="checkbox" id="banana" name="case" class="fruits" onclick="changerTexte1()"><label>Banana</label><br><br>
-    <input type="button" id="bouton1" name="bouton" value="Check all" onclick="boutonCocher()">
-    <input type="button" id="bouton2" name="bouton" value="Uncheck all" onclick="boutonDecocher()" disabled="true">
-    <p id="texte1" style="color:red">You didn't choose a fruit...</p>
-    <input type="button" id="bouton3" name="bouton" value="Submit" onclick="valider()" disabled="true">
-    <p id="texte2"></p>
-  </form>
-  <a href="../../">&#x2190;</a>
+	<h1><a href="../">&#x2190;</a> Fruit list</h1>
+	<form>
+		<input type="checkbox" id="cocher" name="check" onclick="cocherDecocher(this.checked);"><label>Check/uncheck all</label><br><br>
+		<input type="checkbox" id="pomme" name="case" class="fruits" onclick="changerTexte1()"><label>Apple</label><br>
+		<input type="checkbox" id="poire" name="case" class="fruits" onclick="changerTexte1()"><label>Pear</label><br>
+		<input type="checkbox" id="banane" name="case" class="fruits" onclick="changerTexte1()"><label>Banana</label><br><br>
+		<input type="button" id="bouton1" name="bouton" value="Check all" onclick="boutonCocher()">
+		<input type="button" id="bouton2" name="bouton" value="Uncheck all" onclick="boutonDecocher()" disabled="true">
+		<p id="texte1" style="color:red">You didn't choose a fruit...</p>
+		<input type="button" id="bouton3" name="bouton" value="Valider" onclick="valider()" disabled="true">
+		<p id="texte2"></p>
+	</form><br>
+	<pre><code>	function cocherDecocher(etat) {
+		var cases = document.getElementsByTagName('input');
+		for (var i=1; i&lt;cases.length; i++) {
+			if (cases[i].type == 'checkbox') {
+				cases[i].checked = etat;
+				changerTexte1();
+			}
+		}
+	}
+
+	function boutonCocher() {
+		var fruits = document.getElementsByClassName('fruits');
+		fruits[0].checked = true;
+		fruits[1].checked = true;
+		fruits[2].checked = true;
+		cocher.checked = true;
+		changerTexte1();
+	}
+
+	function boutonDecocher() {
+		var fruits = document.getElementsByClassName('fruits');
+		fruits[0].checked = false;
+		fruits[1].checked = false;
+		fruits[2].checked = false;
+		cocher.checked = false;
+		changerTexte1();
+	}
+
+	function changerTexte1() {
+		var tableCheck = document.getElementsByClassName('fruits')
+		var nb = 0;
+		for (var i = 0; i < 3; i++) {
+			if (tableCheck[i].checked == true) nb++;
+			if (nb == 0) {
+				texte1.style.color = "red";
+				texte1.textContent = (`You didn't choose a fruit...`)
+				cocher.checked = false;
+				bouton1.disabled = false
+				bouton2.disabled = true;
+				bouton3.disabled = true;
+			} else if (nb == 1) {
+				texte1.style.color = "cyan";
+				texte1.textContent = (`You have chosen 1 fruit.`);
+				cocher.checked = false;
+				bouton1.disabled = false;
+				bouton2.disabled = false;
+				bouton3.disabled = false;
+			} else if (nb == 2) {
+				texte1.style.color = "cyan";
+				texte1.textContent = (`You have chosen 2 fruits.`);
+				cocher.checked = false;
+				bouton1.disabled = false;
+				bouton2.disabled = false;
+				bouton3.disabled = false;
+			} else {
+				texte1.style.color = "green";
+				texte1.textContent = (`You have chosen 3 fruits.`);
+				cocher.checked = true;
+				bouton1.disabled = true;
+				bouton2.disabled = false;
+				bouton3.disabled = false;
+			}
+		}
+	}
+		
+	function valider() {
+		bouton3.disabled = true;
+		var pomme = document.getElementById("pomme").checked
+		var poire = document.getElementById("poire").checked
+		var banane = document.getElementById("banane").checked
+		if (pomme == true) {
+			pomme = "&lt;b&gt;apple&lt;/b&gt;"
+			if ((poire == true && banane == false) || (poire == false && banane == true)) {
+				pomme = "&lt;b&gt;apple&lt;/b&gt; and one "
+			} else if (poire == true && banane == true) {
+				pomme = "&lt;b&gt;apple&lt;/b&gt;, one "
+			}
+		} else {
+			pomme = ""
+		}
+		if (poire == true) {
+			poire = "&lt;b&gt;pear&lt;/b&gt;"
+			if (banane == true) {
+				poire = "&lt;b&gt;pear&lt;/b&gt; and one "
+			}
+		} else {
+			poire = ""
+		}
+		if (banane == true) {
+			banane = "&lt;b&gt;banana&lt;/b&gt;"
+		} else {
+			banane = ""
+		}
+
+		var total = pomme + poire + banane
+		texte2.innerHTML = `You have chosen one ${total}.&lt;br&gt; Enjoy your meal!`;
+	}
+	</code></pre>
+	<script src="script.js"></script>
+	<script src="highlight.min.js"></script>
+	<script src="highlightjs-line-numbers.js"></script>
+	<script>hljs.highlightAll();</script>
+	<script>hljs.initLineNumbersOnLoad();</script>
 </body>
 </html>

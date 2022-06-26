@@ -1,24 +1,32 @@
-body {
-  font-family: 'Comic Sans MS';
-  background-color: #202020;
-  color:#bbb;
+@font-face {
+	font-family: Roboto;
+	src: url('../../../fonts/Roboto.woff') format('woff');
+	font-display: swap;
+}
+
+html {
+	font-family: Roboto;
+	background-color: #202020;
+	color:#bbb;
 }
 
 h1 {
-	text-decoration: underline;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 2px 2px 4px black;
 }
 
 a {
 	text-decoration: none;
-	color: #AA5500;
-	font-size: 50px;
+	color: #fff;
 }
 
 a:hover {
-	color: white;
+	color: rgb(175, 175, 175);
 }
 
 #bouton1, #bouton2 {
+	font-family: Roboto;
 	background-color: #717171;
 	border: 1px solid #717171;
 	color: white;
@@ -35,6 +43,7 @@ a:hover {
 }
 
 #bouton3 {
+	font-family: Roboto;
 	background-color: #914c4c;
 	border: 1px solid #914c4c;
 	color: white;
@@ -58,7 +67,25 @@ a:hover {
 	color: #c26565;
 }
 
+#bouton1:disabled:hover, #bouton2:disabled:hover {
+	background-color: #717171;
+	border: 1px solid #717171;
+	color: #959595;
+}
+
+#bouton3:disabled:hover {
+	background-color: #914c4c;
+	border: 1px solid #914c4c;
+	color: #c26565;
+}
+
+#texte2 {
+	height: 25px;
+	min-height: 25px;
+}
+
 input[type=checkbox] {
+	font-family: Roboto;
 	position: relative;
 	cursor: pointer;
 	-moz-appearance: initial;
@@ -90,4 +117,10 @@ input[type=checkbox]:checked:after {
 label {
 	padding-left: 10px;
 	vertical-align: middle;
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 30px;
+	}
 }

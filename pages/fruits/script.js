@@ -65,33 +65,33 @@ function changerTexte1() {
   
 function valider() {
     bouton3.disabled = true;
-    var apple = document.getElementById("apple").checked
-    var pear = document.getElementById("pear").checked
-    var banana = document.getElementById("banana").checked
-    if (apple == true) {
-        apple = "<b>apple</b>"
-        if ((pear == true && banana == false) || (pear == false && banana == true)) {
-            apple = "<b>apple</b> and one "
-        } else if (pear == true && banana == true) {
-            apple = "<b>apple</b>, one "
+    var pomme = document.getElementById("pomme").checked
+    var poire = document.getElementById("poire").checked
+    var banane = document.getElementById("banane").checked
+    if (pomme == true) {
+        pomme = "<b>apple</b>"
+        if ((poire == true && banane == false) || (poire == false && banane == true)) {
+            pomme = "<b>apple</b> and one "
+        } else if (poire == true && banane == true) {
+            pomme = "<b>apple</b>, one "
         }
     } else {
-        apple = ""
+        pomme = ""
     }
-    if (pear == true) {
-        pear = "<b>pear</b>"
-        if (banana == true) {
-            pear = "<b>pear</b> and one "
+    if (poire == true) {
+        poire = "<b>pear</b>"
+        if (banane == true) {
+            poire = "<b>pear</b> and one "
         }
     } else {
-        pear = ""
+        poire = ""
     }
-    if (banana == true) {
-        banana = "<b>banana</b>"
+    if (banane == true) {
+        banane = "<b>banana</b>"
     } else {
-        banana = ""
+        banane = ""
     }
 
-    var total = apple + pear + banana
+    var total = pomme + poire + banane
     texte2.innerHTML = `You have chosen one ${total}.<br> Enjoy your meal!`;
 }
