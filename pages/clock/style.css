@@ -1,24 +1,23 @@
+html {
+	background-color: #333;
+    color: white;
+    text-align: center;
+}
+
 h1 {
     font-size: 40px;
     color: #fff;
     text-shadow: 2px 2px 8px black;
 }
-
-body {
-    font-family: Arial;
-    background-color: #333;
-    text-align: center;
-    user-select: none;
-}
   
 a {
-    text-decoration:none;
-    font-size: 50px;
-    color: #AA5500;
+	text-decoration: none;
+	font-size: 40px;
+	color: #fff;
 }
 
 a:hover {
-    color : white;
+	color: rgb(175, 175, 175);
 }
 
 #clock {
@@ -44,5 +43,8 @@ a:hover {
         height: 75px;
         line-height: 75px;
         width: 95%;
+    }
+    h1 {
+        font-size: 30px;
     }
 }

@@ -1,17 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
+    <title>Digital Clock | PouletEnSlip</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
-    <title>Clock | PouletEnSlip</title>
     <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="atom-one-dark.min.css">
 </head>
 <body>
-    <h1>DIGITAL CLOCK</h1>
+    <h1><a href="../">&#x2190;</a> DIGITAL CLOCK</h1>
     <div id="clock"></div><br>
-    <div id="date"></div>
-    <a href="../../">&#x2190;</a>
+    <div id="date"></div><br>
+    <pre><code>	let clock = document.getElementById('clock');
+        let dateActuelle = document.getElementById('date');
+        
+        setInterval(function() {
+            let date = new Date();
+        
+            var h = date.getHours();
+            var m = date.getMinutes();
+            var s = date.getSeconds();
+            var milli = date.getMilliseconds();
+            var ampm = "AM";
+            var trucJour = "th";
+            
+            if (h == 0) {
+                h = 12;
+            }
+            
+            if (h > 12) {
+                h = h - 12;
+                ampm = "PM";
+            }
+        
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+        
+            var tempMilli = String(milli).charAt(0);
+            var finalMilli = Number(tempMilli);
+        
+            clock.innerHTML = h + ":" + m + ":" + s + " " + finalMilli + " " + ampm;
+        
+            var day = date.getUTCDate();
+            var year = date.getUTCFullYear();
+        
+            const jour = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+            let jourActuel = jour[date.getDay()];
+        
+            const mois = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+            let moisActuel = mois[date.getMonth()];
+            
+            if (day == 1 || day == 21 || day == 31) {
+                trucJour = "st";
+            }
+            
+            if (day == 2 || day == 22) {
+                trucJour = "nd";
+            }
+            
+            if (day == 3 || day == 23) {
+                trucJour = "rd";
+            }
+        
+            dateActuelle.innerHTML = jourActuel + ", " + day + trucJour + " " + moisActuel + " " + year;
+        })        
+    </code></pre>
+    <script src="script.js"></script>
+    <script src="highlight.min.js"></script>
+    <script src="highlightjs-line-numbers.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script>hljs.initLineNumbersOnLoad();</script>
 </body>
-<script src="script.js"></script>
 </html>
