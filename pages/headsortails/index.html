@@ -1,19 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no">
-  <link rel="stylesheet" href="style.css">
-  <title>Heads or Tails | PouletEnSlip</title>
+	<title>Heads or Tails | PouletEnSlip</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="atom-one-dark.min.css">
 </head>
 <body>
-  <h1>Heads or Tails</h1>
-  <div id="coin">
-    <div class="side head"></div>
-    <div class="side tail"></div>
-  </div><br><br>
-  <button id="flip" onclick=fnClick()>Flip</button><br><br>
-  <a href="../../">&#x2190;</a>
+	<h1><a href="../">&#x2190;</a> Heads or Tails</h1>
+	<div id="coin">
+		<div class="side head"></div>
+		<div class="side tail"></div>
+	</div><br><br>
+	<button id="flip" onclick=fnClick()>Flip</button><br><br>
+	<pre><code>	function fnClick() {
+		var flipResult = Math.floor(Math.random() * 10);
+		if (flipResult < 5) {
+			coin.className = "flipHead";
+			document.getElementById("flip").disabled = true;
+		} else {
+			coin.className = "flipTail";
+			document.getElementById("flip").disabled = true;
+		}
+	}
+	</code></pre>
+	<script src="script.js"></script>
+	<script src="highlight.min.js"></script>
+	<script src="highlightjs-line-numbers.js"></script>
+	<script>hljs.highlightAll();</script>
+	<script>hljs.initLineNumbersOnLoad();</script>
 </body>
-<script src="script.js"></script>
 </html>

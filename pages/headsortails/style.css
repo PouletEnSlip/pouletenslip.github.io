@@ -16,28 +16,25 @@
     }
 }
 
+html {
+	background-color: #333;
+    color: white;
+    text-align: center;
+}
+
 h1 {
     font-size: 40px;
     color: #fff;
     text-shadow: 2px 2px 8px black;
 }
   
-body {
-    background-color: #333;
-    color: white;
-    font-family: "Arial";
-    text-align: center;
-    user-select: none;
-}
-  
 a {
-    color: rgb(225, 197, 60);
-    text-decoration:none;
-    font-size: 50px;
+	text-decoration: none;
+	color: #fff;
 }
 
 a:hover {
-    color: rgb(204, 204, 204);
+	color: rgb(175, 175, 175);
 }
 
 #coin {
@@ -98,4 +95,10 @@ a:hover {
 
 .flipTail {
     animation: resultTail 2s ease-out forwards;
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 30px;
+	}
 }
