@@ -1,19 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Click Test | PouletEnSlip</title>
-    <link href="style.css" rel="stylesheet" type="text/css"></link>
-    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="atom-one-dark.min.css">
 </head>
 <body>
-    <h1>Click Test</h1>
+    <h1><a href="../">&#x2190;</a> Click Test</h1>
     <HR width="90%" color="white"><br><br>
     <div id="info">Timer : 10.0s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number : 0</div><br><br>
     <button id="clicker">👊🏻</button><br><br>
-    <input onClick="window.location.href=window.location.href" value="Reset" type="reset" class="bouton"><br><br>
+    <input onClick="window.location.href=window.location.href" value="Reset" type="reset" class="bouton"><br><br><br>
     <div id="cps"></div>
-    <a href="../../">&#x2190;</a>
+    <pre><code>	!function() {
+            function e(e, n, t) {
+                const s = e + 1e4 - n;
+                document.getElementById("info").innerHTML = `Timer : ${(s/1e3).toFixed(1)}s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number : ${t}`
+            }
+            document.addEventListener("DOMContentLoaded", function() {
+            let n, t, s = !1, i = 0;
+                document.getElementById("clicker").addEventListener("mousedown", function(c) {
+                    c.isTrusted && (s ? (new Date).getTime() < t + 1e4 && i++ : (i++, s = !0, document.getElementById("cps").innerText = "", t = (new Date).getTime(), n = setInterval(function() {
+                        (new Date).getTime() < t + 1e4 ? e(t, (new Date).getTime(), i) : (e(t, t + 1e4, i), clearInterval(n), document.getElementById("cps").innerText = `${(i/10).toFixed(1)} CPS !`, setTimeout(function() {
+                            s = !1, i = 0
+                        }, 1e3))
+                    }, 100)))
+                })
+            })
+        }();
+    </code></pre>
+    <script src="script.js"></script>
+    <script src="highlight.min.js"></script>
+    <script src="highlightjs-line-numbers.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script>hljs.initLineNumbersOnLoad();</script>
 </body>
 </html>

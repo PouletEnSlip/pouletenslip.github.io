@@ -1,33 +1,31 @@
-* {
-    font-family: Arial;
-    text-shadow: 2px 2px 4px black;
-    color: white;
-    text-align: center;
-}
-
 html {
 	height: 100%;
     background-image: url(./bg.jpg);
     background-position: center;
   	background-repeat: no-repeat;
+    text-align: center;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-size: 50px;
+	text-decoration: none;
+	color: #fff;
 }
 
 a:hover {
-    color: rgb(255, 180, 180);
+	color: rgb(175, 175, 175);
 }
 
 h1 {
-    font-size: 50px;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 2px 2px 4px black;
 }
 
 #info {
     font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
 }
 
 #clicker {
@@ -54,6 +52,9 @@ h1 {
     font-size: 25px;
     font-weight: bold;
     color:white;
+    height: 50px;
+    min-height: 50px;
+    text-shadow: 2px 2px 4px black;
 }
 
 .bouton {
@@ -80,6 +81,9 @@ h1 {
         height: 200px;
         width: 100%;
     }
+    h1 {
+		font-size: 30px;
+	}
 }
 
 @media only screen and (min-width: 1921px) {
