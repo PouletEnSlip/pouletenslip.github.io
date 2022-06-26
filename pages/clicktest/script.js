@@ -3,6 +3,7 @@
         const s = e + 1e4 - n;
         document.getElementById("info").innerHTML = `Timer : ${(s/1e3).toFixed(1)}s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Number : ${t}`
     }
+    
     document.addEventListener("DOMContentLoaded", function() {
       let n, t, s = !1, i = 0;
         document.getElementById("clicker").addEventListener("mousedown", function(c) {
@@ -13,4 +14,4 @@
             }, 100)))
         })
     })
-}();
+} ();
