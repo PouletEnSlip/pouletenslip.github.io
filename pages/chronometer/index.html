@@ -1,18 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
-    <title>Chronometer | PouletEnSlip</title>
+	<title>Chronometer | PouletEnSlip</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="atom-one-dark.min.css">
 </head>
 <body>
-    <h1>Chronometer</h1><br><br>
-    <div id="chrono">00:00:00</div><br><br>
-    <button class="bouton" onclick="startTimer()">START</button><br><br>
-    <button class="bouton" onclick="stopTimer()">STOP</button><br><br>
-    <button class="bouton" onclick="resetTimer()">RESET</button><br><br>
-    <a href="../../">&#x2190;</a>
+	<h1><a href="../">&#x2190;</a> Chronometer</h1>
+	<div id="chrono">00:00:00</div><br><br>
+	<button class="bouton" onclick="startTimer()">START</button><br><br>
+	<button class="bouton" onclick="stopTimer()">STOP</button><br><br>
+	<button class="bouton" onclick="resetTimer()">RESET</button><br><br><br>
+	<pre><code>	const timer = document.getElementById('chrono');
+	var hr = 0;
+	var min = 0;
+	var sec = 0;
+	var stoptime = true;
+	
+	function startTimer() {
+		if (stoptime == true) {
+		stoptime = false;
+		chronometre();
+		}
+	}
+	
+	function stopTimer() {
+		if (stoptime == false) {
+		stoptime = true;
+		}
+	}
+	
+	function chronometre() {
+		if (stoptime == false) {
+		sec = parseInt(sec);
+		min = parseInt(min);
+		hr = parseInt(hr);
+		sec = sec + 1;
+	
+		if (sec == 60) {
+			min = min + 1;
+			sec = 0;
+		}
+	
+		if (min == 60) {
+			hr = hr + 1;
+			min = 0;
+			sec = 0;
+		}
+	
+		if (sec < 10 || sec == 0) {
+			sec = '0' + sec;
+		}
+	
+		if (min < 10 || min == 0) {
+			min = '0' + min;
+		}
+	
+		if (hr < 10 || hr == 0) {
+			hr = '0' + hr;
+		}
+	
+		timer.innerHTML = hr + ':' + min + ':' + sec;
+		setTimeout("chronometre()", 1000);
+		}
+	}
+	
+	function resetTimer() {
+		timer.innerHTML = "00:00:00";
+		hr = 0;
+		sec = 0;
+		min = 0;
+	}
+	</code></pre>
+	<script src="script.js"></script>
+	<script src="highlight.min.js"></script>
+	<script src="highlightjs-line-numbers.js"></script>
+	<script>hljs.highlightAll();</script>
+	<script>hljs.initLineNumbersOnLoad();</script>
 </body>
-<script src="script.js"></script>
 </html>
