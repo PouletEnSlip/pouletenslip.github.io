@@ -1,0 +1,58 @@
+html {
+    color: white;
+    text-align: center;
+}
+
+body {
+	background-color: #333;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+
+h2 {
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 8px black;
+}
+  
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover {
+	color: rgb(175, 175, 175);
+}
+
+#btn {
+	background-color: #fff;
+    border: none;
+    border-radius: 5px;
+	width: 200px;
+    height: 90px;
+	font-size: 40px;
+	cursor: pointer;
+	transition: 0.2s;
+    box-shadow: 0 0 2px #333,
+                0 0 2px #333,
+                0 0 2px #333,
+                0 0 2px #333;
+}
+
+#btn:hover {
+	background-color: rgb(200, 200, 200);
+}
+
+#btn:active {
+	font-size: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+	h1 {
+		font-size: 30px;
+	}
+}
