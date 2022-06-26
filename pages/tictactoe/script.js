@@ -1,15 +1,15 @@
-let jeuActif = true;
-let joueurActif = "X";
-let etats = ["","","","","","","","",""];
+var jeuActif = true;
+var joueurActif = "X";
+var etats = ["","","","","","","","",""];
 
-const statusDisplay = document.querySelector('.message');
-const gagnant = () => `${joueurActif} won !`;
-const messageEgalite = () => `Draw !`;
+var statusDisplay = document.querySelector('.message');
+var gagnant = () => `${joueurActif} won!`;
+var messageEgalite = () => `Draw!`;
 
-const joueur = () => `It's ${joueurActif}'s turn`;
+var joueur = () => `It's ${joueurActif}'s turn`;
 statusDisplay.innerHTML = joueur();
 
-const conditionsGagner = [
+var conditionsGagner = [
     [0, 1, 2],
     [0, 3, 6],
     [0, 4, 8],
@@ -45,7 +45,7 @@ function changerJoueur() {
 function verification() {
     let partieGagnee = false;
     for (let i = 0; i <= 7; i++) {
-        const condGagner = conditionsGagner[i];
+        var condGagner = conditionsGagner[i];
         let a = etats[condGagner[0]];
         let b = etats[condGagner[1]];
         let c = etats[condGagner[2]];
@@ -76,8 +76,8 @@ function verification() {
 }
 
 function lorsClicCellules(celluleCliquee) {
-    const clicSurCellule = celluleCliquee.target;
-    const clicCelluleIndex = parseInt(clicSurCellule.getAttribute('data-cell-index'));
+    var clicSurCellule = celluleCliquee.target;
+    var clicCelluleIndex = parseInt(clicSurCellule.getAttribute('data-cell-index'));
 
     if (etats[clicCelluleIndex] !== "" || !jeuActif) {
         return;

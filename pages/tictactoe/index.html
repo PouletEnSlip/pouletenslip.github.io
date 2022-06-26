@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="style.css">
     <title>Tic-Tac-Toe | PouletEnSlip</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="atom-one-dark.min.css">
 </head>
 <body>
-    <h1>Tic-Tac-Toe</h1>
-    <a href="../../">&#x2190;</a>
-    <br><h2 class="message"></h2>
+    <h1><a href="../">&#x2190;</a> Tic-Tac-Toe</h1>
+    <h2 class="message"></h2>
     <div class="contenu">
         <div data-cell-index="0" class="cell" id="un"></div>
         <div data-cell-index="1" class="cell"></div>
@@ -21,7 +22,102 @@
         <div data-cell-index="7" class="cell"></div>
         <div data-cell-index="8" class="cell" id="quatre"></div>
     </div>
-    <br><button onClick="window.location.href=window.location.href" id="new">New Game</button><br><br>
+    <br><br><div id="boutonNew"><button onClick="window.location.href=window.location.href" id="new">New Game</button></div>
+    <pre><code>	var jeuActif = true;
+        var joueurActif = "X";
+        var etats = ["","","","","","","","",""];
+        
+        var statusDisplay = document.querySelector('.message');
+        var gagnant = () => `Le joueur ${joueurActif} a gagné !`;
+        var messageEgalite = () => `Égalité !`;
+        
+        var joueur = () => `Au tour du joueur ${joueurActif}`;
+        statusDisplay.innerHTML = joueur();
+        
+        var conditionsGagner = [
+            [0, 1, 2],
+            [0, 3, 6],
+            [0, 4, 8],
+            [1, 4, 7],
+            [2, 4, 6],
+            [2, 5, 8],
+            [3, 4, 5],
+            [6, 7, 8]
+        ];
+        
+        function clicCellules(clicSurCellule, clicCelluleIndex) {
+            etats[clicCelluleIndex] = joueurActif;
+            clicSurCellule.innerHTML = joueurActif;
+            if (joueurActif === "X") {
+                clicSurCellule.style.color = "cyan";
+            }
+            else {
+                clicSurCellule.style.color = "green";
+            }
+        }
+        
+        function changerJoueur() {
+            joueurActif = joueurActif === "X" ? "O" : "X";
+            statusDisplay.innerHTML = joueur();
+            if (joueurActif === "X") {
+                statusDisplay.style.color = "cyan";
+            }
+            else {
+                statusDisplay.style.color = "green";
+            }
+        }
+        
+        function verification() {
+            let partieGagnee = false;
+            for (let i = 0; i <= 7; i++) {
+                var condGagner = conditionsGagner[i];
+                let a = etats[condGagner[0]];
+                let b = etats[condGagner[1]];
+                let c = etats[condGagner[2]];
+                if (a === '' || b === '' || c === '') {
+                    continue;
+                }
+                if (a === b && b === c) {
+                    partieGagnee = true;
+                    break
+                }
+            }
+        
+            if (partieGagnee) {
+                statusDisplay.innerHTML = gagnant();
+                statusDisplay.style.color = "white";
+                jeuActif = false;
+                return;
+            }
+        
+            let partieEgalite = !etats.includes("");
+            if (partieEgalite) {
+                statusDisplay.innerHTML = messageEgalite();
+                statusDisplay.style.color = "white";
+                jeuActif = false;
+                return;
+            }
+            changerJoueur();
+        }
+        
+        function lorsClicCellules(celluleCliquee) {
+            var clicSurCellule = celluleCliquee.target;
+            var clicCelluleIndex = parseInt(clicSurCellule.getAttribute('data-cell-index'));
+        
+            if (etats[clicCelluleIndex] !== "" || !jeuActif) {
+                return;
+            }
+            clicCellules(clicSurCellule, clicCelluleIndex);
+            verification();
+        }
+        
+        document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', lorsClicCellules));
+    </code></pre>
+    <script src="script.js"></script>
+    <script src="highlight.min.js"></script>
+    <script src="highlightjs-line-numbers.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script>hljs.initLineNumbersOnLoad();</script>
 </body>
 <script src="script.js"></script>
 </html>
