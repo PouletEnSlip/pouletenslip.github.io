@@ -38,7 +38,7 @@ a:hover {
 }
 
 #clicker:hover {
-	border: 3px;
+	border: 3px solid #750000;
 	background-color: #AA5050;
 }
 
