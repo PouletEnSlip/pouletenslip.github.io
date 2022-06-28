@@ -5,7 +5,7 @@ layout: default
 ### ------------------ WEB ------------------
 #### [My Calculator Website](pages/calculator/)
 #### [My Fruit List Website](pages/fruits/)
-#### [My ClickTest Website](pages/clicktest/)
+#### [My Click Test Website](pages/clicktest/)
 #### [My Tic-Tac-Toe Website](pages/tictactoe/)
 #### [My Chronometer Website](pages/chronometer/)
 #### [My Heads or Tails Website](pages/headsortails/)
