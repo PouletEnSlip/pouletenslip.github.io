@@ -4,9 +4,9 @@ html {
 }
 
 h1 {
-    font-size: 40px;
-    color: #fff;
-    text-shadow: 2px 2px 8px black;
+	font-size: 40px;
+	color: #fff;
+	text-shadow: 2px 2px 8px black;
 }
 
 a {
@@ -19,111 +19,112 @@ a:hover {
 }
 
 .ecran {
-    background-color: #252525;
-    width: 950px;
-    border-radius: 50px;
-    margin: auto;
-    text-align: center;
+	background-color: #252525;
+	width: 950px;
+	border-radius: 50px;
+	margin: auto;
+	text-align: center;
 }
 
 input {
-    width: 100px;
-    height: 75px;
-    font-size: 30px;
-    border-radius: 50px;
-    margin: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    box-shadow: 2px 2px 4px black;
-    cursor: pointer;
-    transition: 0.2s;
+	width: 100px;
+	height: 75px;
+	font-size: 30px;
+	border-radius: 50px;
+	margin: 10px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	box-shadow: 2px 2px 4px black;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 input:hover {
-    background-color:#222;
+	background-color:#222;
 }
 
 .lol {
-    color: #000;
-    background-color: #efe22e;
-    cursor: pointer;
-    transition: 0.2s;
+	color: #000;
+	background-color: #efe22e;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .lol2 {
-    color: #000;
-    background-color: #ccc;
-    cursor: pointer;
-    transition: 0.2s;
+	color: #000;
+	background-color: #ccc;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .lol3 {
-    color: #000;
-    background-color: #ccc;
-    cursor: pointer;
-    transition: 0.2s;
+	color: #000;
+	background-color: #ccc;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 .lol:hover {
-    background-color: #fff897;
+	background-color: #fff897;
 }
 
 .lol2:hover {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 .lol3:hover {
-    background-color: #fff;
+	background-color: #fff;
 }
 
 #clear {
-    width: 80px;
-    height: 60px;
-    font-size: 30px;
-    border-radius: 50px;
-    margin: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    box-shadow: 2px 2px 4px black;
-    cursor: pointer;
-    transition: 0.2s;
+	width: 80px;
+	height: 60px;
+	font-size: 30px;
+	border-radius: 50px;
+	margin: 10px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	box-shadow: 2px 2px 4px black;
+	cursor: pointer;
+	transition: 0.2s;
 }
 
 #clear:hover {
-    background-color: rgb(53, 28, 28);
+	background-color: rgb(53, 28, 28);
 }
 
 #display {
-    width: 800px;
-    height: 75px;
-    background-color:rgb(28, 28, 28);
-    font-size: 25px;
-    cursor: default;
-    text-align: center;
+	width: 800px;
+	height: 75px;
+	background-color:rgb(28, 28, 28);
+	font-size: 25px;
+	cursor: default;
+	text-align: center;
 }
 
 @media only screen and (max-width: 1000px) {
-    input {
-        width: 60px;
-        height: 60px;
-        font-size: 30px;
-    }
-    h1 {
+	input {
+		width: 60px;
+		height: 60px;
+		font-size: 30px;
+		margin: 5px;
+	}
+	h1 {
 		font-size: 30px;
 	}
-    .ecran {
-        width: 95%;
-    }
-    #display {
-        width: 90%;
-        height: 60px;
-    }
+	.ecran {
+		width: 95%;
+	}
+	#display {
+		width: 90%;
+		height: 60px;
+	}
 }
 
 @media only screen and (max-width: 650px) {
-    .lol3 {
-        display: none;
-    }
+	.lol3 {
+		display: none;
+	}
 }
