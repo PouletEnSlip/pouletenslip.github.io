@@ -17,7 +17,7 @@
 	<button id="flip" onclick=fnClick()>Flip</button><br><br>
 	<pre><code>	function fnClick() {
 		var flipResult = Math.floor(Math.random() * 10);
-		if (flipResult < 5) {
+		if (flipResult &lt; 5) {
 			coin.className = "flipHead";
 			document.getElementById("flip").disabled = true;
 		} else {
