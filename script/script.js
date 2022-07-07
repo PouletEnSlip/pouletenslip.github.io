@@ -16,8 +16,8 @@ let newY = 0
 window.addEventListener('scroll', (e) => {
 	newY = window.pageYOffset;
 	if (vh/5 <= newY) {
-    document.getElementById("btnTop").style.visibility = 'visible';
+		document.getElementById("btnTop").style.visibility = 'visible';
 	} else {
-		document.getElementById("btnTop").style.visibility = 'hidden';
+		document.getElementById("btnTop").style.visibility = 'visible';
 	}
 });
