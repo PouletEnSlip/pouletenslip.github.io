@@ -9,13 +9,13 @@ function myFunction() {
 
 const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 function topFunction() {
-	window.scrollTo({top: vh/2, behavior: 'smooth'});
+	window.scrollTo({top: vh/4, behavior: 'smooth'});
 }
 
 let newY = 0
 window.addEventListener('scroll', (e) => {
 	newY = window.pageYOffset;
-	if (vh/3 <= newY) {
+	if (vh/5 <= newY) {
     document.getElementById("btnTop").style.visibility = 'visible';
 	} else {
 		document.getElementById("btnTop").style.visibility = 'hidden';
