@@ -9,7 +9,7 @@ function myFunction() {
 
 const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 function topFunction() {
-	window.scrollTo({top: vh/4, behavior: 'smooth'});
+	window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 let newY = 0
