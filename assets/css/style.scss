@@ -61,19 +61,18 @@ input[type=checkbox]:checked:after {
 	right: -100px;
 	width: 55px;
 	height: 55px;
-	font-size: 42px;
+	font-size: 40px;
 	color: #fff;
-	background-color: rgba(13, 109, 182, 0.7);
+	background-color: rgba(13, 109, 182, .7);
 	border: none;
 	border-radius: 10px;
 	padding-bottom: 15px;
 	transform: rotate(-90deg);
-	transition: background-color 0.2s ease 0s;
+	transition: .2s;
 }
 
 #btnTop:hover {
-	background-color: rgba(70, 150, 210, 0.7);
-	transition: background-color 0.2s ease 0s;
+	background-color: rgba(70, 150, 210, .7);
 }
 
 * {
@@ -103,10 +102,10 @@ img {
 	color: #fff;
 	font-weight: bold;
 	font-size: 20px;
-	transition: 0.2s ease;
 	border-radius: 0 3px 3px 0;
 	background-color: #00000080;
 	user-select: none;
+	transition: .2s;
 }
 
 .prev:hover, .next:hover {
@@ -137,7 +136,7 @@ img {
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;
-	transition: background-color 0.2s ease;
+	transition: .2s;
 }
 
 .active, .dot:hover {
