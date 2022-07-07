@@ -12,6 +12,7 @@ function topFunction() {
 }
 
 let newY = 0
+document.getElementById("btnTop").style.visibility = 'hidden';
 window.addEventListener('scroll', (e) => {
 	newY = window.pageYOffset;
 	if (500 < newY) {
