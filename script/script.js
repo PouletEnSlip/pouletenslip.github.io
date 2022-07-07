@@ -1,5 +1,5 @@
+//TopScrollBar
 window.onscroll = function() {myFunction()};
-
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
   var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -7,10 +7,12 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
+//Onclick topBTN
 function topFunction() {
 	window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
+//Hide topBTN
 let newY = 0
 document.getElementById("btnTop").style.visibility = 'hidden';
 window.addEventListener('scroll', (e) => {
