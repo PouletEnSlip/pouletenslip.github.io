@@ -7,19 +7,17 @@ function myFunction() {
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 
-jQuery(function() {
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 60 ) { 
-                $('#btnTop').css('right','15px');
-            } else { 
-                $('#btnTop').removeAttr('style');
-            }
-        });
-    });
-});
-
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
 function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
+	window.scrollTo({top: vh/2, behavior: 'smooth'});
 }
+
+let newY = 0
+window.addEventListener('scroll', (e) => {
+	newY = window.pageYOffset;
+	if (vh/3 <= newY) {
+    document.getElementById("btnTop").style.visibility = 'visible';
+	} else {
+		document.getElementById("btnTop").style.visibility = 'hidden';
+	}
+});
