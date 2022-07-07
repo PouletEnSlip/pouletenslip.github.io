@@ -23,7 +23,6 @@
     <link rel="apple-touch-icon" href="https://pouletenslip.github.io/icon.png">
     <link rel="canonical" href="https://pouletenslip.github.io/pages/cotcotpack/">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     {% unless page.light_mode %}
     <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.34/darkreader.min.js"></script>
     <script>
@@ -44,11 +43,11 @@
     </div>
     <main id="content" class="main-content" role="main">
       {{ content }}
-      <button id="btnTop" onclick="topFunction()">&#10140;</button>
       <footer class="site-footer">
           <span class="site-footer-owner"><a href="https://github.com/PouletEnSlip/CotCotPack">CotCotPack</a> by <a href="https://github.com/PouletEnSlip">PouletEnSlip</a> © 2022 - All Rights Reserved</span>
       </footer>
     </main>
+    <button type="button" id="btnTop" onclick="topFunction()">&#10140;</button>
     <script src="../../script/script.js"></script>
     <script src="../../script/scriptSlides.js"></script>
   </body>
