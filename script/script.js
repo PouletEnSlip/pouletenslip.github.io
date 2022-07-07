@@ -14,9 +14,9 @@ function topFunction() {
 let newY = 0
 window.addEventListener('scroll', (e) => {
 	newY = window.pageYOffset;
-	if (500 <= newY) {
+	if (500 < newY) {
 		document.getElementById("btnTop").style.visibility = 'visible';
 	} else {
-		document.getElementById("btnTop").style.visibility = 'visible';
+		document.getElementById("btnTop").style.visibility = 'hidden';
 	}
 });
