@@ -66,6 +66,7 @@ input[type=checkbox]:checked:after {
 	background-color: rgba(13, 109, 182, 0.7);
 	border: none;
 	border-radius: 10px;
+	transform: rotate(180deg);
 	transition: background-color 0.2s ease 0s;
 }
 
