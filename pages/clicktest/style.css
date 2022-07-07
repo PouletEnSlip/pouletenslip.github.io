@@ -1,8 +1,8 @@
 html {
-	height: 100%;
 	background-image: url(./bg.jpg);
 	background-position: center;
-	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	text-align: center;
 	color: #fff;
 }
@@ -78,11 +78,5 @@ a:hover {
 	}
 	h1 {
 		font-size: 30px;
-	}
-}
-
-@media only screen and (min-width: 1921px) {
-	html {
-		background-size: cover;
 	}
 }
