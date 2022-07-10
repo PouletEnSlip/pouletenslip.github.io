@@ -73,7 +73,7 @@ layout: cotcot
 
 ## How to install:
 
-Drag the ZIP file in ```C:\Users\AppData\Roaming\.minecraft\resourcepacks\```
+Drag and drop the ZIP file in ```C:\Users\AppData\Roaming\.minecraft\resourcepacks\```
 
 To make the resource pack work, you need [OptiFine](https://www.optifine.net/home), but I highly recommend these Fabric mods for best performance:
 
