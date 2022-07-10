@@ -107,5 +107,3 @@ To make the resource pack work, you need [OptiFine](https://www.optifine.net/hom
 ## Download:
 
 Download my pack on [Github](https://github.com/PouletEnSlip/CotCotPack/releases) and [CurseForge](https://www.curseforge.com/minecraft/texture-packs/cotcotpack/)
-<br><br><br>
-*Last update : 10 July 2022*
