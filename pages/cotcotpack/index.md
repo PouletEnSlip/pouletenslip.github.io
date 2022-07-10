@@ -71,20 +71,18 @@ layout: cotcot
   <span class="dot" onclick="currentSlide(12)"></span>
 </div>
 
-## I highly recommend
+## How to install :
 
-[OptiFine](https://www.optifine.net/home)
+Drag the ZIP file in ```C:\Users\AppData\Roaming\.minecraft\resourcepacks\```
 
-**OR**
-* [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium)
-* [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor)
-* [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium)
-* [Indium](https://www.curseforge.com/minecraft/mc-mods/indium)
-* [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity)
-* [Iris](https://www.curseforge.com/minecraft/mc-mods/irisshaders)
+To make the resource pack work, you need [OptiFine](https://www.optifine.net/home), but I highly recommend these Fabric mods for best performance :
 
-**AND**
-[Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders)
+* [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium), [Phosphor](https://www.curseforge.com/minecraft/mc-mods/phosphor) and [Lithium](https://www.curseforge.com/minecraft/mc-mods/lithium), for performance
+* [Indium](https://www.curseforge.com/minecraft/mc-mods/indium), to make Continuity work with Sodium
+* [Continuity](https://www.curseforge.com/minecraft/mc-mods/continuity), for alternative textures (blocks)
+* [CIT Resewn](https://www.curseforge.com/minecraft/mc-mods/cit-resewn), for alternative textures (items)
+* [Iris](https://www.curseforge.com/minecraft/mc-mods/irisshaders), for shaders
+* [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders), the shader pack I use
 
 ## Features
 * Animated items
