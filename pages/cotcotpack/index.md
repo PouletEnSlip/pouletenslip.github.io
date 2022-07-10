@@ -84,7 +84,7 @@ To make the resource pack work, you need [OptiFine](https://www.optifine.net/hom
 * [Iris](https://www.curseforge.com/minecraft/mc-mods/irisshaders), for shaders
 * [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders), the shader pack I use
 
-## Features
+## Features :
 * Animated items
 * 3D models
 * Alternative textures
@@ -98,7 +98,7 @@ To make the resource pack work, you need [OptiFine](https://www.optifine.net/hom
 * Support CTM, CEM and CIT textures
 * Support realms textures
 
-## Some textures made by
+## Some textures made by :
 
 [Faithful by FaithfulTeam](https://faithful.team) | 
 [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
