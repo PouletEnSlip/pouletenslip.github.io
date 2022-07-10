@@ -106,6 +106,8 @@ layout: cotcot
 [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
+See my pack on [CurseForge](https://www.curseforge.com/minecraft/texture-packs/cotcotpack/)
+
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="./img/download.png" width="400"></a>
 
 *Last update : 10 July 2022*
