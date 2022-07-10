@@ -100,9 +100,7 @@ To make the resource pack work, you need [OptiFine](https://www.optifine.net/hom
 
 ## Some textures made by:
 
-[Faithful by FaithfulTeam](https://faithful.team) | 
-[SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
-[Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
+[Faithful by FaithfulTeam](https://www.curseforge.com/minecraft/texture-packs/faithful-32x) | [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
 ## Download:
 
