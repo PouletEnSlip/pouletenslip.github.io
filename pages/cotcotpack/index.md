@@ -108,4 +108,4 @@ layout: cotcot
 
 <a href="https://github.com/PouletEnSlip/CotCotPack/releases"><img src="./img/download.png" width="400"></a>
 
-*Last update : 14 June 2022*
+*Last update : 10 July 2022*
