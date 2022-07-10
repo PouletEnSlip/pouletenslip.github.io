@@ -104,6 +104,8 @@ To make the resource pack work, you need [OptiFine](https://www.optifine.net/hom
 [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | 
 [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
-See my pack on [Github](https://github.com/PouletEnSlip/CotCotPack) and [CurseForge](https://www.curseforge.com/minecraft/texture-packs/cotcotpack/)
+## Download:
+
+Download my pack on [Github](https://github.com/PouletEnSlip/CotCotPack/releases) and [CurseForge](https://www.curseforge.com/minecraft/texture-packs/cotcotpack/)
 
 *Last update : 10 July 2022*
