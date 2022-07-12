@@ -14,7 +14,7 @@ layout: default
 <br>
 
 ### ------------------ C# ------------------
-#### [My Tic-Tac-Toe App](https://github.com/PouletEnSlip/TicTacToeCSharp)
+#### [My Tic-Tac-Toe Game](https://github.com/PouletEnSlip/TicTacToeCSharp)
 <br>
 
 ### ------------------ C++ ------------------
