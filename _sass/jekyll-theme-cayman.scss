@@ -43,19 +43,19 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, .7);
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .2);
   border-style: solid;
   border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  border-radius: .3rem;
+  transition: .2s;
 
   &:hover {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, .8);
     text-decoration: none;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, .2);
+    border-color: rgba(255, 255, 255, .3);
   }
 
   + .btn {
@@ -63,19 +63,19 @@ a {
   }
 
   @include large {
-    padding: 0.75rem 1rem;
+    padding: .75rem 1rem;
   }
 
   @include medium {
-    padding: 0.6rem 0.9rem;
-    font-size: 0.9rem;
+    padding: .6rem .9rem;
+    font-size: .9rem;
   }
 
   @include small {
     display: block;
     width: 100%;
-    padding: 0.75rem;
-    font-size: 0.9rem;
+    padding: .75rem;
+    font-size: .9rem;
 
     + .btn {
       margin-top: 1rem;
@@ -107,7 +107,7 @@ a {
 
 .project-name {
   margin-top: 0;
-  margin-bottom: 0.1rem;
+  margin-bottom: .1rem;
 
   @include large {
     font-size: 3.25rem;
@@ -125,7 +125,7 @@ a {
 .project-tagline {
   margin-bottom: 2rem;
   font-weight: normal;
-  opacity: 0.7;
+  opacity: .7;
 
   @include large {
     font-size: 1.25rem;
@@ -201,10 +201,10 @@ a {
   code {
     padding: 2px 4px;
     font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    font-size: 0.9rem;
+    font-size: .9rem;
     color: #567482;
     background-color: #9dbce5;
-    border-radius: 0.3rem;
+    border-radius: .3rem;
   }
 
   pre {
@@ -216,12 +216,12 @@ a {
     word-wrap: normal;
     background-color: #9dbce5;
     border: solid 1px #dce6f0;
-    border-radius: 0.3rem;
+    border-radius: .3rem;
 
     > code {
       padding: 0;
       margin: 0;
-      font-size: 0.9rem;
+      font-size: .9rem;
       color: #567482;
       word-break: normal;
       white-space: pre;
@@ -241,11 +241,11 @@ a {
 
   .highlight pre,
   pre {
-    padding: 0.8rem;
+    padding: .8rem;
     overflow: auto;
-    font-size: 0.9rem;
+    font-size: .9rem;
     line-height: 1.45;
-    border-radius: 0.3rem;
+    border-radius: .3rem;
     -webkit-overflow-scrolling: touch;
   }
 
@@ -301,7 +301,7 @@ a {
 
     th,
     td {
-      padding: 0.5rem 1rem;
+      padding: .5rem 1rem;
       border: 1px solid #e9ebec;
     }
   }
@@ -345,7 +345,7 @@ a {
   }
 
   @include small {
-    font-size: 0.9rem;
+    font-size: .9rem;
   }
 }
 
