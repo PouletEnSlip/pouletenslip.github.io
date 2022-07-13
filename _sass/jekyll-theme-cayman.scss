@@ -32,24 +32,6 @@ body {
   color: #606c71;
 }
 
-#skip-to-content {
-  height: 1px;
-  width: 1px;
-  position: absolute;
-  overflow: hidden;
-  top: -10px;
-
-  &:focus {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    height: auto;
-    width: auto;
-    background: invert(#1e6bb8);
-    outline: thick solid invert(#1e6bb8);
-  }
-}
-
 a {
   color: #1e6bb8;
   text-decoration: none;
