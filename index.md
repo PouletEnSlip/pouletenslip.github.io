@@ -26,7 +26,6 @@ layout: default
 #### [My Console Hangman Game (in French)](https://github.com/PouletEnSlip/HangmanGame)
 #### [My Console Mastermind Game (in French)](https://github.com/PouletEnSlip/Mastermind)
 #### [My Console "The Price Is Right" Game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
-#### [My Console Password Manager](https://github.com/PouletEnSlip/Password)
 <br>
 
 ### ------------------ Python ------------------
