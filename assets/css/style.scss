@@ -3,6 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
+input, button:focus {
+	outline: 0;
+}
+
 input[type=checkbox] {
 	position: relative;
 	cursor: pointer;
