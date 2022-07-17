@@ -63,17 +63,16 @@ input[type=checkbox]:checked:after {
 	height: 55px;
 	font-size: 30px;
 	color: #fff;
-	background-color: rgba(13, 109, 182, .7);
+	background-color: transparent;
 	border: none;
-	padding-bottom: 4px;
 	border-radius: 10px;
 	transform: rotate(-90deg);
+	cursor: pointer;
 	transition: .2s;
 }
 
 #btnTop:hover {
-	background-color: rgba(70, 150, 210, .7);
-	cursor: pointer;
+	color: rgb(13, 109, 182);
 }
 
 * {
