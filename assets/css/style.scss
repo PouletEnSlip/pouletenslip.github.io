@@ -3,6 +3,10 @@
 
 @import 'jekyll-theme-cayman';
 
+body {
+	-webkit-tap-highlight-color: transparent;
+}
+
 *:focus {
 	outline: 0;
 }
