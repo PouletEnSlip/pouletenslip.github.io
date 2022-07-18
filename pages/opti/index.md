@@ -14,7 +14,7 @@ Dans l'ordre :
 
 Une fois que tout est bien à jour et que le PC a été redémarré :
 * Supprimer les fichiers de Windows Update **après chaque mise à jour** (C:/Windows/SoftwareDistribution/Download/ - Supprimer tous les dossiers pour éviter des erreurs lors des prochaines mises à jour)
-* Supprimer tous les fichiers temporaires (Touches Windows + R - Taper %temp% - Tout supprimer)
+* Supprimer tous les fichiers temporaires (<kbd>Windows</kbd> + <kbd>R</kbd> - Taper %temp% - Tout supprimer)
 * Réparer les fichiers système : `sfc /scannow`
 * Vider le cache DNS : `ipconfig /flushdns`
 * Réparer l’image de Windows : `Dism /Online /Cleanup-Image /RestoreHealth`
