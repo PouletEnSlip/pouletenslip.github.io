@@ -27,7 +27,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 ## Optimisations avancées (permanentes)
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
 
-<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (<kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>Esc</kbd> - Démarrage)</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver Cortana : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Windows Search" /v AllowCortana /t REG_DWORD /d 00000001 /f`</label>
 
@@ -39,7 +39,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Réduire les ressources du processeur réservées pour certains processus Windows : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000010 /f` - Redémarrer le PC | Pour annuler : `REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WindowsNT\CurrentVersion\Multimedia\SystemProfile" /v SystemResponsiveness /t REG_DWORD /d 00000020 /f`</label>
 
-<input type="checkbox" class="check-with-label"><label class="label-for-check">Décocher **toutes les cases de chaque onglet** de la section "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...). Notez qu'il est impossible de désactiver totalement la collecte de données. Je déconseille l'utilisation de logiciels comme O&OShutUp ou W10Privacy, ils ne font rien de mieux et peuvent casser le système</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Décocher **toutes les cases de chaque onglet** de la section "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...)</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes</label>
 
@@ -49,7 +49,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Remettre l'ancien menu du clic droit de Windows 10 sur Windows 11 : `REG ADD "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve` - Redémarrer le PC | Pour annuler : `REG DELETE "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}" /f`</label>
 
-<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver le service "Sysmain" si Windows est installé sur un SSD (Touche Windows + R - Taper "services.msc")</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver le service "Sysmain" si Windows est installé sur un SSD (<kbd>Windows</kbd> + <kbd>R</kbd> - Taper "services.msc")</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">**Modifier les options d’alimentation dans le panneau de configuration :** CPU Intel → choisir "Performances élevées" | CPU AMD Ryzen 1000, 2000, 3000 et 4000 → choisir "AMD Ryzen Balanced" | CPU AMD Ryzen 5000 → choisir "Utilisation normale". Dans les paramètres avancés : arrêter le disque dur après 0min (jamais) et désactiver la suspension sélective USB</label>
 
