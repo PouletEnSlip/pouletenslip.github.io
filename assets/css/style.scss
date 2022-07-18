@@ -24,7 +24,7 @@ input[type=checkbox]:before {
          width: 15px;
          height: 15px;
          border: 2px solid #555555;
-         background-color: #333;
+         background: #333;
 }
 
 input[type=checkbox]:checked:after {
@@ -67,11 +67,9 @@ input[type=checkbox]:checked:after {
 	position: fixed;
 	bottom: 15px;
 	right: 15px;
-	width: 55px;
-	height: 55px;
 	font-size: 30px;
 	color: #fff;
-	background-color: transparent;
+	background: none;
 	border: none;
 	border-radius: 10px;
 	transform: rotate(-90deg);
@@ -111,13 +109,13 @@ img {
 	font-weight: bold;
 	font-size: 20px;
 	border-radius: 0 3px 3px 0;
-	background-color: #00000080;
+	background: #00000080;
 	user-select: none;
 	transition: .2s;
 }
 
 .prev:hover, .next:hover {
-	background-color: #00000040;
+	background: #00000040;
 	text-decoration: none;
 }
 
@@ -133,7 +131,7 @@ img {
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
-	background-color: #00000080;
+	background: #00000080;
 }
 
 .dot {
@@ -141,14 +139,14 @@ img {
 	height: 12px;
 	width: 12px;
 	margin: 0 2px;
-	background-color: #bbb;
+	background: #bbb;
 	border-radius: 50%;
 	display: inline-block;
 	transition: .2s;
 }
 
 .active, .dot:hover {
-	background-color: #808080;
+	background: #808080;
 }
 
 .fade {
