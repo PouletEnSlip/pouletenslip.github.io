@@ -5,7 +5,6 @@ layout: opti
 <p style="text-align:justify;">Bonjour ! Voici des optimisations simples et saines pour un PC fonctionnant sous Windows 10 et 11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, le montage ou les jeux vidéo. Ces manipulations sont sans risque et peuvent résoudre les lenteurs et crashs de votre PC. Votre ordinateur pourra également démarrer plus vite et lancera des tâches plus rapidement. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants. Lisez le document en entier avant de faire quoi que ce soit.</p>
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
-
 Dans l'ordre :
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Supprimer l'historique, le cache et les cookies du navigateur (il faudra se reconnecter aux sites)
@@ -26,7 +25,6 @@ Une fois que tout est bien à jour et que le PC a été redémarré :
 Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour prévenir des bugs du système. Nettoyer aussi régulièrement votre PC de la poussière pour éviter aux composants de trop chauffer et donc de perdre des performances.
 
 ## Optimisations avancées (permanentes)
-
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (Touches Ctrl + Maj + Esc - Démarrage)</label>
@@ -60,14 +58,11 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 <input type="checkbox" class="check-with-label"><label class="label-for-check">**Overclocker sa carte graphique (Nvidia et AMD) :** l'overclocking permet d'augmenter la fréquence d'horloge de la carte graphique et ainsi avoir plus de performances en jeu. Cependant la température de la carte risque d'augmenter. Personnellement j'utilise [Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards) et [Kombustor](https://msikombustor.com/). Dans [ce tuto](https://www.youtube.com/watch?v=64GJck-GWaM), Unigine Heaven est utilisé, je préfère Kombustor car il permet de scanner le nombre d'artefacts (il faut cocher la case sur l'écran d'accueil et choisir votre résolution native). En effet, un overclocking peut être stable sur Unigine Heaven mais l'ordinateur peut planter sur un jeu plus gourmand en ressources. Je considère qu'un overclocking est stable si la température de la carte ne dépasse pas 85°C et que Kombustor ne détecte **aucun** artefact en 10 minutes. Je déconseille l'overclocking du processeur et de la RAM, c'est très fastidieux, le gain est minime et peut déstabiliser la machine</label>
 
 ## Optionnel
-
 * [Réinstaller Windows](https://www.youtube.com/watch?v=uHOP4UbEGug) complètement (via une clé USB) avant d’appliquer ces optimisations pour partir sur une base saine. Lors de l'installation de Windows, choisir "Non" pour toutes les options et créer un compte local pour limiter la collecte de données (vous pourrez quand même vous connecter à votre compte Microsoft pour le Store, Office, Xbox ou autres services Microsoft)
-* Activer le mode sombre dans les paramètres Windows, l’éclairage nocturne le soir et installer [DarkReader](https://darkreader.org/) pour que tous les sites visités soient en mode sombre pour prévenir la fatigue visuelle
-* Privilégier l’Ethernet au Wi-Fi pour une meilleure connexion Internet et moins de latence
 * Préférer [Firefox](https://www.mozilla.org/fr/firefox/new/) à Chrome pour le respect de la vie privée et la personnalisation de l'interface, extension [uBlock Origin](https://addons.mozilla.org/fr/firefox/addon/ublock-origin/) recommandée pour le blocage des publicités et pisteurs (je déconseille Adblock qui ne bloque pas toutes les pubs et aucun pisteur). Dans les paramètres de Firefox : toujours demander où enregistrer les fichiers, protection stricte, désactiver la collecte de données, HTTPS uniquement, bloquer les cookies tiers
 * Activer Bitlocker sur la version Pro de Windows pour chiffrer les données du lecteur et sécuriser vos fichiers (Clic droit sur un lecteur - Activer Bitlocker). Il est possible d'activer Bitlocker sur la version Famille de Windows, à certaines conditions, tuto disponible [ici](https://lecrabeinfo.net/activer-le-chiffrement-de-lappareil-bitlocker-sur-windows-10-famille.html)
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/) pour de meilleures performances
-* Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et pouvoir chiffrer les archives. Je déconseille WinRAR qui n'est pas open source, compresse moins bien et chiffre moins efficacement les archives
+* Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et pouvoir chiffrer les archives. Je déconseille WinRAR qui n'est pas open source et est payant
 * Utiliser [Hat.sh](https://hat.sh/) pour chiffrer vos documents sensibles avec mot de passe côté client
 * Utiliser [ExifCleaner](https://exifcleaner.com/) pour supprimer les métadonnées de vos images et PDF
 * Si vous souhaitez un VPN gratuit, [ProtonVPN](https://protonvpn.com/download) est le meilleur choix. Evitez tous les autres VPN gratuits qui vont voler vos données personnelles
@@ -75,10 +70,9 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
 
 ## Conclusion
-
 <p style="text-align:justify;">Voilà ! Votre PC devrait être plus rapide et performant. Je recommande une réinstallation de Windows tous les 6 mois en prenant le soin de faire des sauvegardes. Je déconseille d'autres manipulations venant d'autres sites qui pourraient endommager le système (scripts PowerShell, optimiseur de connexion Internet... ce sont très souvent des arnaques).</p>
 
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 15/07/2022*
+*Mise à jour : 18/07/2022*
