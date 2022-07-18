@@ -162,7 +162,7 @@ a {
   kbd {
     background: none;
     border: 1px solid #c6cbd1;
-    border-bottom-color: #959da5;
+    border-bottom: 2px solid #c6cbd1;
     border-radius: 3px;
     margin: 0 4px 0 4px;
     color: #444d56;
@@ -265,21 +265,6 @@ a {
     margin-top: 0;
   }
 
-  blockquote {
-    padding: 0 1rem;
-    margin-left: 0;
-    color: #819198;
-    border-left: 0.3rem solid #dce6f0;
-
-    > :first-child {
-      margin-top: 0;
-    }
-
-    > :last-child {
-      margin-bottom: 0;
-    }
-  }
-
   table {
     display: block;
     width: 100%;
@@ -293,22 +278,6 @@ a {
     td {
       padding: .5rem 1rem;
       border: 1px solid #e9ebec;
-    }
-  }
-
-  dl {
-    padding: 0;
-
-    dt {
-      padding: 0;
-      margin-top: 1rem;
-      font-size: 1rem;
-      font-weight: bold;
-    }
-
-    dd {
-      padding: 0;
-      margin-bottom: 1rem;
     }
   }
 
