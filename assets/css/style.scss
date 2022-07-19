@@ -13,7 +13,6 @@ body {
 
 input[type=checkbox] {
 	position: relative;
-	color: #a6a19a;
 	font-family: "Roboto";
 	cursor: pointer;
 	-moz-appearance: initial;
@@ -21,12 +20,13 @@ input[type=checkbox] {
 }
 
 input[type=checkbox]:before {
-         content: "";
-         display: block;
-         width: 15px;
-         height: 15px;
-         border: 2px solid #555555;
-         background: #333;
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border: 2px solid #555555;
+	background: #333;
+	color: #a6a19a;
 }
 
 input[type=checkbox]:checked:after {
@@ -35,6 +35,7 @@ input[type=checkbox]:checked:after {
 	display: block;
 	width: 5px;
 	height: 10px;
+	color: #a6a19a;
 	border: solid #000;
 	border-width: 0 2px 2px 0;
 	transform: rotate(45deg);
