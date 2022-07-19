@@ -141,14 +141,14 @@ img {
 	height: 12px;
 	width: 12px;
 	margin: 0 2px;
-	background: #bbb;
+	background: #333;
 	border-radius: 50%;
 	display: inline-block;
 	transition: .2s;
 }
 
 .active, .dot:hover {
-	background: #808080;
+	background: #a6a19a;
 }
 
 .fade {
