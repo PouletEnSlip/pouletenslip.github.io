@@ -198,7 +198,7 @@ a {
     font-family: Courier Prime;
     font-size: .9rem;
     color: #a6a19a;
-    background: #163852;
+    background: #144163;
     border-radius: .3rem;
   }
 
@@ -209,7 +209,7 @@ a {
     font: 1rem Courier Prime;
     color: #a6a19a;
     word-wrap: normal;
-    background: #163852;
+    background: #144163;
     border: solid 1px #dce6f0;
     border-radius: .3rem;
 
@@ -283,11 +283,9 @@ a {
   }
 
   hr {
-    //height: 1px;
     padding: 0;
     margin: 1rem 0;
-    background: #a6a19a;
-    border-top: 1px #a6a19a;
+    border-top: 1px solid #a6a19a;
   }
 }
 
