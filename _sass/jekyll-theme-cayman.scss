@@ -143,7 +143,7 @@ a {
   }
 
   @include large {
-    max-width: 72rem;
+    max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
@@ -162,8 +162,8 @@ a {
   kbd {
     font-family: "Roboto";
     background: none;
-    border: 1px solid #c6cbd1;
-    border-bottom: 2px solid #c6cbd1;
+    border: 1px solid #a6a19a;
+    border-bottom: 2px solid #a6a19a;
     border-radius: 3px;
     margin: 0 4px 0 4px;
     color: #a6a19a;
