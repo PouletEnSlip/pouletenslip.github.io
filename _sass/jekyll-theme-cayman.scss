@@ -20,7 +20,7 @@
 
 html {
   font-family: "Roboto";
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #a6a19a;
   background: #181a1b;
 }
@@ -146,17 +146,17 @@ a {
     max-width: 64rem;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   @include medium {
     padding: 2rem 4rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   @include small {
     padding: 2rem 1rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   
   kbd {
