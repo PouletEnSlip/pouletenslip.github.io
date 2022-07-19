@@ -20,15 +20,15 @@
 
 html {
   font-family: "Roboto";
+  font-size: 1.1rem;
+  color: #a6a19a;
+  background: #181a1b;
 }
 
 body {
-  background: #181a1b;
   padding: 0;
   margin: 0;
-  font-size: 1.1rem;
   line-height: 1.5;
-  color: #a6a19a;
 }
 
 a {
@@ -44,7 +44,7 @@ a {
   font-family: "Roboto";
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .6);
   background: rgba(50, 50, 50, .1);
   border-color: rgba(50, 50, 50, .2);
   border-style: solid;
@@ -166,7 +166,7 @@ a {
     border-bottom: 2px solid #c6cbd1;
     border-radius: 3px;
     margin: 0 4px 0 4px;
-    color: #444d56;
+    color: #a6a19a;
     display: inline-block;
     font-size: 12px;
     line-height: 10px;
@@ -198,7 +198,7 @@ a {
     font-family: Courier Prime;
     font-size: .9rem;
     color: #567482;
-    background: #9dbce5;
+    background: #215066;
     border-radius: .3rem;
   }
 
@@ -209,7 +209,7 @@ a {
     font: 1rem Courier Prime;
     color: #567482;
     word-wrap: normal;
-    background: #255ea8;
+    background: #215066;
     border: solid 1px #dce6f0;
     border-radius: .3rem;
 
