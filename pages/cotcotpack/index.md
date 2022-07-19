@@ -2,7 +2,7 @@
 layout: cotcot
 ---
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/PouletEnSlip/CotCotPack?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/PouletEnSlip/CotCotPack?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/PouletEnSlip/CotCotPack?style=for-the-badge)
 
 <p style="text-align:justify;"><b>CotCot</b> is a PVP / Build / Survival resource pack for Minecraft Java. The resource pack is compatible from 1.7.2 to 1.8.9 and from 1.13 to 1.19.x. CotCot is a Faithful edit with animated items, 3D models, alternative textures and custom colormap/lightmap and more. Fully compatible with OptiFine and Sodium. It is also PVP-friendly with Low Fire, Clean Water or small swords. Textures are compressed and optimized for toasters.</p>
 
@@ -103,4 +103,4 @@ To make the resource pack work, you need [OptiFine](https://www.optifine.net/hom
 [Faithful by FaithfulTeam](https://www.curseforge.com/minecraft/texture-packs/faithful-32x) | [SamaFaithful by Aurelien_Sama](https://www.youtube.com/channel/UCM2e9ub5nKQIvYbIPxSTbOg) | [Dark UI 32x by that_jogurciQ](https://www.curseforge.com/minecraft/texture-packs/dark-ui-32x)
 
 ## Download:
-Download my pack on [Github](https://github.com/PouletEnSlip/CotCotPack/releases) and [CurseForge](https://www.curseforge.com/minecraft/texture-packs/cotcotpack/)
+Download my pack on [CurseForge](https://www.curseforge.com/minecraft/texture-packs/cotcotpack/).
