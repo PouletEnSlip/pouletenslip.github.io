@@ -2,7 +2,7 @@
 layout: opti
 ---
 
-<p style="text-align:justify;">Bonjour ! Voici des optimisations simples et saines pour un PC fonctionnant sous Windows 10 et 11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, le montage ou les jeux vidéo. Ces manipulations sont sans risque et peuvent résoudre les lenteurs et crashs de votre PC. Votre ordinateur pourra également démarrer plus vite et lancera des tâches plus rapidement. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants. Lisez le document en entier avant de faire quoi que ce soit.</p>
+<p style="text-align:justify;">Bonjour ! Voici des optimisations simples et saines pour un PC fonctionnant sous Windows 10 et 11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, le montage ou les jeux vidéo. Ces manipulations sont sans risque et peuvent résoudre les lenteurs et crashs de votre PC. Votre ordinateur pourra également démarrer plus vite et lancera des tâches plus rapidement. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants. Lisez tout en entier avant de faire quoi que ce soit.</p>
 
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 Dans l'ordre :
@@ -22,7 +22,7 @@ Une fois que tout est bien à jour et que le PC a été redémarré :
 * Nettoyer tous les lecteurs (Clic droit sur un lecteur - Propriétés - Nettoyage - Nettoyer les fichiers système - Tout cocher)
 * Optimiser tous les lecteurs (Clic droit sur un lecteur - Propriétés - Outils - Optimiser)
 
-Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour prévenir des bugs du système. Nettoyer aussi régulièrement votre PC de la poussière pour éviter aux composants de trop chauffer et donc de perdre des performances.
+Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour prévenir les bugs. Nettoyer aussi régulièrement votre PC de la poussière pour éviter aux composants de trop chauffer et donc de perdre des performances.
 
 ## Optimisations avancées (permanentes)
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
@@ -41,7 +41,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Décocher **toutes les cases de chaque onglet** de la section "Confidentialité" dans les paramètres Windows pour limiter la collecte de données personnelles par Microsoft (localisation, contacts...)</label>
 
-<input type="checkbox" class="check-with-label"><label class="label-for-check">Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour améliorer la compatibilité des programmes et éviter les erreurs de DLLs manquantes</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">Installer **toutes** les versions de [Visual C++](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) pour éviter les erreurs de DLLs manquantes</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver la Xbox Game Bar, avec ces trois commandes : `Get-AppxPackage Microsoft.XboxGamingOverlay | Remove-AppxPackage` + `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000000 /f` + `REG ADD "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000000 /f` - Redémarrer le PC | Pour annuler : `Get-AppxPackage -allusers *Microsoft.XboxGamingOverlay* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}` + `REG ADD "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 00000001 /f` + `REG ADD "HKEY_CURRENT_USER\System\GameConfigStore" /v GameDVR_Enabled /t REG_DWORD /d 00000001 /f`</label>
 
@@ -53,7 +53,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">**Modifier les options d’alimentation dans le panneau de configuration :** CPU Intel → choisir "Performances élevées" | CPU AMD Ryzen 1000, 2000, 3000 et 4000 → choisir "AMD Ryzen Balanced" | CPU AMD Ryzen 5000 → choisir "Utilisation normale". Dans les paramètres avancés : arrêter le disque dur après 0min (jamais) et désactiver la suspension sélective USB</label>
 
-<input type="checkbox" class="check-with-label"><label class="label-for-check">**Modifications du panneau Nvidia (options AMD similaires) :** sélectionner "Utiliser les paramètres d’images 3D avancés", mettre le mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Choisir la plage dynamique complète et choisir 10bpc (ou plus) si possible. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact négligeable sur la latence</label>
+<input type="checkbox" class="check-with-label"><label class="label-for-check">**Modifications du panneau Nvidia (options AMD similaires) :** sélectionner "Utiliser les paramètres d’images 3D avancés", mode de faible latence sur "On", privilégier les performances maximales, activer G-SYNC + V-SYNC + limiter les IPS à 2 en dessous de la fréquence de rafraîchissement de l’écran pour éviter les déchirures d’images (écran 144Hz → limite à 142FPS). Si vous activez la V-SYNC dans le panneau Nvidia, il faut la désactiver dans les paramètres du jeu. Choisir la plage dynamique complète et choisir 10bpc (ou plus) si possible. Ces paramètres sont les meilleurs pour quelqu'un qui recherche la meilleure qualité d'image possible avec un impact négligeable sur la latence</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">**Overclocker sa carte graphique (Nvidia et AMD) :** l'overclocking permet d'augmenter la fréquence d'horloge de la carte graphique et ainsi avoir plus de performances en jeu. Cependant la température de la carte risque d'augmenter. Personnellement j'utilise [Afterburner](https://www.msi.com/Landing/afterburner/graphics-cards) et [Kombustor](https://msikombustor.com/). Dans [ce tuto](https://www.youtube.com/watch?v=64GJck-GWaM), Unigine Heaven est utilisé, je préfère Kombustor car il permet de scanner le nombre d'artefacts (il faut cocher la case sur l'écran d'accueil et choisir votre résolution native). En effet, un overclocking peut être stable sur Unigine Heaven mais l'ordinateur peut planter sur un jeu plus gourmand en ressources. Je considère qu'un overclocking est stable si la température de la carte ne dépasse pas 85°C et que Kombustor ne détecte **aucun** artefact en 10 minutes. Je déconseille l'overclocking du processeur et de la RAM, c'est très fastidieux, le gain est minime et peut déstabiliser la machine</label>
 
@@ -75,4 +75,4 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 18/07/2022*
+*Mise à jour : 20/07/2022*
