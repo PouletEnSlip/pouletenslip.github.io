@@ -189,57 +189,16 @@ a {
 	}
 
 	code {
-		padding: 2px 4px;
+		//padding: 2px 4px;
 		font-family: Courier Prime;
-		font-size: .9rem;
+		font-size: 1rem;
 		color: #a6a19a;
 		background: #144163;
 		border-radius: .3rem;
 		word-break: break-all;
 	}
 
-	pre {
-		padding: 0.8rem;
-		margin-top: 0;
-		margin-bottom: 1rem;
-		font: 1rem Courier Prime;
-		color: #a6a19a;
-		border: solid 1px #dce6f0;
-		border-radius: .3rem;
-
-		
-	}
-
-	.highlight {
-		margin-bottom: 1rem;
-
-		pre {
-			margin-bottom: 0;
-		}
-	}
-
-	.highlight pre, pre {
-		padding: .8rem;
-		overflow: auto;
-		font-size: .9rem;
-		line-height: 1.45;
-		border-radius: .3rem;
-	}
-
-	pre code, pre tt {
-		display: inline;
-		max-width: initial;
-		padding: 0;
-		margin: 0;
-		overflow: initial;
-		line-height: inherit;
-		background: none;
-		border: 0;
-
-		&:before, &:after {
-			content: normal;
-		}
-	}
+	
 
 	ul, ol {
 		margin-top: 0;
