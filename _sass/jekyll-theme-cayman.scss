@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Roboto&display=swap');
 
 @mixin large {
   @media screen and (min-width: 70em) {
@@ -18,10 +18,13 @@
   }
 }
 
+html {
+  font-family: "Roboto";
+}
+
 body {
   padding: 0;
   margin: 0;
-  font-family: "Open Sans";
   font-size: 16px;
   line-height: 1.5;
   color: #606c71;
@@ -190,7 +193,7 @@ a {
 
   code {
     padding: 2px 4px;
-    font-family: Courier;
+    font-family: Courier Prime;
     font-size: .9rem;
     color: #567482;
     background: #9dbce5;
@@ -201,7 +204,7 @@ a {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font: 1rem Courier;
+    font: 1rem Courier Prime;
     color: #567482;
     word-wrap: normal;
     background: #9dbce5;
