@@ -44,19 +44,19 @@ a {
   font-family: "Roboto";
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(150, 150, 150, .7);
-  background: rgba(150, 150, 150, .1);
-  border-color: rgba(150, 150, 150, .2);
+  color: #fff;
+  background: rgba(75, 75, 75, .1);
+  border-color: rgba(75, 75, 75, .2);
   border-style: solid;
   border-width: 1px;
   border-radius: .3rem;
   transition: .2s;
 
   &:hover {
-    color: rgba(150, 150, 150, .8);
+    //color: rgba(75, 75, 75, .8);
     text-decoration: none;
-    background: rgba(150, 150, 150, .2);
-    border-color: rgba(150, 150, 150, .3);
+    background: rgba(75, 75, 75, .2);
+    border-color: rgba(75, 75, 75, .3);
   }
 
   + .btn {
