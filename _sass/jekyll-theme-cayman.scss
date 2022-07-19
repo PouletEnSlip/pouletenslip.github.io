@@ -143,7 +143,7 @@ a {
 	}
 
 	@include large {
-		max-width: 64rem;
+		max-width: 65rem;
 		padding: 2rem 6rem;
 		margin: 0 auto;
 		font-size: 1rem;
@@ -189,16 +189,14 @@ a {
 	}
 
 	code {
-		//padding: 2px 4px;
+		padding: 2px 4px;
 		font-family: Courier Prime;
-		font-size: 1rem;
+		font-size: .9rem;
 		color: #a6a19a;
 		background: #144163;
 		border-radius: .3rem;
 		word-break: break-all;
 	}
-
-	
 
 	ul, ol {
 		margin-top: 0;
