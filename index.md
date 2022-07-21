@@ -30,7 +30,6 @@ layout: default
 
 ### ------------------ Python ------------------
 #### [My Snake Game](https://github.com/PouletEnSlip/Snake)
-#### [My "Click on the Square" Game](https://github.com/PouletEnSlip/Square)
 #### [My MQTT Client App](https://github.com/PouletEnSlip/MQTT)
 <br>
 
