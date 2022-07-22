@@ -36,3 +36,4 @@ layout: default
 ### ------------------ Others ------------------
 #### [My Minecraft Resource Pack](pages/cotcotpack)
 #### [My Windows Optimization Guide (in French)](pages/opti)
+#### [My Linux Command Cheat Sheet](pages/linux)
