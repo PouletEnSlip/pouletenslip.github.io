@@ -7,6 +7,7 @@ layout: opti
 ## Table des matières
 - [Optimisations rapides](#optimisations-rapides)
 - [Optimisations avancées](#optimisations-avancées)
+- [Optionnel](#optionnel)
 - [Conclusion](#conclusion)
 
 ## Optimisations rapides
