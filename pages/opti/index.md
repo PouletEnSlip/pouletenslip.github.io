@@ -5,12 +5,12 @@ layout: opti
 <p style="text-align:justify;">Bonjour ! Voici des optimisations simples et saines pour un PC fonctionnant sous Windows 10 et 11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, le montage ou les jeux vidéo. Ces manipulations sont sans risque et peuvent résoudre les lenteurs et crashs de votre PC. Votre ordinateur pourra également démarrer plus vite et lancera des tâches plus rapidement. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants. Lisez tout en entier avant de faire quoi que ce soit.</p>
 
 ## Table des matières
-- [Basic Commands](#optimisations-rapides)
-- [Apache Commands](#optimisations-avancées)
-- [SSH Commands](#conclusion)
+- [Optimisations rapides](#optimisations-rapides)
+- [Optimisations avancées](#optimisations-avancées)
+- [Conclusion](#conclusion)
 
-## Optimisations rapides (à répéter 1 fois par mois environ)
-Dans l'ordre :
+## Optimisations rapides
+Dans l'ordre, à répéter 1 fois par mois environ :
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
 * Supprimer l'historique, le cache et les cookies du navigateur (il faudra se reconnecter aux sites)
 * Mettre le BIOS et les drivers à jour via le site de votre carte mère (évitez CCleaner, Driverscloud, DriverBooster, TousLesDrivers... ces utilitaires peuvent installer des drivers obsolètes ou non compatibles avec vos composants)
@@ -29,7 +29,7 @@ Une fois que tout est bien à jour et que le PC a été redémarré :
 
 Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour prévenir les bugs. Nettoyer aussi régulièrement votre PC de la poussière pour éviter aux composants de trop chauffer et donc de perdre des performances.
 
-## Optimisations avancées (permanentes)
+## Optimisations avancées
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désinstaller un maximum d'applications Windows et logiciels que vous n'utilisez pas (Menu démarrer - Clic droit sur un programme - Désinstaller)</label>
 
 <input type="checkbox" class="check-with-label"><label class="label-for-check">Désactiver un maximum de programmes qui se lancent au démarrage de Windows (<kbd>Ctrl</kbd> + <kbd>Maj</kbd> + <kbd>Esc</kbd> - Démarrage)</label>
@@ -68,8 +68,7 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 * Activer Bitlocker sur la version Pro de Windows pour chiffrer les données du lecteur et sécuriser vos fichiers (Clic droit sur un lecteur - Activer Bitlocker). Il est possible d'activer Bitlocker sur la version Famille de Windows, à certaines conditions, tuto disponible [ici](https://lecrabeinfo.net/activer-le-chiffrement-de-lappareil-bitlocker-sur-windows-10-famille.html)
 * Désinstaller le lecteur Windows Media et installer [VLC](https://www.videolan.org/) pour de meilleures performances
 * Installer [7-Zip](https://www.7-zip.org/) pour compresser les fichiers et pouvoir chiffrer les archives. Je déconseille WinRAR qui n'est pas open source et est payant
-* Utiliser [Hat.sh](https://hat.sh/) pour chiffrer vos documents sensibles avec mot de passe côté client
-* Utiliser [ExifCleaner](https://exifcleaner.com/) pour supprimer les métadonnées de vos images et PDF
+* Utiliser [Hat.sh](https://hat.sh/) pour chiffrer vos documents sensibles côté client avec un mot de passe
 * Si vous souhaitez un VPN gratuit, [ProtonVPN](https://protonvpn.com/download) est le meilleur choix. Evitez tous les autres VPN gratuits qui vont voler vos données personnelles
 * Utiliser [OpenRGB](https://gitlab.com/CalcProgrammer1/OpenRGB) pour contrôler tous vos composants RGB via un seul logiciel. Ainsi, on évite les logiciels comme Razer Synapse ou Dragon Center qui consomment énormément de ressources en arrière-plan
 * Installer [EqualizerAPO](https://sourceforge.net/projects/equalizerapo/) pour améliorer le rendu sonore, booster les basses et les aigus. Il faut choisir SFX/EFX (expérimental) lors de l'installation. En cas de mise à jour des drivers de la carte son, il faudra reconfigurer EqualizerAPO. Ce logiciel n'a quasiment aucun impact sur les performances
@@ -80,4 +79,4 @@ Pensez à éteindre votre ordinateur la nuit, ne le mettez pas en veille pour pr
 ### Sources
 [Discord Entraide Informatique](https://discord.gg/WMsR7dT) | [Piwi](https://github.com/Piwielle) | [BlurBusters](https://blurbusters.com/) | [PrivacyGuides](https://privacyguides.org/)
 
-*Mise à jour : 20/07/2022*
+*Mise à jour : 23/07/2022*
