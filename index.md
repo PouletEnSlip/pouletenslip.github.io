@@ -2,7 +2,7 @@
 layout: default
 ---
 
-#### [My Calculator Website 🟠HTML](pages/calculator/)
+#### [🟠HTML - My Calculator Website](pages/calculator/)
 #### [My Fruit List Website](pages/fruits/) 🟡JavaScript
 #### [My Click Test Website](pages/clicktest/) 🟡JavaScript
 #### [My Tic-Tac-Toe Website](pages/tictactoe/) 🟡JavaScript
