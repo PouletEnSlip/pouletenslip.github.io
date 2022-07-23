@@ -4,6 +4,11 @@ layout: opti
 
 <p style="text-align:justify;">Bonjour ! Voici des optimisations simples et saines pour un PC fonctionnant sous Windows 10 et 11. Ces manipulations permettent d'avoir un ordinateur plus fluide et performant pour la bureautique, le montage ou les jeux vidéo. Ces manipulations sont sans risque et peuvent résoudre les lenteurs et crashs de votre PC. Votre ordinateur pourra également démarrer plus vite et lancera des tâches plus rapidement. Ces optimisations ne sont pas "magiques", je ne promets pas un gain incroyable, la principale optimisation étant d'acheter des composants plus performants. Lisez tout en entier avant de faire quoi que ce soit.</p>
 
+## Table des matières
+- [Basic Commands](#optimisations-rapides)
+- [Apache Commands](#optimisations-avancées)
+- [SSH Commands](#conclusion)
+
 ## Optimisations rapides (à répéter 1 fois par mois environ)
 Dans l'ordre :
 * Vérifier que vous n'avez pas de virus/malware avec [Malwarebytes](https://fr.malwarebytes.com/)
