@@ -2,25 +2,34 @@
 layout: default
 ---
 
-#### [🟠HTML - My Calculator Website](pages/calculator/)
-#### [🟡JS - My Fruit List Website](pages/fruits/)
-#### [🟡JS - My Click Test Website](pages/clicktest/)
-#### [🟡JS - My Tic-Tac-Toe Website](pages/tictactoe/)
-#### [🟡JS - My Chronometer Website](pages/chronometer/)
-#### [🟡JS - My Heads or Tails Website](pages/headsortails/)
-#### [🟡JS - My Digital Clock Website](pages/clock/)
-#### [🟡JS - My Background Randomizer Website](pages/color/)
-#### [🟢C# - My Tic-Tac-Toe Game](https://github.com/PouletEnSlip/TicTacToeCSharp)
-#### [🟢C# - My Drawing App](https://github.com/PouletEnSlip/Drawing)
-#### [🟣C++ - My Calculator App](https://github.com/PouletEnSlip/Calculator)
-#### [🟣C++ - My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
-#### [🟣C++ - My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
-#### [🟣C++ - My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
-#### [🟣C++ - My Console Hangman Game (in French)](https://github.com/PouletEnSlip/HangmanGame)
-#### [🟣C++ - My Console Mastermind Game (in French)](https://github.com/PouletEnSlip/Mastermind)
-#### [🟣C++ - My Console "The Price Is Right" Game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
-#### [🔵Python - My Snake Game](https://github.com/PouletEnSlip/Snake)
-#### [🔵Python - My MQTT Client App](https://github.com/PouletEnSlip/MQTT)
-#### [⚪Other - My Minecraft Resource Pack](pages/cotcotpack)
-#### [⚪Other - My Windows Optimization Guide (in French)](pages/opti)
-#### [⚪Other - My Linux Commands Cheat Sheet](https://github.com/PouletEnSlip/Linux)
+### 🔴WEB
+#### [My Calculator Website](pages/calculator/)
+#### [My Fruit List Website](pages/fruits/)
+#### [My Click Test Website](pages/clicktest/)
+#### [My Tic-Tac-Toe Website](pages/tictactoe/)
+#### [My Chronometer Website](pages/chronometer/)
+#### [My Heads or Tails Website](pages/headsortails/)
+#### [My Digital Clock Website](pages/clock/)
+#### [My Background Randomizer Website](pages/color/)
+
+### 🟢C#
+#### [My Tic-Tac-Toe Game](https://github.com/PouletEnSlip/TicTacToeCSharp)
+#### [My Drawing App](https://github.com/PouletEnSlip/Drawing)
+
+### 🟣C++
+#### [My Calculator App](https://github.com/PouletEnSlip/Calculator)
+#### [My Chronometer App](https://github.com/PouletEnSlip/Chronometer)
+#### [My Credit Card Verification App](https://github.com/PouletEnSlip/CreditCardVerification)
+#### [My Morse Encoding App](https://github.com/PouletEnSlip/Morse)
+#### [My Console Hangman Game (in French)](https://github.com/PouletEnSlip/HangmanGame)
+#### [My Console Mastermind Game (in French)](https://github.com/PouletEnSlip/Mastermind)
+#### [My Console "The Price Is Right" Game (in French)](https://github.com/PouletEnSlip/ThePriceIsRight)
+
+### 🔵Python
+#### [My Snake Game](https://github.com/PouletEnSlip/Snake)
+#### [My MQTT Client App](https://github.com/PouletEnSlip/MQTT)
+
+### ⚪Other
+#### [My Minecraft Resource Pack](pages/cotcotpack)
+#### [My Windows Optimization Guide (in French)](pages/opti)
+#### [My Linux Commands Cheat Sheet](https://github.com/PouletEnSlip/Linux)
